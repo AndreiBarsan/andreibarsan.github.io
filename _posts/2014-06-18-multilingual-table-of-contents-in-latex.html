@@ -1,0 +1,46 @@
+---
+layout: post
+title: Multilingual Table of Contents in LaTeX
+date: 2014-06-18 12:59:11.000000000 -07:00
+categories:
+- LaTeX
+- Programming
+tags:
+- LaTeX
+- multi-lingual
+- multilingual
+- Table of contents
+- toc
+- Typesetting
+- XeLaTeX
+- XeTeX
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+author:
+  login: siegedog
+  email: andrei@siegedog.com
+  display_name: siegedog
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>One of the requirements for my Bachelor's Thesis, which was written in English, was for the table of contents to be available in both English and Romanian.</p>
+<p>Since I was using LaTeX (XeLaTeX, to be more precise), I decided there had to be a way to do this in a clever fashion (i.e. without having to manually create the Romanian ToC from scratch).</p>
+<p>And, as it turns out, there is a way to do this, using tocloft! The original question I found while googling the issue is located here: http://latex-community.org/forum/viewtopic.php?f=5&amp;t=5438&amp;p=84468#p84468</p>
+<p>I've cleaned up the code a little and updated the label names accordingly (to make it easy for anyone to change them into any language).</p>
+<p>\newcommand{\numecuprins}{Cuprins}<br />
+\newlistof{cuprins}{tce}{\numecuprins}<br />
+% definition of the commands used for the Romanian ToC<br />
+\newcommand\capitol[1]{%<br />
+\addcontentsline{tce}{chapter}{\protect\makebox[1.3em][l]{\thechapter}#1}}<br />
+\newcommand\sectiune[1]{%<br />
+\addcontentsline{tce}{section}{\protect\makebox[2.8em][l]{\thesection}#1}}<br />
+\newcommand\subsectiune[1]{%<br />
+\addcontentsline{tce}{subsection}{\protect\makebox[3em][l]{\thesubsection}#1}}</p>
+<p>% rest of shitte</p>
+<p>clearpage<br />
+\listofcuprins</p>

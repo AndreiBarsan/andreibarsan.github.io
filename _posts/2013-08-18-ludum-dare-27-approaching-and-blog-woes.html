@@ -1,0 +1,36 @@
+---
+layout: post
+title: Ludum Dare 27 approaching and blog woes
+date: 2013-08-18 22:28:22.000000000 -07:00
+categories:
+- Game Development
+- Ludum Dare
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  dsq_thread_id: '1616272498'
+  _wp_old_slug: hello-world
+author:
+  login: siegedog
+  email: andrei@siegedog.com
+  display_name: siegedog
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1>Ludum Dare</h1>
+<p>Well, <a title="woo, game jams!" href="http://www.ludumdare.com/compo/">Ludum Dare 27</a> is less than one week away, but my preparations are still far from done. But that's OK - it's part of the challenge after all.</p>
+<p>If you haven't head of it, <a title="woo, game jams!" href="http://www.ludumdare.com/compo/">Ludum Dare</a> is a <strong>rapid-prototyping game development</strong> challenge, where the participants (usually around 1000; Ludum Dare 26, which took place this April, has over 2000 participants!) have <strong>48 hours</strong> at their disposal to develop a game from scratch, based on a given theme. Well, "from scratch", in this case refers to the content itself. You're not allowed to use any pre-existing content, be it a public domain image or sound sample. It's just against the rules. However, as far as frameworks, engines and libraries are concerned, there are basically <em>no restrictions</em>, and people use everything from their little C++ frameworks and Flash, to <a title="go on, try it, it's easy to set up and won't bite!" href="http://libgdx.badlogicgames.com/">libgdx</a> (which is what I use), <a title="whoa" href="http://unity3d.com/">Unity 3D</a>, Construct, XNA and other large frameworks and tool sets. And by the way, the name is pronounced Loo-Doom Dah-Reh, since it comes from Latin and essentially means "To give a game". Some people just pronounce it Loo-Doom Dare (dare, as in challenge), which is also pretty cool.</p>
+<p>You'd think it's a no-brainer to choose the framework to use - just pick a really well-documented one a few weeks in advance, mess around with it, and use it during Ludum Dare. Duh! But it's just not that easy. It's sometimes easy to create a toy app in a framework and immediately convince yourself that you know how to use it, only for Ludum Dare to start and you to find yourself stuck trying to change some of the framework's behavior to make some small detail in your game work. BAM! - several valuable hours down the hatch.</p>
+<p>Some coders start from scratch every time. <a href="http://notch.tumblr.com/">Notch</a>, the creator of Minecraft, sometimes takes part in Ludum Dare, but every time he just starts with the bare minimum - the Java standard library plus lwjgl (LightWeight Java Game Library), which is only a thin OpenGL wrapper for Java. He then proceed to write the sprite loading, physics, rendering logic and <strong>everything from scratch</strong>. <a title="whoa^2" href="http://www.youtube.com/watch?v=KcfFJ6pNEZk">In LD21 he even wrote a simple <strong>raytracer</strong> from scratch with no references. Beat that!</a></p>
+<p>Like I mentioned before, I'm going to use <a title="go on, try it, it's easy to set up and won't bite!" href="http://libgdx.badlogicgames.com/">libgdx</a> and hopefully create something at least half-decent. It's a really nice framework with a great, healthy environment. It's amazing in that it allows coders to write the core game logic in a platform-agnostic way, allowing libgdx's internals to take care of the details. With only minor additional code (such as handling different screen sizes, dpis, touch vs. mouse input etc.) your game can run on almost any desktop OS (Linux, OSX, BSD, Windows work! - sorry <a title="I couldn't get it to start in VirtualBox, even after hours of messing around..." href="http://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs">Plan 9</a> users), in-browser using Java Applets (*shudder*) or HTML5. Yep, HTML5. Libgdx can compile Java int Javascript, using <a title="Witchcraft! Atwood's law is true!" href="http://www.gwtproject.org/?csw=1">GWT</a>.</p>
+<p>I've taken part in Ludum Dare several times before, and ended up posting the resulting games 3 times, and scrapping my project twice (once while working alone, and the other time by working with a friend and falling horribly behind). My creations can be found <a title="S'not so bad" href="http://www.ludumdare.com/compo/author/andreibarsan/">on my Ludum Dare profile page</a>.</p>
+<h1>Blog woes</h1>
+<p>tl;dr: I spent 3-4 hours trying to get Octopress to work, leading to frustration, a(n) (useless, failed) distro-upgrade and <a title="yeah." href="https://rvm.io/">rvm</a> problems. I managed to set up Wordpress in 30 seconds.</p>
+<p>Since my site (currently) runs on a shared host, I couldn't get Octopress to install server-side. The obvious alternative (well, it's actually how you're supposed to do it) is to install it on your own computer and just deploy the updates using RSync over SSH. Apparently my dusty-old Bodhi Linux's repositories were all out-of-date and it refused to install any dependencies. All of the mirrors were 404-ing in a large chorus of "Fuck you, I'm Linux I won't do what you tell me!". Apparently the Ubuntu version my Bodhi was based on was no longer supported. Sigh. This is just like that time I was running Ubuntu (or was it OpenSUSE) and the flash videos on Youtube all had a weird blue tint. Four hours later, I was re-compiling my graphics drivers and re-thinking all of my major life choices.</p>
+<p>So, after all this, I decided that I really didn't care that much about the technology behind it, accepted defeat and just installed Wordpress, thus losing all the potential nerd-cred that I would have received from my peers, after they would have noticed that my blog is "powered by Octopress". Maybe some other day.</p>
+<p>So that's it for my first post ever. Hello world and whatnot!</p>

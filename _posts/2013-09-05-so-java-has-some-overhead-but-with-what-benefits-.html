@@ -1,0 +1,36 @@
+---
+layout: post
+title: So Java has some overhead, but with what benefits?
+date: 2013-09-05 20:28:36.000000000 -07:00
+categories:
+- Java
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+author:
+  login: siegedog
+  email: andrei@siegedog.com
+  display_name: siegedog
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Okay, Java is pretty slow. I know it, you know it, your grandma knows it. Yeah, you have <a href="http://pic.dhe.ibm.com/infocenter/java7sdk/v7r0/index.jsp?topic=%2Fcom.ibm.java.zos.70.doc%2Fdiag%2Funderstanding%2Fjit_overview.html">some JIT-ing </a>at the moment, but it has its limits.</p>
+<p>Java has some overhead compared to languages which compile directly to native code such C++ and <a title="So cool is makes Ruby look like Cobol" href="http://www.rust-lang.org/" target="_blank">Rust</a>. But what advantages does it bring?</p>
+<p>Well, everybody knows its main advantage, which just so happens to be its slogan and main selling point - "write once, run anywhere". So as long as there have been a few programmers at work actually writing a native VM for your architecture, <a title="there's no such thing as a silver bullet, etc." href="http://xkcd.com/801/" target="_blank">which there most likely have</a>, you should be fine.</p>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">However, this is of varying usefulness, depending on the use case. Lots of applications actually end up spending their entire lifecycle on the same operating system / architecture combo (think most web apps written in Java).</span></p>
+<p>There are a few more hidden gems that lots of developers don't know about or whose true usefulness and domains of applicability are still unclear to them. I will go over a few of them in this article, attempting not just to explain the feature, but to showcase concrete examples of how it can be used to e.g. debug more easily or speed up your workflow.</p>
+<h1>Hot code swapping</h1>
+<p>Hot code swapping. Are you using it? Because you should. It's pretty darn useful, especially for (but not limited to) real-time applications, such as video games and web apps.</p>
+<p>I've personally been using this for quite some time now, mostly for parameter tweaking in real time. This is amazingly useful for balancing various video game parameters, as well as messing around with OpenGL rendering settings. It shortens the feedback loop drastically.</p>
+<p>Here's an example from was when I was working on my <a title="Hint: Java is not the bottleneck. Not by a longshot." href="https://github.com/AndreiBarsan/Yeti">3D engine's</a> <a title="Screen-Space Ambient Occlusion" href="http://en.wikipedia.org/wiki/Screen_space_ambient_occlusion">SSAO</a> post-processing effect. Without having to build in any knobs and dials (which would actually be better in the long run if I were actually writing a proper game editor, and not doing it as a learning experience), I could tweak its parameters in the game loop in real time and instantly see the changes.</p>
+<p>[actual example here]</p>
+<p>It does have some limitations, but even most of <i>those</i> can be resolved using a dedicated tool such as <a>JRebel</a>, which makes this feature even more awesome.</p>
+<h1>Reflection</h1>
+<p>Okay, Java's not the only language to have reflection, and reflection itself is still not exclusive to non-native code. However, I do think that it is quite useful and can help solve a number of interesting problems. As it is widely known, reflection comes with a(n) (additional) price, but for non-performance-critical code, it is still considered acceptable to use it.</p>
+<p>Think of logging in something like a video game. It's definitely nowhere close to the bottleneck, unless you intend to write tens of thousands or even more log entries every second (which you shouldn't in the firs place!). In something like a web app, or web service that might be serving tens and hundreds of clients simultaneously, then you might still "feel" the price of a little bit of reflection, but even then it shouldn't be too much.</p>
+<p>- Eclipse's incremental builds</p>

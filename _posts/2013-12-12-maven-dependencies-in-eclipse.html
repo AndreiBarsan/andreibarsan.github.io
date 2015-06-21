@@ -1,0 +1,58 @@
+---
+layout: post
+title: Maven dependecies in Eclipse
+date: 2013-12-12 11:13:06.000000000 -08:00
+categories:
+- Java
+- Programming
+- Scala
+- Tutorials
+tags:
+- ant
+- apache
+- apache maven
+- dependencies
+- dependency
+- Eclipse
+- howto
+- Java
+- Maven
+- programming
+- tutorial
+- tutorials
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  dsq_thread_id: '2046490845'
+author:
+  login: siegedog
+  email: andrei@siegedog.com
+  display_name: siegedog
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Not having worked with Java on a large-scale project before, I had also never touched Maven. (In this case, by large-scale project, I mean a project with lots of dependencies and a more involved build process - I did write <a title="Try eeet!" href="http://github.com/andreibarsan/Yeti">a rather complex 3D renderer</a>, but it only had a handful of dependencies that never changed and it was a traditional "hit f11 to run" application).</p>
+<p><a title="Making your stack more streamlined since 2001" href="https://maven.apache.org/">Apache Maven</a> is a tool used for, well, a lot of things. It works with Java, C# and a bunch of other languages and automagically manages your dependencies and build process. It's essentially <a href="https://ant.apache.org">Ant's</a> bigger brother.</p>
+<p>When looking to add an existing library as a dependency to a project, it's very often to see it offered as a <b>maven artifact</b>. It would look something like this:</p>
+<pre>&lt;dependency&gt;
+    &lt;groupId&gt;com.ning&lt;/groupId&gt;
+    &lt;artifactId&gt;async-http-client&lt;/artifactId&gt;
+    &lt;version&gt;1.7.22&lt;/version&gt;
+&lt;/dependency&gt;</pre>
+<p>This can be a tad frustrating if you're in a hurry and you just want to download a jar to add to your build path. You just want to keep working and not have to deal with Maven. But worry not, Eclipse and I are here to help! It's very easy to sort this out in only a few minutes!</p>
+<p><!--more--></p>
+<h1>Step 1: Converting your project to a Maven project</h1>
+<p>This is a one-click deal in Eclipse. It's not even limited to Java projects! I'm using the Kepler Scala IDE and it's working perfectly. <strong>Note: this does NOT change your main project type. If it's a Java project, it STAYS a Java project. If it's a Scala project, it STAYS a Scala project. </strong>All this does is add another feature to the project. The "Convert to..." phrasing in Eclipse is a bit confusing.</p>
+<p><a href="http://blog.siegedog.com/wp-content/uploads/2013/12/step01.jpg"><img class="aligncenter size-medium wp-image-79" alt="Right click on menu -&gt; Configure -&gt; Convert to Maven project" src="assets/step01-265x300.jpg" width="265" height="300" /></a>You will get a dialog asking you for some configuration settings, but you can use the default ones for the time being. They can be edited at any time anyway. Click <strong>Finished</strong>. A little "M" icon should have now popped up next to your project icon. That's it! You can now start managing your dependencies with Maven! Pretty cool, huh? Moreover, your old referenced libraries (the traditional stuff on your build path) are still there! You can keep them there, or add them as Maven dependencies so that everything is nice and consistent. It's going to be very clear how to do that after you've read this little tutorial. It might be a bit of extra work, but it will make things much easier in the long run.</p>
+<p>(Note that in obscure cases where you're using a custom run configuration to run Scala apps - e.g. when using Akka - special care needs to be taken and the Scala Library and Scala Compiler need to be manually added to the Bootstrap entries in the classpath, within the run configuration management window. You get weird errors otherwise. But again, this is just a corner-case I've stumbled upon while working with Maven and Scala.)</p>
+<h1>Step 2: Adding your dependency</h1>
+<p>Notice that converting your project to a Maven project has generated a file called <em>pom.xml</em>. This is the so-called <strong><a title="It's NOT porn, it's pom. Jeez." href="https://maven.apache.org/guides/introduction/introduction-to-the-pom.html" target="_blank">Project Object Model</a> </strong>and contains all the info required for Maven to build your project. We're just using Maven's dependency management system at this point, so we don't need to configure the build process. We're still using Eclipse's build system.</p>
+<p>Double-click the pom file to bring up Eclipse's fancy Maven overview. Which we don't need. Go to the tabs below and select 'pom.xml' to view the raw file.</p>
+<p><a href="http://blog.siegedog.com/wp-content/uploads/2013/12/step02.jpg"><img class="aligncenter size-medium wp-image-80" alt="Adding your dependency." src="assets/step02-300x229.jpg" width="300" height="229" /></a></p>
+<p>Just paste as many "dependency" tags as you want inside the "dependencies" tag and Maven will automatically fetch them for you (Yes, automatically. You don't even need to click anything. It will happen as soon as pom.xml gets saved!) and add them to the Maven Dependencies. You will now be able to reference the dependency in your code and use it like any library that's on the build path.</p>
+<p>Congratulations, you're now using Maven for dependency management! Do note that Maven can do much, much more than this! Just take a look over <a title="Each more productive than the last!" href="https://maven.apache.org/maven-features.html" target="_blank">the list of Maven's features</a>.</p>
+<p>&nbsp;</p>
