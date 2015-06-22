@@ -32,11 +32,10 @@ author:
   display_name: siegedog
   first_name: ''
   last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>Not having worked with Java on a large-scale project before, I had also never touched Maven. (In this case, by large-scale project, I mean a project with lots of dependencies and a more involved build process - I did write <a title="Try eeet!" href="http://github.com/andreibarsan/Yeti">a rather complex 3D renderer</a>, but it only had a handful of dependencies that never changed and it was a traditional "hit f11 to run" application).</p>
 <p><a title="Making your stack more streamlined since 2001" href="https://maven.apache.org/">Apache Maven</a> is a tool used for, well, a lot of things. It works with Java, C# and a bunch of other languages and automagically manages your dependencies and build process. It's essentially <a href="https://ant.apache.org">Ant's</a> bigger brother.</p>
+
 <p>When looking to add an existing library as a dependency to a project, it's very often to see it offered as a <b>maven artifact</b>. It would look something like this:</p>
 <pre>&lt;dependency&gt;
     &lt;groupId&gt;com.ning&lt;/groupId&gt;
@@ -44,7 +43,9 @@ excerpt: !ruby/object:Hpricot::Doc
     &lt;version&gt;1.7.22&lt;/version&gt;
 &lt;/dependency&gt;</pre>
 <p>This can be a tad frustrating if you're in a hurry and you just want to download a jar to add to your build path. You just want to keep working and not have to deal with Maven. But worry not, Eclipse and I are here to help! It's very easy to sort this out in only a few minutes!</p>
+
 <p><!--more--></p>
+
 <h1>Step 1: Converting your project to a Maven project</h1>
 <p>This is a one-click deal in Eclipse. It's not even limited to Java projects! I'm using the Kepler Scala IDE and it's working perfectly. <strong>Note: this does NOT change your main project type. If it's a Java project, it STAYS a Java project. If it's a Scala project, it STAYS a Scala project. </strong>All this does is add another feature to the project. The "Convert to..." phrasing in Eclipse is a bit confusing.</p>
 

@@ -30,13 +30,67 @@ author:
   display_name: siegedog
   first_name: ''
   last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
-<p>Every now and then, you stumble across amazing learning resources on the web. Some great, extensive tutorials which lie on websites that somehow look deserted. You take a look - it's not spam, the tutorials are there, for free, ready to enlighten you. The only ominous thing about them is the fact that it seems that nobody is using that site. There might be comment section inhabited by only a couple of lonely comments. The site itself might look like it's ancient, but a closer look reveals posts are all very rich, just sitting there, waiting for someone to learn what they have to teach.</p>
-<p>I got this feeling when I stumbled upon <a href="http://opensecuritytraining.info/">http://opensecuritytraining.info/</a>. The site is extremely simple but filled with amazing content at the same time. I was amazed when I found the wealth of information on that website. Everything is free, licensed under Creative-Commons Share Alike license. And I don't mean quick 5 minute how-tos or 15 minute screencasts. These are <strong>multiple hour-long, in depth courses, with slides, code samples and additional resources.</strong> Grab the slides and click the video links. You find yourself at the beginning of a 10 hour-long playlist on, say, <a title="Give it a try! Money-back guarantee! (iz funny because iz free)" href="http://opensecuritytraining.info/IntroX86.html" target="_blank">x86</a>. This is <em>just the introduction</em>. You can continue with the <a title="More than movs, pushes 'n' pops" href="http://opensecuritytraining.info/IntermediateX86.html" target="_blank">intermediate x86 course</a>, <a title="Raspberry Pi, anyone?" href="http://opensecuritytraining.info/IntroARM.html" target="_blank">an introduction to ARM</a> or an <a href="http://opensecuritytraining.info/Exploits1.html" target="_blank">introduction to software exploits</a>. All of them - 6-10 hours long.</p>
-<p><span style="line-height: 1.714285714; font-size: 1rem;">There are some other great, well-known sites such as Coursera, Udacity and Khan Academy which are also amazing resources. They are also quite popular, so I won't be talking about them in much detail here, since they don't need the extra advertisement. They are gems, that's for sure, just not hidden ones.</span></p>
-<p>I found myself addicted to Xeno's lectures, and now I'm already cruising through the intermediate x86 course, frantically taking notes, looking at slides and writing x86 assembly code.</p>
-<p>The only thing that I believed was a bit of a problem was the absence of homework assignments in the form of programming challenges. I did go through all of the examples, re-wrote them, altered them (e.g. managed to successfully overflow my buffers and hijack my own program, which was a lot of fun), but some more concrete assignments would have been nice.</p>
-<p>This was only a problem while going through the main body of the course (the introductory one), since at the very end, the students (myself included) were presented with Carnegie Mellon's <a title="Open to everyone. All that's needed is the will to learn." href="http://csapp.cs.cmu.edu/public/labs.html" target="_blank">binary bomb</a>. And this more than compensated for everything else! I will probably be talking about the bomb (and its numerous variations) in another article, but what this "bomb" basically is, is an executable that's provided with no source (and only a handful of debug symbols) which expects some sort of text input. You give it the right input, and it's defused. Feed it the wrong one and it blows up. And the only way to figure out what input it wants, is to run it with a debugger attached and simply step trough the assembly code, tearing it apart and, essentially, reverse-engineering it. This has been, by far, the best programming challenge I've ever done when it comes to ASM. I've had one A-HA moment after the other, constantly digging through the instructions and figuring out what makes the bomb tick. It was very, very fun. From now on, this will be the number one thing I will recommend to absolutely anyone wishing to really learn x86.</p>
-<p><a title="Go, go, go, go!" href="http://opensecuritytraining.info/" target="_blank">The material is there, up for grabs! What are you waiting for?</a></p>
+<p>Every now and then, you stumble across amazing learning resources on the
+  web. Some great, extensive tutorials which lie on websites that somehow look
+  deserted. You take a look - it's not spam, the tutorials are there, for free,
+  ready to enlighten you. The only ominous thing about them is the fact that it
+  seems that nobody is using that site. There might be comment section
+  inhabited by only a couple of lonely comments. The site itself might look
+  like it's ancient, but a closer look reveals posts are all very rich, just
+  sitting there, waiting for someone to learn what they have to teach.</p>
+
+<p>I got this feeling when I stumbled upon <a
+    href="http://opensecuritytraining.info/">http://opensecuritytraining.info/</a>.
+  The site is extremely simple but filled with amazing content at the same
+  time. I was amazed when I found the wealth of information on that website.
+  Everything is free, licensed under Creative-Commons Share Alike license. And
+  I don't mean quick 5 minute how-tos or 15 minute screencasts. These
+  are <strong>multiple hour-long, in depth courses, with slides, code samples
+    and additional resources.</strong> Grab the slides and click the video
+  links. You find yourself at the beginning of a 10 hour-long playlist on, say,
+  <a title="Give it a try! Money-back guarantee! (iz funny because iz free)"
+    href="http://opensecuritytraining.info/IntroX86.html"
+    target="_blank">x86</a>. This is <em>just the introduction</em>. You can
+  continue with the <a title="More than movs, pushes 'n' pops"
+    href="http://opensecuritytraining.info/IntermediateX86.html"
+    target="_blank">intermediate x86 course</a>, <a title="Raspberry Pi,
+    anyone?" href="http://opensecuritytraining.info/IntroARM.html"
+    target="_blank">an introduction to ARM</a> or an <a
+    href="http://opensecuritytraining.info/Exploits1.html"
+    target="_blank">introduction to software exploits</a>. All of them - 6-10
+  hours long.</p>
+
+<p><span style="line-height: 1.714285714; font-size: 1rem;">There are some
+    other great, well-known sites such as Coursera, Udacity and Khan Academy
+    which are also amazing resources. They are also quite popular, so I won't
+    be talking about them in much detail here, since they don't need the extra
+    advertisement. They are gems, that's for sure, just not hidden
+    ones.</span></p> <p>I found myself addicted to Xeno's lectures, and now I'm
+  already cruising through the intermediate x86 course, frantically taking
+  notes, looking at slides and writing x86 assembly code.</p> <p>The only thing
+  that I believed was a bit of a problem was the absence of homework
+  assignments in the form of programming challenges. I did go through all of
+  the examples, re-wrote them, altered them (e.g. managed to successfully
+  overflow my buffers and hijack my own program, which was a lot of fun), but
+  some more concrete assignments would have been nice.</p> <p>This was only
+  a problem while going through the main body of the course (the introductory
+  one), since at the very end, the students (myself included) were presented
+  with Carnegie Mellon's <a title="Open to everyone. All that's needed is the
+    will to learn." href="http://csapp.cs.cmu.edu/public/labs.html"
+    target="_blank">binary bomb</a>. And this more than compensated for
+  everything else! I will probably be talking about the bomb (and its numerous
+  variations) in another article, but what this "bomb" basically is, is an
+  executable that's provided with no source (and only a handful of debug
+  symbols) which expects some sort of text input. You give it the right input,
+  and it's defused. Feed it the wrong one and it blows up. And the only way to
+  figure out what input it wants, is to run it with a debugger attached and
+  simply step trough the assembly code, tearing it apart and, essentially,
+  reverse-engineering it. This has been, by far, the best programming challenge
+  I've ever done when it comes to ASM. I've had one A-HA moment after the
+  other, constantly digging through the instructions and figuring out what
+  makes the bomb tick. It was very, very fun. From now on, this will be the
+  number one thing I will recommend to absolutely anyone wishing to really
+  learn x86.</p> <p><a title="Go, go, go, go!"
+    href="http://opensecuritytraining.info/" target="_blank">The material is
+    there, up for grabs! What are you waiting for?</a></p>
