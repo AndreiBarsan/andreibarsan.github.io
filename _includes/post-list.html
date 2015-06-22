@@ -1,8 +1,16 @@
 <ul id="post-list">
     {% for post in paginator.posts %}
         <li>
+          <section class="post-header">
             <a href='{{ post.url }}'><aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
             <a href='{{ post.url }}'>{{ post.title }} <h2>{{ post.description }}</h2></a>
+          </section>
+          <section class="post-body">
+            {{ post.content }}
+          </section>
+          <section class="post-footer">
+            <a href='{{ post.url }}'>Discussion</a>
+          </section>
         </li>
     {% endfor %}
 </ul>

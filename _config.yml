@@ -10,7 +10,8 @@ url:          andreibarsan.github.io # the base hostname & protocol for your sit
 markdown:     redcarpet
 highlighter:  pygments
 
-paginate:     20
+# TODO(Andrei) Possibly increase this.
+paginate:     5
 baseurl:      /
 domain_name:  'http://siegedog.com'
 #google_analytics: 'UA-XXXXXXXX-X'
@@ -21,7 +22,7 @@ url:            "http://siegedog.com"
 author:         "Andrei Bârsan's Blog"
 authorTwitter:  "andreib"
 
-permalink:       /:year/:title/
+permalink:       /:year/:month/:day/:title/
 
 defaults:
     -

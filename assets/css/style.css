@@ -44,23 +44,27 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Spacing */
 .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Base */
 html, body { height: 100%; }
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
 
+/*
+ * TODO(abarsan) Ensure unified typography model, so the posts look the same
+ * both on the home page and on their individual pages.
+ */
+
 h1 {
 	font-size: 30px;
 	letter-spacing: -1px;
-	color: #222;
 	font-weight: bold;
 }
 
@@ -207,13 +211,12 @@ em, i { font-style: italic; }
 	color: #aaa;
 }
 
-
-
 .home h1 {
-	font-size: 30px;
+	font-size: 22px;
 	letter-spacing: -1px;
-	color: #222;
+	color: #666;
 	font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .home h2 {
@@ -261,7 +264,7 @@ em, i { font-style: italic; }
 h3, h4, h5 { color:#333; }
 
 h3 { font-size:20px; font-weight: 400; }
-h4 { font-size:16px; font-weight:bold; }
+h4 { font-size:16px; font-weight: bold; }
 h5 { font-size:15px; font-weight: bold; }
 
 h6 {
@@ -353,9 +356,10 @@ thead th,th {
 }
 
 img {
-	width: 100%;
 	max-width: 100%;
-	border-radius: 3px;
+  clear: both;
+  display: block;
+  margin: auto;
 }
 
 /* Made with Cactus Badge */
@@ -370,11 +374,11 @@ img {
 /*=========================================
 Post List
 =========================================== */
-#post-list,#archive-list {
+#post-list, #archive-list {
 	margin-top: 100px;
 }
 
-#post-list li,#archive-list li {
+#post-list>li, #archive-list>li {
 	list-style-type: none;
 }
 
@@ -387,14 +391,13 @@ Post List
 	border-top: 1px solid #eee;
 }
 
-#post-list a {
+#post-list li .post-header a {
 	color: #333;
 	display: block;
-	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: bold 28px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
 
-#post-list .dates {
-	float: right;
+#post-list .post-header .dates {
 	position: relative;
 	top: 1px;
 	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
