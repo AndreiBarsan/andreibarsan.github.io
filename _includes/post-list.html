@@ -10,6 +10,12 @@
           </section>
           <section class="post-footer">
             <a href='{{ post.url }}'>Discussion</a>
+              {% comment %}
+                A small hack that only displays the "Read more" link when we're
+                showing an excerpt, and not the full post.
+                TODO(andrei) Consider extracting this functionality into a
+                plugin.
+              {% endcomment %}
               {% assign a = post.content | split: site.excerpt_separator %}
               {% assign a = a[1] | size %}
               {% if a != 0 %}
