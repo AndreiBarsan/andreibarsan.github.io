@@ -6,7 +6,8 @@ permalink: /about/
 
 Hello!
 
-My name is Andrei Bârsan. I'm a Master's student at ETH Zürich.
+My name is Andrei Bârsan. I'm a Computer Science Master's student at ETH
+Zürich.
 
 I am currently interning on Twitter's Performance Ads team, working with Scala
 atop Apache Storm and Hadoop.  I'm helping develop the system meant to
