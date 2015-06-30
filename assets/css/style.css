@@ -145,7 +145,7 @@ nav.main-nav a.cta {
 #wrapper {
   max-width: 600px;
   margin: 0 auto;
-  padding: 60px 40px 100px 40px;
+  padding: 60px 40px 40px 40px;
 }
 
 #wrapper.home {
@@ -441,6 +441,10 @@ Post List
 	margin-top: 100px;
 }
 
+#super-footer {
+  margin-top: 200px;
+}
+
 /* Post Page */
 #header {
 	border-bottom: 1px solid #eee;
@@ -449,6 +453,8 @@ Post List
 .post {
 	margin: 80px 0 0 0;
 }
+
+/* Post metadata (about author) */
 
 #post-meta {
 	font-size: 13px;
@@ -461,6 +467,15 @@ Post List
 	margin-top: 40px;
 	color:#444;
 	border-bottom: 1px solid #eee;
+}
+
+#post-meta a {
+  display: block;
+}
+
+#post-meta .avatar {
+  display: inline-block;
+  float: left;
 }
 
 #post-meta div span {
@@ -476,8 +491,9 @@ Post List
 
 #post-meta div {
 	margin: 0 25px 0 0;
-	float: left;
 }
+
+/* Sharing elements */
 
 #sharing {
 	float: right;
@@ -631,7 +647,7 @@ h2.month {
 
 /* Media Queries */
 @media screen and (max-width: 540px) {
-	#wrapper { padding:20px 20px 20px 20px;}
+	#wrapper { padding: 20px 20px 20px 20px;}
 	#header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
 	.post { margin: 40px 0; }
 	#footer { margin-top: 60px; }
