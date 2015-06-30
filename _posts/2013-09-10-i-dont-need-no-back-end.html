@@ -26,43 +26,237 @@ author:
   first_name: ''
   last_name: ''
 ---
-<p>So <a href="http://www.windowsazure.com/en-us/" target="_blank">Windows Azure</a> has recently launched something called <a title="It's free to try, woo!" href="http://www.windowsazure.com/en-us/pricing/details/mobile-services/" target="_blank">Mobile Services</a>, which is what they call <strong>Backend-as-a-Service</strong> (BaaS). This is, in essence, one level of abstraction <em>above</em> PaaS (Platform as a Service) and two levels above IaaS, which is Infrastructure as a Service. BaaS is pretty cool. Like, really,<strong> really</strong> cool. And this article will consist of me explaining exactly why BaaS is such a cool thing.</p>
-<p>But in order to fully explain that, we need to go back and think about what advantages PaaS offers when compared to its "lower-level" sibling, IaaS.</p>
-<p>So, first off, given this context, what do <strong>infrastructure</strong> and <strong>platform </strong>actually <em>mean</em>?</p>
+<p>So <a href="http://www.windowsazure.com/en-us/" target="_blank">Windows
+    Azure</a> has recently launched something called <a title="It's free to
+    try, woo!"
+    href="http://www.windowsazure.com/en-us/pricing/details/mobile-services/"
+    target="_blank">Mobile Services</a>, which is what they call
+  <strong>Backend-as-a-Service</strong> (BaaS). This is, in essence, one level
+  of abstraction <em>above</em> PaaS (Platform as a Service) and two levels
+  above IaaS, which is Infrastructure as a Service. BaaS is pretty cool. Like,
+  really,<strong> really</strong> cool. And this article will consist of me
+  explaining exactly why BaaS is such a cool thing.</p>
 
-<p><!--more--></p>
+<p>But in order to fully explain that, we need to go back and think about what
+  advantages PaaS offers when compared to its "lower-level" sibling, IaaS.</p>
+
+<p>So, first off, given this context, what do <strong>infrastructure</strong>
+  and <strong>platform </strong>actually <em>mean</em>?</p>
+
+<!--more-->
 
 <h1>Infrastructure as a service (IaaS)</h1>
-<p>Well, before acronyms like PaaS and buzzwords like <em>scalable </em>and <em>the cloud</em> were a thing, people would just buy virtual machines from service providers who owned server farms (or just shared hosting for tiny websites; and since shared hosting isn't really appropriate for any decent consumer-oriented website (e.g. a web-app with over 1000 users or so), I'll skip it in this article). It was as simple as:</p>
-<p>"So, I want to host this website on the internet, so I need a computer for it to run on so that people can access it."</p>
-<p>"No problem - here's a (virtual) machine, this is its IP, this is its domain name, here are the login data, give me like 20$ a month and you can do whatever you want with it."</p>
-<p>So the user would buy this, <a title="Or telnet if you're into that sort of kinky stuff" href="http://en.wikipedia.org/wiki/Secure_Shell" target="_blank">SSH</a> into the thing and set everything up (such as a database and a PHP runtime, a Ruby and Rails stack, or something like that). Then he would <a title="well, we've all been at that point where 'deploy' essentially just mean copying over everything over FTP and hoping nothing would break, haven't we?" href="https://github.com/capistrano/capistrano/wiki">deploy</a> the website and it would work. Well, that sounds simple enough, right? <a title="uhm.. EVERYTHING?" href="http://en.wikipedia.org/wiki/Everything" target="_blank">What could possibly go wrong?</a></p>
-<p>The real answer isn't that far, really. You had to make sure that not only your own app is running well and is secure, but that the environment it's running in is also patched up and well configured. And for lots of companies and web developers with limited time and resources, that's a huge thing. Hours and hours can get wasted figuring out why your app is not working and trying to pinpoint why the OS, for instance, keeps killing your MySQL daemon. This prevents developers from actively working on their product - which is, you know, <em>what they're actually supposed to be doing, anyway</em>, and they're being kept busy trying to figure out why the hosting environment hates them.</p>
-<p>Yes, this is Infrastructure as a Service (IaaS). You pay a monthly fee, you get a machine, you do what you want with it. You don't even have to host a website if you don't want to. You can use it for backups (even though it's quite a silly, expensive alternative to most of the available backup services), a remote emergency <a href="http://nethack.org/">nethack</a> box, a Minecraft server, a Bitcoin farm (well, again, this is not quite ideal but it's just an example), a personal e-mail server, a VPN host and pretty much anything else you can think of.</p>
-<p>Of course, you can do fancier web-related stuff with it, you <strong>can </strong>scale, you <strong>can</strong> customize everything to run blazingly fast, create your own dedicated database machines, do load balancing etc. But it's a bit tricky to get up and running, especially for smaller companies. And in the past, when you never expected more than a few hundred simultaneous users, this sufficed. But nowadays, if you end up being successful enough, things can get really complicated really fast.</p>
+
+<p>Well, before acronyms like PaaS and buzzwords like <em>scalable </em>and
+  <em>the cloud</em> were a thing, people would just buy virtual machines from
+  service providers who owned server farms (or just shared hosting for tiny
+  websites; and since shared hosting isn't really appropriate for any decent
+  consumer-oriented website (e.g. a web-app with over 1000 users or so), I'll
+  skip it in this article). It was as simple as:</p>
+
+<p>"So, I want to host this website on the internet, so I need a computer for
+  it to run on so that people can access it."</p>
+
+<p>"No problem - here's a (virtual) machine, this is its IP, this is its domain
+  name, here are the login data, give me like 20$ a month and you can do
+  whatever you want with it."</p>
+
+<p>So the user would buy this, <a title="Or telnet if you're into that sort of
+    kinky stuff" href="http://en.wikipedia.org/wiki/Secure_Shell"
+    target="_blank">SSH</a> into the thing and set everything up (such as
+  a database and a PHP runtime, a Ruby and Rails stack, or something like
+  that). Then he would <a title="well, we've all been at that point where
+    'deploy' essentially just mean copying over everything over FTP and hoping
+    nothing would break, haven't we?"
+    href="https://github.com/capistrano/capistrano/wiki">deploy</a> the website
+  and it would work. Well, that sounds simple enough, right? <a title="uhm..
+    EVERYTHING?" href="http://en.wikipedia.org/wiki/Everything"
+    target="_blank">What could possibly go wrong?</a></p>
+
+<p>The real answer isn't that far, really. You had to make sure that not only
+  your own app is running well and is secure, but that the environment it's
+  running in is also patched up and well configured. And for lots of companies
+  and web developers with limited time and resources, that's a huge thing.
+  Hours and hours can get wasted figuring out why your app is not working and
+  trying to pinpoint why the OS, for instance, keeps killing your MySQL daemon.
+  This prevents developers from actively working on their product - which is,
+  you know, <em>what they're actually supposed to be doing, anyway</em>, and
+  they're being kept busy trying to figure out why the hosting environment
+  hates them.</p>
+
+<p>Yes, this is Infrastructure as a Service (IaaS). You pay a monthly fee, you
+  get a machine, you do what you want with it. You don't even have to host
+  a website if you don't want to. You can use it for backups (even though it's
+  quite a silly, expensive alternative to most of the available backup
+  services), a remote emergency <a href="http://nethack.org/">nethack</a> box,
+  a Minecraft server, a Bitcoin farm (well, again, this is not quite ideal but
+  it's just an example), a personal e-mail server, a VPN host and pretty much
+  anything else you can think of.</p>
+
+<p>Of course, you can do fancier web-related stuff with it, you <strong>can
+</strong>scale, you <strong>can</strong> customize everything to run blazingly
+fast, create your own dedicated database machines, do load balancing etc. But
+it's a bit tricky to get up and running, especially for smaller companies. And
+in the past, when you never expected more than a few hundred simultaneous
+users, this sufficed. But nowadays, if you end up being successful enough,
+things can get really complicated really fast.</p>
+
 <h1>Platform as a service (PaaS)</h1>
-<p>Platform as a service (PaaS), on the other hand, abstracts from all of that. You no longer buy machines with particular specs that you need to configure on your own. You buy <em>platform features.</em> Let's take a look at how <a href="https://www.heroku.com/">Heroku</a>, a well known PaaS provider, does it...</p>
-<p>First off, you never buy individual (virtual) machines. They sell individual compute units called "Dynos". "But wait!", you might ask, "Aren't those just differently marketed VMs, just like in IaaS? Aren't they just being clever and re-packaging their product only to sell the same thing at a higher price?".</p>
-<p>Yes and no. Overall, using something like Heroku or Windows Azure might end up costing a little bit more per month (I'm talking about small-medium companies here, though larger ones are also supported by the "heavyweight" plans; individual users who like to experiment and try things out will be happy to know that both of these providers also have free plans), but in the end, it usually pays off. <a href="http://www.codinghorror.com/blog/">Jeff Atwood</a> said it better than I could have ever said it myself - <a href="http://www.codinghorror.com/blog/2008/12/hardware-is-cheap-programmers-are-expensive.html">"Hardware is cheap, programmers are expensive".</a></p>
-<p>But going back to Dynos (or compute units, or whatever you like to call them) - the main idea is that they work transparently. You just deploy your app, and tell it how many dynos to run on and you're set. Yes, lots of PaaS providers have their own API, but once you get past that initial port of your storage code (if you're not just writing the app directly for that platform, of course), you're all set. Oh and by the way, notice I said "deploy" (*cough* actual deployment, not manually copying stuff over FTP). You <em>deploy</em> using Git, for instance, by using the platform's API. You use a tiny app on your machine to tell it what to do, but you never have to actually SSH into the remote machine and kick things off from there (it's not even possible, anyway). You code, commit, deploy and it's there. Maybe set up some scripts to make sure the app's settings are right and perhaps update your DB schema when needed, but that's pretty much it. No need to manually patch your OS and runtime(s), and manage versions and configuration files that break things. It's not your problem any more. You are now free to actually focus on your app.</p>
-<p>You code and code and commit and code, and when you're done and want to deploy, you do it fast and simple, and your dynos take the load off your shoulders.</p>
-<p>Again, it is up to the company itself to decide, based on their own needs, what actually suits them better - IaaS or PaaS. Or, maybe, BaaS, since that's pretty cool. Oh, right. I was about to explain why it was cool.</p>
-<p>So now that we've re-capped what's what, and how PaaS differs from IaaS, let's take a look at the new kid on the block: BaaS.</p>
+
+<p>Platform as a service (PaaS), on the other hand, abstracts from all of that.
+  You no longer buy machines with particular specs that you need to configure
+  on your own. You buy <em>platform features.</em> Let's take a look at how <a
+    href="https://www.heroku.com/">Heroku</a>, a well known PaaS provider, does
+  it...</p>
+
+<p>First off, you never buy individual (virtual) machines. They sell individual
+  compute units called "Dynos". "But wait!", you might ask, "Aren't those just
+  differently marketed VMs, just like in IaaS? Aren't they just being clever
+  and re-packaging their product only to sell the same thing at a higher
+  price?".</p>
+
+<p>Yes and no. Overall, using something like Heroku or Windows Azure might end
+  up costing a little bit more per month (I'm talking about small-medium
+  companies here, though larger ones are also supported by the "heavyweight"
+  plans; individual users who like to experiment and try things out will be
+  happy to know that both of these providers also have free plans), but in the
+  end, it usually pays off. <a href="http://www.codinghorror.com/blog/">Jeff
+    Atwood</a> said it better than I could have ever said it myself - <a
+    href="http://www.codinghorror.com/blog/2008/12/hardware-is-cheap-programmers-are-expensive.html">"Hardware
+    is cheap, programmers are expensive".</a></p>
+
+<p>But going back to Dynos (or compute units, or whatever you like to call
+  them) - the main idea is that they work transparently. You just deploy your
+  app, and tell it how many dynos to run on and you're set. Yes, lots of PaaS
+  providers have their own API, but once you get past that initial port of your
+  storage code (if you're not just writing the app directly for that platform,
+  of course), you're all set. Oh and by the way, notice I said "deploy"
+  (*cough* actual deployment, not manually copying stuff over FTP). You
+  <em>deploy</em> using Git, for instance, by using the platform's API. You use
+  a tiny app on your machine to tell it what to do, but you never have to
+  actually SSH into the remote machine and kick things off from there (it's not
+  even possible, anyway). You code, commit, deploy and it's there. Maybe set up
+  some scripts to make sure the app's settings are right and perhaps update
+  your DB schema when needed, but that's pretty much it. No need to manually
+  patch your OS and runtime(s), and manage versions and configuration files
+  that break things. It's not your problem any more. You are now free to
+  actually focus on your app.</p>
+
+<p>You code and code and commit and code, and when you're done and want to
+  deploy, you do it fast and simple, and your dynos take the load off your
+  shoulders.</p>
+
+<p>Again, it is up to the company itself to decide, based on their own needs,
+  what actually suits them better - IaaS or PaaS. Or, maybe, BaaS, since that's
+  pretty cool. Oh, right. I was about to explain why it was cool.</p>
+
+<p>So now that we've re-capped what's what, and how PaaS differs from IaaS,
+  let's take a look at the new kid on the block: BaaS.</p>
+
 <h1>Backend as a service (BaaS)</h1>
-<p>In <strong>Backend as a Service</strong>, you buy (or register for) the whole back-end. It manages all the <a title="Aw, CRUD!" href="http://en.wikipedia.org/wiki/CRUD">CRUD</a> operations, is able to do things like authentication automagically and watches over the integrity of your data. You can obviously customize this behavior with your own code, but it's surprising how little custom code is actually needed for "traditional" CRUD apps. By traditional, I generally mean data-centric applications - blogs, datastores for mobile apps (hence Azure's "Mobile Services" name for its BaaS), CMS-y stuff and so on. Obviously if you want to write a real-time browser-based game this isn't your first pick (though there's still potential there, I've yet to investigate this side of BaaS).</p>
-<p>Just for simplicity's sake, for the rest of this article, I will be talking about Windows Azure's BaaS provider (<a href="http://www.windowsazure.com/en-us/pricing/details/mobile-services/">Azure Mobile Services</a>) in particular, since that's the one I'm currently most acquainted with. This article isn't meant to be a comparison of multiple services or a "Top 5 BaaS providers of 2013" thing. It's the principle that counts.</p>
-<p>In a nutshell, BaaS transparently takes care of your backend, and only lends you a few hooks around the CRUD operations so that you can perform additional checks, queries and validation. It supports lightweight cron jobs, push notifications and both fixed and dynamic schemas (though it's still a SQL server at this point!) and authentication via OAuth. Microsoft's solution runs in a Node.js environment so everything is JavaScript. You can deploy everything using git very neatly.</p>
-<p>Just to be clear about this - this is a platform for delivering a <strong>web service</strong>. You cannot serve websites from here. A good alternative is to host your website on a cheap host, but the logic and actual back-end on Azure, and communicate using asynchronous HTTP. After all, Azure's solution is even called "Mobile Services" - it's designed to provide services to self-standing, pre-existing applications, but web apps are also a perfectly valid contender.</p>
-<p>Like I mentioned before, it's great for apps that mostly just rely on CRUD operations server-side, but not if you want a lot of complex logic over there. I believe some examples would clear this up rather nicely:</p>
-<p>If I were to collect telemetry data from a videogame, I'd use this and perform the visualizations in a JavaScript app (Oh, so <em>this </em>spike pit is killing of 95% of the players causing them to uninstall the game in frustration). If I were to implement an online messaging system, I'd use this. If I wanted to manage a simple in-game persistence system (such as automatically saving the game "in the cloud"), I'd use this. A forum could be implemented rather nicely using this as well. And there are tons of other examples out there. Truth be told, for the most part, a lot of the back-end is just boilerplate code providing highly similar CRUD operations for a bunch of things - which BaaS now conveniently handles for you.</p>
-<p>But, of course, there are also counter-examples; things not suited for pure BaaS:</p>
-<p>I wouldn't implement an auction site using this system, even though it would be completely possible in theory. I would also avoid implementing a persistent browser-game where most of the logic is taking place server-side. I would avoid implementing Twitter because, well, you kind of do have to build your own infrastructure from scratch if you want to serve *that* many users. Also any service that might have a simple structure but would need more than just CRUD - such as image processing and big data manipulation wouldn't go well with the current BaaS philosophy.</p>
-<p>"But Scalabilityyyyyy!" I might head you cry out desperately at this point "You are using SQL, how is that thing scalable?" Well, it <strong>is</strong> currently limited to SQL, but there is work being done to enable support for NoSQL technologies as well. However, the Azure back-end currently does a surprisingly good job managing everything - especially since your SQL server is actually <strong>replicated three times by default</strong>. For most small and medium app developers (which are also the main target audience for this service) this is more than enough.</p>
+
+<p>In <strong>Backend as a Service</strong>, you buy (or register for) the
+  whole back-end. It manages all the <a title="Aw, CRUD!"
+    href="http://en.wikipedia.org/wiki/CRUD">CRUD</a> operations, is able to do
+  things like authentication automagically and watches over the integrity of
+  your data. You can obviously customize this behavior with your own code, but
+  it's surprising how little custom code is actually needed for "traditional"
+  CRUD apps. By traditional, I generally mean data-centric applications
+  - blogs, datastores for mobile apps (hence Azure's "Mobile Services" name for
+  its BaaS), CMS-y stuff and so on. Obviously if you want to write a real-time
+  browser-based game this isn't your first pick (though there's still potential
+  there, I've yet to investigate this side of BaaS).</p>
+
+<p>Just for simplicity's sake, for the rest of this article, I will be talking
+  about Windows Azure's BaaS provider (<a
+    href="http://www.windowsazure.com/en-us/pricing/details/mobile-services/">Azure
+    Mobile Services</a>) in particular, since that's the one I'm currently most
+  acquainted with. This article isn't meant to be a comparison of multiple
+  services or a "Top 5 BaaS providers of 2013" thing. It's the principle that
+  counts.</p>
+
+<p>In a nutshell, BaaS transparently takes care of your backend, and only lends
+  you a few hooks around the CRUD operations so that you can perform additional
+  checks, queries and validation. It supports lightweight cron jobs, push
+  notifications and both fixed and dynamic schemas (though it's still a SQL
+  server at this point!) and authentication via OAuth. Microsoft's solution
+  runs in a Node.js environment so everything is JavaScript. You can deploy
+  everything using git very neatly.</p>
+
+<p>Just to be clear about this - this is a platform for delivering
+  a <strong>web service</strong>. You cannot serve websites from here. A good
+  alternative is to host your website on a cheap host, but the logic and actual
+  back-end on Azure, and communicate using asynchronous HTTP. After all,
+  Azure's solution is even called "Mobile Services" - it's designed to provide
+  services to self-standing, pre-existing applications, but web apps are also
+  a perfectly valid contender.</p>
+
+<p>Like I mentioned before, it's great for apps that mostly just rely on CRUD
+  operations server-side, but not if you want a lot of complex logic over
+  there. I believe some examples would clear this up rather nicely:</p>
+<p>If I were to collect telemetry data from a videogame, I'd use this and
+  perform the visualizations in a JavaScript app (Oh, so <em>this </em>spike
+  pit is killing of 95% of the players causing them to uninstall the game in
+  frustration). If I were to implement an online messaging system, I'd use
+  this. If I wanted to manage a simple in-game persistence system (such as
+  automatically saving the game "in the cloud"), I'd use this. A forum could be
+  implemented rather nicely using this as well. And there are tons of other
+  examples out there. Truth be told, for the most part, a lot of the back-end
+  is just boilerplate code providing highly similar CRUD operations for a bunch
+  of things - which BaaS now conveniently handles for you.</p>
+
+<p>But, of course, there are also counter-examples; things not suited for pure
+  BaaS:</p>
+
+<p>I wouldn't implement an auction site using this system, even though it would
+  be completely possible in theory. I would also avoid implementing
+  a persistent browser-game where most of the logic is taking place
+  server-side. I would avoid implementing Twitter because, well, you kind of do
+  have to build your own infrastructure from scratch if you want to serve
+  *that* many users. Also any service that might have a simple structure but
+  would need more than just CRUD - such as image processing and big data
+  manipulation wouldn't go well with the current BaaS philosophy.</p>
+
+<p>"But Scalabilityyyyyy!" I might head you cry out desperately at this point
+  "You are using SQL, how is that thing scalable?" Well, it <strong>is</strong>
+  currently limited to SQL, but there is work being done to enable support for
+  NoSQL technologies as well. However, the Azure back-end currently does
+  a surprisingly good job managing everything - especially since your SQL
+  server is actually <strong>replicated three times by default</strong>. For
+  most small and medium app developers (which are also the main target audience
+  for this service) this is more than enough.</p>
+
 <h1>In Action</h1>
-<p>Getting it up and running, and learning how to use Mobile Services is actually really fast. Microsoft provides a wonderful getting started guide that helps you set up a free account, the mobile service itself, as well as the app: <a href="http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-html/">http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-html/</a>.</p>
-<p>The great thing about this is that a ton of technologies are supported - you can be running Windows, Linux or OSX, it doesn't matter. Win8, Android, iOS and HTML web applications are all supported, and the tutorials cover all of these combinations.</p>
-<p>So if you're interested in checking this out and you're not a Windows person - worry not! Your familiar stack, as long as it's pretty mainstream (sorry Scala + Lift people!), is supported!</p>
+
+<p>Getting it up and running, and learning how to use Mobile Services is
+  actually really fast. Microsoft provides a wonderful getting started guide
+  that helps you set up a free account, the mobile service itself, as well as
+  the app: <a
+    href="http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-html/">http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-html/</a>.</p>
+
+<p>The great thing about this is that a ton of technologies are supported - you
+  can be running Windows, Linux or OSX, it doesn't matter. Win8, Android, iOS
+  and HTML web applications are all supported, and the tutorials cover all of
+  these combinations.</p>
+<p>So if you're interested in checking this out and you're not a Windows person
+  - worry not! Your familiar stack, as long as it's pretty mainstream (sorry
+  Scala + Lift people!), is supported!</p>
+
 <h1>Closing Thoughts</h1>
-<p>Although it's not a silver bullet, and does limit an application's flexibility quite a bit, BaaS is just perfect for applications that don't need complex server-side operations. And here, the threshold for "complex" server-side logic is actually pretty high. If you just need a basic CRUD back-end for an app - it can be set up in minutes. And that's really, really quick. But you can also add Facebook, Live and Twitter authentication seamlessly. Need a mailer? Done! Push notifications - there they are. And so on. All deployed using git.</p>
-<p>This service enables developers to quickly put together a robust back-end for their app with minimal effort, and allows them to actually focus on what matters - the design of the application and the user experience.</p>
-<p>We can now create a little app and then set up its back-end in half an hour. We've come quite a distance from SSH-ing into a VM and grepping the logs to see why our mysqld isn't working, haven't we?</p>
+
+<p>Although it's not a silver bullet, and does limit an application's
+  flexibility quite a bit, BaaS is just perfect for applications that don't
+  need complex server-side operations. And here, the threshold for "complex"
+  server-side logic is actually pretty high. If you just need a basic CRUD
+  back-end for an app - it can be set up in minutes. And that's really, really
+  quick. But you can also add Facebook, Live and Twitter authentication
+  seamlessly. Need a mailer? Done! Push notifications - there they are. And so
+  on. All deployed using git.</p>
+
+<p>This service enables developers to quickly put together a robust back-end
+  for their app with minimal effort, and allows them to actually focus on what
+  matters - the design of the application and the user experience.</p>
+
+<p>We can now create a little app and then set up its back-end in half an hour.
+  We've come quite a distance from SSH-ing into a VM and grepping the logs to
+  see why our mysqld isn't working, haven't we?</p>
