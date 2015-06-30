@@ -8,4 +8,5 @@ TODO list of things to do
  * slideshow support for images
  * text-based adventure game
  * Google analytics code
- * Replace siegedog.com
+ * Replace siegedog.com with the static site
+ * Consider minification
