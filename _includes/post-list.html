@@ -10,6 +10,11 @@
           </section>
           <section class="post-footer">
             <a href='{{ post.url }}'>Discussion</a>
+              {% assign a = post.content | split: site.excerpt_separator %}
+              {% assign a = a[1] | size %}
+              {% if a != 0 %}
+                | <a href="{{ post.url | append:"#title-start" }}">Read more &rarr;</a>
+              {% endif %}
           </section>
         </li>
     {% endfor %}
