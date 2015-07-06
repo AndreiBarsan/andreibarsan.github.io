@@ -10,3 +10,5 @@ TODO list of things to do
  * Google analytics code
  * Replace siegedog.com with the static site
  * Consider minification
+ * Fix lists inside posts on main page
+ * Fix heading spacing on article pages
