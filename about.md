@@ -10,8 +10,8 @@ My name is Andrei Bârsan. I'm a Computer Science Master's student at ETH
 Zürich.
 
 I am currently interning on Twitter's Performance Ads team, working with Scala
-atop Apache Storm and Hadoop.  I'm helping develop the system meant to
-integrate Twitter into Doubleclick's campaign management dashboard.
+atop Apache Storm and Hadoop.  I'm helping develop the system taksed with
+integrating Twitter into Doubleclick's campaign management dashboard.
 
 In 2014 I interned at Google NYC. I was part of the Data Protection Team within
 Google, and I helped developed a system for performing security-oriented static
