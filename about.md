@@ -7,19 +7,21 @@ permalink: /about/
 Hello!
 
 My name is Andrei Bârsan. I'm a Computer Science Master's student at ETH
-Zürich.
+Zürich, focusing on machine learning, artificial intelligence and information
+retrieval.
 
-I am currently interning on Twitter's Performance Ads team, working with Scala
-atop Apache Storm and Hadoop.  I'm helping develop the system taksed with
-integrating Twitter into Doubleclick's campaign management dashboard.
+I recently finished an internship on Twitter's Performance Ads team, working
+with Scala atop Apache Storm and Hadoop.  I helped develop the system tasked
+with integrating Twitter into its advertising partners' campaign management
+dashboards.
 
-In 2014 I interned at Google NYC. I was part of the Data Protection Team within
-Google, and I helped developed a system for performing security-oriented static
-analysis of Bash scripts.
+In the summer of 2014 I interned at Google NYC. I was part of the Data
+Protection Team within Google, and I helped developed a system for performing
+security-oriented static analysis of Bash scripts.
 
 In the summer of 2013 I was an intern at Microsoft working in the Server and
-Tools Business division performing security and reliability analysis for a web
-service.
+Tools Business division. I performed the security and reliability analysis of
+a web service which was part of the Microsoft Azure portal.
 
 Email me at <a title="Obfuscated email addresses are so 2010."
 href="mailto:andrei.ioan.barsan@gmail.com">andrei.ioan.barsan@gmail.com</a>.
