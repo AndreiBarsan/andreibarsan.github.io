@@ -20,6 +20,8 @@ model--the one with the dedicated Ati graphics card) and this ASUS.  I was
 actually leaning towards the Mac (about 60% confidence) but I ended up grabbing
 the ASUS since the price/specs ratio was much, much better.
 
+Spoiler: now I have a MacBook anyway.
+
 So what are the first you notice about this laptop?  Let's take a look...
 
 <!--more-->
@@ -66,11 +68,10 @@ with a mouse plugged in, the mouse will be disconnected for a few seconds.
 * When rebooting, before logging in for the first time, the lights on the
 keyboard don't work.  This is quite a pain when trying to log into the PC in
 a dark room.  Again, I've never encountered such an issue on a Mac.
-B
 * The power adapter has a very big, clunky transformer.  I'm talking the width
 and height of an iPhone 6 Plus, with maybe three times the depth.
 * The touchpad supports gestures but doesn't feel nearly as responsive as the
-one on a MacBook.
+one on a MacBook, even with all the up-to-date drivers installed.
 
 The ugly
 ========

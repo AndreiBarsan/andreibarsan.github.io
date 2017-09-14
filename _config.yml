@@ -5,12 +5,14 @@ description: >
   Ramblings ranging from low-level reverse engineering to game development.
 baseurl:      "" # the subpath of your site, e.g. /blog/
 url:          andreibarsan.github.io # the base hostname & protocol for your site
+future:       true
 
 # Build settings
-markdown:     redcarpet
+markdown:     kramdown
 highlighter:  pygments
+gems: [jekyll-paginate]
 
-# TODO(Andrei) Possibly increase this.
+# TODO(andrei): Possibly increase this in the future.
 paginate:     5
 baseurl:      /
 domain_name:  'http://siegedog.com'
@@ -22,7 +24,7 @@ url:            "http://siegedog.com"
 author:         "Andrei Bârsan's Blog"
 authorTwitter:  "andreib"
 
-permalink:       /:year/:month/:day/:title/
+#permalink:       /:year/:month/:day/:title/
 
 excerpt_separator: "<!--more-->"
 
