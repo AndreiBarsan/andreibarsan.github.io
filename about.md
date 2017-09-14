@@ -18,8 +18,6 @@ In the summer of 2015, I interned on Twitter's Performance Ads team, working on
 data pipelines written in Scala, running on Apache Storm and Hadoop.
 I co-developed the pipeline tasked with communicating engagement information
 with Twitter's advertising partners.
-<!--with integrating Twitter into its advertising partners' campaign management-->
-<!--dashboards.-->
 
 In the summer of 2014 I interned at Google NYC. I was part of the Data
 Protection Team within Google, and I helped developed a system for performing
@@ -41,7 +39,8 @@ Find me on [GitHub](https://github.com/andreibarsan),
 My side projects include:
 
  * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
-   by training a language model to generate its own metal.
+   by training a language model to generate its own metal. (Source code and blog
+   post coming soon!)
  * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
  forward and deferred rendering support, real time shadow mapping and more
  * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple,
