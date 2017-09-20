@@ -21,8 +21,12 @@ of Markdown and HTML... -->
 
 <br/>
 
-<video src="/assets/dynslam/dynslam-video-v0.4.1.webm" width="580" height="354" 
-       controls preload></video>
+<video width="580" height="354" controls preload>
+    <source src="/assets/dynslam/dynslam-video-v0.4.1.reencoded.mp4"
+            type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+    <source src="/assets/dynslam/dynslam-video-v0.4.1.webm"
+            type='video/webm; codecs="vp8, vorbis"' />
+</video>
 
  <div>
   [<a href="/assets/dynslam/robust-dense-mapping-paper-submission.pdf" download>Paper PDF</a>]
