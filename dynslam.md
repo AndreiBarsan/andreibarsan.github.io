@@ -8,8 +8,8 @@ permalink: /dynslam/
 <div style="text-align: center">
 
 <a href="www.cs.toronto.edu/~iab">Andrei Bârsan</a>,
-<a href="http://people.inf.ethz.ch/liup/">Peidong Liu</a>
-<a href="https://www.inf.ethz.ch/personal/marc.pollefeys/">Marc Pollefeys</a>
+<a href="http://people.inf.ethz.ch/liup/">Peidong Liu</a>,
+<a href="https://www.inf.ethz.ch/personal/marc.pollefeys/">Marc Pollefeys</a>,
 <a href="https://cvlibs.net">Andreas Geiger</a>
 
 <p>
@@ -36,7 +36,7 @@ of Markdown and HTML... -->
 
 ## Abstract
 
-We present a stereo-based dense mapping algo- rithm for large scale dynamic
+We present a stereo-based dense mapping algorithm for large scale dynamic
 environments. In contrast to other existing algorithms, we simultaneously
 reconstruct the static background, the moving objects and the potentially
 moving but currently stationary objects separately, which is desirable for
@@ -54,7 +54,7 @@ reconstruction accuracy and reduce memory consumption, leading to increased
 scalability. We evaluate our system thoroughly on the well-known KITTI Vision
 Benchmark Suite. Our system is capable of near real- time operation on a PC at
 approximately 2.5Hz, with the primary bottleneck being the instance-aware
-semantic segmen- tation, which is a limitation we hope to address in future
+semantic segmentation, which is a limitation we hope to address in future
 work.
 
 
