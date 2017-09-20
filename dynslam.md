@@ -4,7 +4,13 @@ title: Robust Dense Mapping for Large-Scale Dynamic Environments
 permalink: /dynslam/
 ---
 
-Authors: Andrei Barsan, Peidong Liu, Marc Pollefeys, Andreas Geiger
+Authors: [Andrei Barsan](www.cs.toronto.edu/~iab), [Peidong Liu]()
+[Marc Pollefeys](), [Andreas Geiger]()
+
+<!-- use poster="poster.jpg" for video poster -->
+<div style="text-align: center">
+<video src="/assets/video.webm" width="320" height="200" controls preload></video>
+</div>
 
 Companion webpage to our ICRA 2018 submission.
 
