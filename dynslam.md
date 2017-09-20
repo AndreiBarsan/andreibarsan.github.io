@@ -14,7 +14,7 @@ permalink: /dynslam/
 
 Companion webpage to our ICRA 2018 submission.
 
-<video src="/assets/dynslam/dynslam-video-v0.4.1.webm" width="640" height="480" 
+<video src="/assets/dynslam/dynslam-video-v0.4.1.webm" width="580" height="354" 
        controls preload></video>
 
  <div>
@@ -24,26 +24,26 @@ Companion webpage to our ICRA 2018 submission.
  </div>
 </div>
 
-# Abstract
+## Abstract
 
 
-# Additional Results
-
-<!-- TODO -->
-
-## Reconstruction Accuracy
+## Additional Results
 
 <!-- TODO -->
 
-## Voxel Garbage Collection
+### Reconstruction Accuracy
 
 <!-- TODO -->
 
-## Reduced Input Spatial Resolution
+### Voxel Garbage Collection
 
 <!-- TODO -->
 
-## Reduced Input Temportal Resolution
+### Reduced Input Spatial Resolution
+
+<!-- TODO -->
+
+### Reduced Input Temportal Resolution
 
 <!-- TODO -->
 
