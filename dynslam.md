@@ -18,8 +18,8 @@ Companion webpage to our ICRA 2018 submission.
        controls preload></video>
 
  <div>
-  [<a href="/assets/dynslam/robust-dense-mapping-paper-submission.pdf" target="_blank">Paper PDF</a>]
-  [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" target="_blank">Video Download</a>]
+  [<a href="/assets/dynslam/robust-dense-mapping-paper-submission.pdf" download>Paper PDF</a>]
+  [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" download>Video Download</a>]
   [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Source Code</a>]
  </div>
 </div>
