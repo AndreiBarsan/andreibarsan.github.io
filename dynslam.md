@@ -12,7 +12,9 @@ permalink: /dynslam/
 <a href="https://www.inf.ethz.ch/personal/marc.pollefeys/">Marc Pollefeys</a>
 <a href="https://cvlibs.net">Andreas Geiger</a>
 
+<p>
 Companion webpage to our ICRA 2018 submission.
+</p>
 
 <video src="/assets/dynslam/dynslam-video-v0.4.1.webm" width="580" height="354" 
        controls preload></video>
