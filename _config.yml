@@ -2,15 +2,15 @@
 title:        "Andrei Bârsan's Blog"
 email:        andrei.ioan.barsan@gmail.com
 description: >
-  Ramblings ranging from low-level reverse engineering to game development.
-baseurl:      "" # the subpath of your site, e.g. /blog/
-url:          andreibarsan.github.io # the base hostname & protocol for your site
+  PhD Student at the University of Toronto focusing on Computer Vision and Deep Learning for Autonomous Robotics
+# baseurl:      "" # the subpath of your site, e.g. /blog/
+# url:          andreibarsan.github.io # the base hostname & protocol for your site
 future:       true
 
 # Build settings
 markdown:     kramdown
 highlighter:  pygments
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # TODO(andrei): Possibly increase this in the future.
 paginate:     5
@@ -24,7 +24,8 @@ url:            "http://siegedog.com"
 author:         "Andrei Bârsan's Blog"
 authorTwitter:  "andreib"
 
-#permalink:       /:year/:month/:day/:title/
+# Otherwise the permalink gets "spammed" with all the tags...
+permalink:       /:year/:month/:day/:title/
 
 excerpt_separator: "<!--more-->"
 
