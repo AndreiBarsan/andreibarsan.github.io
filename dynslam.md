@@ -13,12 +13,12 @@ Companion webpage to our ICRA 2018 submission.
 
 <!-- use poster="poster.jpg" for video poster -->
 <div style="text-align: center">
-<video src="/assets/dynslam/dynslam-video-v0.4.1.webm" width="960" height="585" 
+<video src="/assets/dynslam/dynslam-video-v0.4.1.webm" width="640" height="480" 
        controls preload></video>
 
  <div>
-  [<a href="/assets/dynslam/robust-dense-mapping-paper-submission.pdf" target="_blank">Paper PDF>]
-  [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" target="_blank">Video Download>]
+  [<a href="/assets/dynslam/robust-dense-mapping-paper-submission.pdf" target="_blank">Paper PDF</a>]
+  [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" target="_blank">Video Download</a>]
   [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Source Code</a>]
  </div>
 </div>
