@@ -41,6 +41,7 @@ environments. In contrast to other existing algorithms, we simultaneously
 reconstruct the static background, the moving objects and the potentially
 moving but currently stationary objects separately, which is desirable for
 high-level mobile robotics tasks such as path planning in crowded environments.
+
 We use both instance-aware semantic segmentation and sparse scene flow to
 classify objects as either background, moving or potentially moving, thereby
 ensuring that the system is able to model objects transitioning from static to
@@ -49,16 +50,23 @@ odometry, both the background and the (potentially) moving objects are
 reconstructed separately by fusing the depth maps computed from the stereo
 input. In addition to visual odometry, sparse scene flow is also used to
 estimate the 3D motions of the detected moving objects, in order to reconstruct
-them accurately. A map pruning technique is further developed to improve
+them accurately.
+
+A map pruning technique is further developed to improve
 reconstruction accuracy and reduce memory consumption, leading to increased
-scalability. We evaluate our system thoroughly on the well-known KITTI Vision
-Benchmark Suite. Our system is capable of near real- time operation on a PC at
+scalability.
+
+We evaluate our system thoroughly on the well-known KITTI Vision
+Benchmark Suite. Our system is capable of near real-time operation on a PC at
 approximately 2.5Hz, with the primary bottleneck being the instance-aware
 semantic segmentation, which is a limitation we hope to address in future
 work.
 
 
 ## Additional Results
+
+This section presents additional qualitative and (detailed) quantitative
+results for which there was no room in the paper.
 
 <!-- TODO -->
 
