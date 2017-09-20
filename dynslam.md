@@ -7,10 +7,10 @@ permalink: /dynslam/
 <!-- use poster="poster.jpg" for video poster -->
 <div style="text-align: center">
 
-<a href="www.cs.toronto.edu/~iab">Andrei Bârsan</a>,
+<a href="http://www.cs.toronto.edu/~iab">Andrei Bârsan</a>,
 <a href="http://people.inf.ethz.ch/liup/">Peidong Liu</a>,
 <a href="https://www.inf.ethz.ch/personal/marc.pollefeys/">Marc Pollefeys</a>,
-<a href="https://cvlibs.net">Andreas Geiger</a>
+<a href="http://cvlibs.net">Andreas Geiger</a>
 
 <p>
 Companion webpage to our ICRA 2018 submission.
