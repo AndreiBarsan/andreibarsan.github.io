@@ -16,6 +16,11 @@ permalink: /dynslam/
 Companion webpage to our ICRA 2018 submission.
 </p>
 
+<!-- some ugly breaks since otherwise the spacing gets messed up by our mixing
+of Markdown and HTML... -->
+
+<br/>
+
 <video src="/assets/dynslam/dynslam-video-v0.4.1.webm" width="580" height="354" 
        controls preload></video>
 
@@ -25,6 +30,8 @@ Companion webpage to our ICRA 2018 submission.
   [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Source Code</a>]
  </div>
 </div>
+
+<br/>
 
 ## Abstract
 
