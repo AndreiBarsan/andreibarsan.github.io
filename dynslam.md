@@ -2,7 +2,24 @@
 layout: page
 title: Robust Dense Mapping for Large-Scale Dynamic Environments
 permalink: /dynslam/
+gc_thresholds:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '10'
+  - '15'
+  - '20'
+extra_css:
+  - '/assets/css/slick.css'
+  - '/assets/css/slick-theme.css'
 ---
+
 
 <!-- use poster="poster.jpg" for video poster -->
 <div style="text-align: center">
@@ -80,18 +97,50 @@ results for which there was no room in the paper.
 
 ### Voxel Garbage Collection
 
-<!-- TODO -->
+#### Additional Qualitative Results
+
+The reconstruction of an intersection under different regularization strengths
+can be seen below. Larger values of $$k$$ correspond to more aggressive noise
+thresholds.
+
+<br/>
+
+<div class="voxel-gc-slider">
+  {% for k in page.gc_thresholds %}
+  <div>
+  <img src="/assets/dynslam/gc-dispnet/odo-05-intersection-gc-w-{{ k }}.png">
+  <br/>
+  <h3 style="text-align:center">Voxel GC with $$k={{ k }}$$</h3>
+  </div>
+  {% endfor %}
+</div>
+
+<br/>
+
 
 ### Reduced Input Spatial Resolution
 
 <!-- TODO -->
 
-### Reduced Input Temportal Resolution
+### Reduced Input Temporal Resolution
 
 <!-- TODO -->
 
 
 <!-- ## Bibtex -->
 <!-- TODO, if applicable -->
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/slick.min.js"></script>
+<script type="text/javascript">
+$('.voxel-gc-slider').slick({
+    fade: true,
+    speed: 100,
+    arrows: true,
+    dots: true,
+    infinite: true,
+});
+</script>
 
 
