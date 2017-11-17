@@ -19,7 +19,7 @@ applications in robotics, specifically autonomous vehicles.
 For my Master's Thesis, I developed DynSLAM, a dense mapping system capable of
 simultaneously reconstructing dynamic and potentially dynamic objects
 encountered in an environment, in addition to the background map, using just
-stereo input. More details can be found in the <a href="/dynslam">
+stereo input. More details can be found on the <a href="/dynslam">
 DynSLAM project page</a>.
 
 
