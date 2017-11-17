@@ -9,6 +9,10 @@ University of Toronto, focusing on deep learning for autonomous robotics.
 I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
+In parallel to this, I am also a full-time researcher at [Uber Advanced Technologies Group
+(ATG)](https://www.uber.com/info/atg/) Toronto, working on applying my research
+to the challenges associated with autonomous driving in the real world.
+
 Before starting my PhD, I completed my Master's in Computer Science at ETH
 Zurich, also focusing on deep learning and computer vision, together with their
 applications in robotics, specifically autonomous vehicles.
@@ -18,18 +22,24 @@ encountered in an environment, in addition to the background map, using just
 stereo input. More details can be found in the <a href="/dynslam">
 DynSLAM project page</a>.
 
-In the summer of 2015, I interned on Twitter's Performance Ads team, working on
-data pipelines written in Scala, running on Apache Storm and Hadoop.
-I co-developed the pipeline tasked with communicating engagement information
-with Twitter's advertising partners.
 
-In the summer of 2014 I interned at Google NYC. I was part of the Data
-Protection Team within Google, and I helped developed a system for performing
-security-oriented static analysis of Bash scripts.
+Previously, while doing my Undergraduate at Transilvania University, in Brașov,
+Romania, I interned at Microsoft (2013, Redmond, WA), Google (2014, New York,
+NY) and Twitter (2015, San Francisco, CA), working on projects related to
+privacy, data protection, and data pipeline engineering.
 
-In the summer of 2013 I was an intern at Microsoft working in the Server and
-Tools Business division. I performed the security and reliability analysis of
-a web service which was part of the Microsoft Azure portal.
+<!-- In the summer of 2015, I interned on Twitter's Performance Ads team, working on -->
+<!-- data pipelines written in Scala, running on Apache Storm and Hadoop. -->
+<!-- I co-developed the pipeline tasked with communicating engagement information -->
+<!-- with Twitter's advertising partners. -->
+
+<!-- In the summer of 2014 I interned at Google NYC. I was part of the Data -->
+<!-- Protection Team within Google, and I helped developed a system for performing -->
+<!-- security-oriented static analysis of Bash scripts. -->
+
+<!-- In the summer of 2013 I was an intern at Microsoft working in the Server and -->
+<!-- Tools Business division. I performed the security and reliability analysis of -->
+<!-- a web service which was part of the Microsoft Azure portal. -->
 
 Email me at <a title="Obfuscated email addresses are so 2010. And besides, how
 else are the sexy singles in my area going to find me?"
