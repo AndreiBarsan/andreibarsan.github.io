@@ -58,6 +58,7 @@ of Markdown and HTML... -->
 
 ## Abstract
 
+<!--
 We present a stereo-based dense mapping algorithm for large scale dynamic
 environments. In contrast to other existing algorithms, we simultaneously
 reconstruct the static background, the moving objects and the potentially
@@ -83,6 +84,49 @@ Benchmark Suite. Our system is capable of near real-time operation on a PC at
 approximately 2.5Hz, with the primary bottleneck being the instance-aware
 semantic segmentation, which is a limitation we hope to address in future
 work.
+-->
+
+We present a stereo-based dense mapping algorithm for large-scale dynamic
+urban environments. In contrast to other existing methods, we simultaneously
+reconstruct the static background, the moving objects, and the potentially
+moving but currently stationary objects separately, which is desirable for
+high-level mobile robotic tasks such as path planning in crowded environments.
+
+We use both instance-aware semantic segmentation and sparse scene flow to
+classify objects as either background, moving, or potentially moving, thereby
+ensuring that the system is able to model objects with the potential to
+transition from static to dynamic, such as parked cars. Given camera poses
+estimated from visual odometry, both the background and the (potentially)
+moving objects are reconstructed separately by fusing the depth maps computed
+from the stereo input. In addition to visual odometry, sparse scene flow is
+also used to estimate the 3D motions of the detected moving objects, in order
+to reconstruct them accurately.
+
+A map pruning technique is further developed to
+improve reconstruction accuracy and reduce memory consumption, leading to
+increased scalability.
+
+We evaluate our system thoroughly on the well-known
+KITTI dataset. Our system is capable of running on a PC at approximately 2.5Hz,
+with the primary bottleneck being the instance-aware semantic segmentation,
+which is a limitation we hope to address in future work. The source code is
+available from the project website (this page; see above).
+
+
+<br/>
+
+## History
+ * April 28, 2018: Small updates to the DynSLAM website, mostly based on
+     updates we made to the camera-ready version of our paper.
+ * January 12, 2018: Our paper got accepted to ICRA 2018!
+ * September 20, 2017: Uploaded video and rest of the additional material for
+     the ICRA 2018 submission.
+ * September 14, 2017: First version of the website created.
+ * August 27, 2017: MSc thesis deadline at ETH Zurich.
+ * February 27, 2017: Start of project (Andrei's Master's Thesis at ETH
+     Zurich).
+
+
 
 <br/>
 
@@ -318,7 +362,6 @@ which contain almost no dynamic objects.
 The results of this experiment are shown in Figures 7 and 8. As expected, on its
 own, the accuracy of the reconstruction is not affected since the input depth
 maps are themselves accurate. On the other hand, the reconstruction
-
 completeness score starts to drop significantly once fusion is performed more
 rarely than every 4--5 frames.
 In conclusion, the high completeness and accuracy scores obtained even when
@@ -339,9 +382,20 @@ plot.](/assets/dynslam/plots/low-time-res-com-static-depth-result.png)
 Figure 8: The impact of reduced temporal resolution on static map reconstruction
 accuracy.
 
+<br/>
 
-<!-- ## Bibtex -->
-<!-- TODO(andrei): Add this if/when applicable. -->
+## Publication
+
+<!-- the 'linguist' plugin does not know what bibtex is... -->
+```latex
+@inproceedings{barsan2018robust,
+  title={Robust Dense Mapping for Large-Scale Dynamic Environments},
+  author={B{\^a}rsan, Ioan Andrei and Liu, Peidong and Pollefeys, Marc and Geiger, Andreas},
+  booktitle={International Conference on Robotics and Automation (ICRA), Brisbane, Australia},
+  year={2018}
+}
+```
+
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
