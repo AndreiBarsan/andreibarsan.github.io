@@ -117,6 +117,8 @@ available from the project website (this page; see above).
 <br/>
 
 ## History
+ * May 27, 2018: Following the ICRA 2018 presentation, I added a PDF of the
+     poster.
  * April 28, 2018: Small updates to the DynSLAM website, mostly based on
      updates we made to the camera-ready version of our paper.
  * January 12, 2018: Our paper got accepted to ICRA 2018!
