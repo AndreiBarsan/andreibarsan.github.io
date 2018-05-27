@@ -49,6 +49,7 @@ of Markdown and HTML... -->
   [<a href="/assets/dynslam/robust-dense-mapping-paper-submission.pdf" download>Paper PDF</a>]
   [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" download>Video Download</a>]
   [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Source Code</a>]
+  [<a href="/assets/dynslam/BARSAN-IoanAndrei-ICRA-2018-dynslam-poster.pdf" target="_blank">Poster</a>]
  </div>
 </div>
 
