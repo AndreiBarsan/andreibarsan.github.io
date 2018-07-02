@@ -3,18 +3,21 @@ TODO list of things to do
 
 Misc
 ----
- * [ ] Unify asset directories to make the project cleaner
- * [ ] Make publications clickable, and expand to show abstract and additional links
- * [ ] Maybe add a small picture for every project
- * [ ] Auto-render publications from raw bib files.
+ * [ ] Google analytics code
  * [ ] Consider minification for CSS and stuff.
  * [ ] Update font-awesome and use new book icon for google scholar.
- * [ ] Give credit to Siera guy who created the Jekyll package you are using.
- * [ ] Google analytics code
- * [ ] Remove old portraits
  * [ ] Make site responsive even with no JavaScript
  * [X] Ensure site perfectly readable with JS off.
       - it's OK, but not 100% responsive
+ * [X] Give credit to Siera guy who created the Jekyll package you are using.
+ * [X] Unify asset directories to make the project cleaner
+ * [ ] Maybe add a small picture for every project
+
+Low-priority
+-----------
+ * [ ] Make publications clickable, and expand to show abstract and additional links
+ * [ ] Auto-render publications from raw bib files.
+ * [ ] Remove old portraits
 
 New Layout Tasks
 ----------------

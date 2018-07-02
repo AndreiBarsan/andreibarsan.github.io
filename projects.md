@@ -4,15 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
+Currently unused.
+
 # Research
-
-This here is my research.
-
- * DynSLAM
- * Crowd
- * Etc.
-
 
 # Other
 
-Yeti, etc.

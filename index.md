@@ -4,7 +4,7 @@ title: About Me
 ---
 
 I'm a PhD student in the [Machine Learning
-Group](http://learning.cs.toronto.edu/) at the University of Toronto, 
+Group](http://learning.cs.toronto.edu/) at the University of Toronto,
 focusing on computer vision and deep learning for
 autonomous robotics.  I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
