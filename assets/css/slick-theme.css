@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: blue;
+    /* color: blue; */
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -79,11 +79,15 @@
 
 .slick-prev
 {
-    left: -25px;
+    /* left: -25px; */
+    left: 25px;
+    z-index: 1000;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    /* right: -25px; */
+    right: 25px;
+    z-index: 1000;
     left: auto;
 }
 .slick-prev:before
@@ -97,12 +101,16 @@
 
 .slick-next
 {
-    right: -25px;
+    /* right: -25px; */
+  right: 25px;
+  z-index: 1000;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    /* left: -25px; */
+    left: 25px;
+    z-index: 1000;
 }
 .slick-next:before
 {
@@ -140,8 +148,10 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
+    /* width: 20px; */
+    /* height: 20px; */
+    width: 32px;
+    height: 32px;
     margin: 0 5px;
     padding: 0;
 
@@ -201,4 +211,12 @@
 {
     opacity: .75;
     color: black;
+}
+
+/* Some stuff to make the slider UI work better with the Future Imperfect UI */
+.slick-dots button {
+  box-shadow: none;
+}
+button.slick-next, button.slick-prev, .slick-arrow {
+  box-shadow: none;
 }

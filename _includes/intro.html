@@ -1,9 +1,10 @@
 <section id="intro">
   <a href="{{ site.url }}" class="logo">
-    <img src="/images/portrait-02.png" alt="Andrei's photo." />
+    <img src="{{ "/assets/images/portrait-02.png" | prepend: site.baseurl }}"
+         alt="Andrei's photo." />
   </a>
 	<header>
-    <h2>{{ site.author }}</h2>
+    <h2><a href="{{ site.baseurl }}">{{ site.author }}</a></h2>
 		<p>Computer Vision Researcher</p>
     <!--p>
     <a href="/">About</a> |
