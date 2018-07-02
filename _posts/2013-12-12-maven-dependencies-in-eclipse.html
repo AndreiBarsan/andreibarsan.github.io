@@ -71,9 +71,11 @@ author:
     project. </strong>All this does is add another feature to the project. The
   "Convert to..." phrasing in Eclipse is a bit confusing.</p>
 
-<p><a href="attachments/step01.jpg"><img alt="Right click on menu -&gt;
-    Configure -&gt; Convert to Maven project" src="/attachments/step01.jpg"
-    /></a>
+<p>
+  <a href="{{ "/assets/images/step01.jpg" | prepend: site.baseurl }}">
+      <img alt="Right click on menu -&gt; Configure -&gt; Convert to Maven project" 
+           src="{{ "/assets/images/step01.jpg" | prepend: site.baseurl }}"/>
+  </a>
 </p>
 
 <p>
@@ -97,8 +99,7 @@ much easier in the long run.</p>
 
 <h1>Step 2: Adding your dependency</h1>
 <p>Notice that converting your project to a Maven project has generated a file
-  called <em>pom.xml</em>. This is the so-called <strong><a title="It's NOT
-      porn, it's pom. Jeez."
+  called <em>pom.xml</em>. This is the so-called <strong><a
       href="https://maven.apache.org/guides/introduction/introduction-to-the-pom.html"
       target="_blank">Project Object Model</a> </strong>and contains all the
   info required for Maven to build your project. We're just using Maven's
@@ -110,9 +111,9 @@ much easier in the long run.</p>
   file.</p>
 
 <p><a
-    href="/attachments/step02.jpg"><img
+     href="{{ "/assets/images/step02.jpg" | prepend: site.baseurl }}"><img
     alt="Adding your dependency."
-    src="/attachments/step02.jpg" /></a></p>
+    src="{{ "/assets/images/step02.jpg" | prepend: site.baseurl }}" /></a></p>
 
 <p>Just paste as many "dependency" tags as you want inside the "dependencies"
   tag and Maven will automatically fetch them for you (Yes, automatically. You
