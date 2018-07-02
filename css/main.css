@@ -2585,7 +2585,8 @@
 			display: flex;
 			border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 			left: -3em;
-			margin: -3em 0 3em 0;
+			/* margin: -3em 0 3em 0; */
+			margin: -3em 0 1em 0;
 			position: relative;
 			width: calc(100% + 6em);
 		}
@@ -3218,6 +3219,25 @@
 		-ms-flex: 1;
 		width: 100%;
 	}
+
+
+  /* A few tweaks to the spacing to improve the legibility of larger blocks of
+   * text, while also making sure we don't mess up the whole layout. */
+  .post h1 {
+    margin-top: 2em;
+  }
+  .post h2 {
+    margin-top: 1.5em;
+  }
+  .post header h2 {
+    margin-top: 0;
+  }
+
+  /* Ensure nested lists look OK */
+  .post ul ul {
+      margin-bottom: 0;
+      list-style-type: circle;
+  }
 
 /* Sidebar */
 

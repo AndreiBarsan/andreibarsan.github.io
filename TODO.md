@@ -3,16 +3,19 @@ TODO list of things to do
 
 CRITICAL
 --------
- * Add sidebar to DynSLAM page
- * Fix DynSLAM page
- * Add LaTeX support
- * Include DynSLAM bib file in page, instead of the current pasted version
+ * [X] Add sidebar to DynSLAM page
+ * [X] Fix DynSLAM page
+ * [X] Add LaTeX support
+ * [ ] Fix jquery version conflict
+ * [ ] Some basic entries in the Projects page (DynSLAM, Crowd, Yeti)
+ * [X] Include DynSLAM bib file in page, instead of the current pasted version
      (also, inconsistent with about page)
-
-
 
 Misc
 ----
+ * Unify asset directories to make the project cleaner
+ * Make publications clickable, and expand to show abstract and additional links
+ * Maybe add a small picture for every project
  * Auto-render publications from raw bib files.
  * Consider minification for CSS and stuff.
  * Ensure site perfectly readable with JS off.

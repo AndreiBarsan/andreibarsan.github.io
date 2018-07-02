@@ -19,8 +19,6 @@ extra_css:
   - '/assets/css/slick.css'
   - '/assets/css/slick-theme.css'
 ---
-
-
 <!-- use poster="poster.jpg" for video poster -->
 <div style="text-align: center">
 
@@ -30,7 +28,7 @@ extra_css:
 <a href="http://cvlibs.net">Andreas Geiger</a>
 
 <p>
-Companion webpage to our ICRA 2018 submission.
+Companion webpage to our ICRA 2018 publication.
 </p>
 
 <!-- some ugly breaks since otherwise the spacing gets messed up by our mixing
@@ -219,7 +217,8 @@ Use the arrows to visualize values for different thresholds.
 
 <br/>
 
-<div style="width: 400px">
+<!-- <div style="width: 400px"> -->
+
 <div class="voxel-gc-slider">
   {% for k in page.gc_thresholds %}
   <div>
@@ -236,7 +235,8 @@ Use the arrows to visualize values for different thresholds.
   </div>
   {% endfor %}
 </div>
-</div>
+
+<!-- </div> -->
 
 <br/>
 
@@ -245,7 +245,7 @@ Use the arrows to visualize values for different thresholds.
 
 This section covers a series of experiments which investigated the impact of
 reducing the spatial and temporal resolution of the input on the reconstruction
-quality. 
+quality.
 
 
 #### Reduced Input Spatial Resolution
@@ -389,29 +389,31 @@ accuracy.
 
 <br/>
 
-## Publication
+## BibTeX
 
 <!-- the 'linguist' plugin does not know what bibtex is... -->
 ```latex
-@inproceedings{barsan2018robust,
-  title={Robust Dense Mapping for Large-Scale Dynamic Environments},
-  author={B{\^a}rsan, Ioan Andrei and Liu, Peidong and Pollefeys, Marc and Geiger, Andreas},
-  booktitle={International Conference on Robotics and Automation (ICRA), Brisbane, Australia},
-  year={2018}
-}
-```
+{% include_relative assets/bib/barsan-robust-dense-mapping-icra-18.bib %}```
 
-
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="/assets/js/slick.min.js"></script>
 <script type="text/javascript">
-$('.voxel-gc-slider').slick({
-    fade: true,
-    speed: 100,
-    arrows: true,
-    dots: true,
-    infinite: true,
+$(document).ready(function() {
+  setTimeout(function() {
+    // Slick seems to break because of our responsive layout, so we force it to
+    // shrink back to our desired width after it gets initialized.
+    //
+    // The shadow of JavaScript will haunt me until the cold, bitter end.
+    oldWidth = $('.voxel-gc-slider').width();
+    $('.voxel-gc-slider').slick({
+        fade: true,
+        speed: 100,
+        arrows: true,
+        infinite: true,
+        dots: true,
+    });
+    $('.voxel-gc-slider').width(oldWidth);
+  }, 100);
 });
 </script>
 
