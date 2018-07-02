@@ -5,6 +5,7 @@ CRITICAL
 --------
  * Add sidebar to DynSLAM page
  * Fix DynSLAM page
+ * Add LaTeX support
  * Include DynSLAM bib file in page, instead of the current pasted version
      (also, inconsistent with about page)
 

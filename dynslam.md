@@ -1,6 +1,6 @@
 ---
 layout: no-about-page
-title: Robust Dense Mapping for Large-Scale Dynamic Environments
+title: "DynSLAM: Robust Dense Mapping for Large-Scale Dynamic Environments"
 permalink: /dynslam/
 gc_thresholds:
   - '0'
@@ -219,6 +219,7 @@ Use the arrows to visualize values for different thresholds.
 
 <br/>
 
+<div style="width: 400px">
 <div class="voxel-gc-slider">
   {% for k in page.gc_thresholds %}
   <div>
@@ -234,6 +235,7 @@ Use the arrows to visualize values for different thresholds.
   </h3>
   </div>
   {% endfor %}
+</div>
 </div>
 
 <br/>
