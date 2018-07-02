@@ -105,7 +105,7 @@ everybody to visit, together with the rest of Southeast Europe.
 
 Email me at iab (at) cs (dawt) toronto (dawt) edu.
 
-Find me on 
+Find me on
 <a href="https://twitter.com/andreib" target="_blank">Twitter</a>,
 <a href="https://github.com/AndreiBarsan" target="_blank">GitHub</a>,
 <a href="https://scholar.google.com/citations?hl=en1user=nOj2GykAAAAJ"
