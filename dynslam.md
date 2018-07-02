@@ -18,42 +18,33 @@ gc_thresholds:
 extra_css:
   - '/assets/css/slick.css'
   - '/assets/css/slick-theme.css'
+extra_js:
+  - '/assets/js/slick.min.js'
+extra_cdn_js:
+  - '//code.jquery.com/jquery-migrate-1.2.1.min.js'
 ---
 <!-- use poster="poster.jpg" for video poster -->
 <div style="text-align: center">
-
-<a href="http://www.cs.toronto.edu/~iab">Andrei Bârsan</a>,
-<a href="http://people.inf.ethz.ch/liup/">Peidong Liu</a>,
-<a href="https://www.inf.ethz.ch/personal/marc.pollefeys/">Marc Pollefeys</a>,
-<a href="http://cvlibs.net">Andreas Geiger</a>
-
-<p>
-Companion webpage to our ICRA 2018 publication.
-</p>
-
-<!-- some ugly breaks since otherwise the spacing gets messed up by our mixing
-of Markdown and HTML... -->
-
-<br/>
-
-<video width="580" height="354" controls preload>
-    <source src="/assets/dynslam/dynslam-video-v0.4.1.reencoded.mp4"
-            type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-    <source src="/assets/dynslam/dynslam-video-v0.4.1.webm"
-            type='video/webm; codecs="vp8, vorbis"' />
-</video>
-
- <div>
-  [<a href="/assets/dynslam/robust-dense-mapping-paper-submission.pdf" download>Paper PDF</a>]
-  [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" download>Video Download</a>]
-  [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Source Code</a>]
-  [<a href="/assets/dynslam/BARSAN-IoanAndrei-ICRA-2018-dynslam-poster.pdf" target="_blank">Poster</a>]
- </div>
+  <a href="http://www.cs.toronto.edu/~iab">Andrei Bârsan</a>,
+  <a href="http://people.inf.ethz.ch/liup/">Peidong Liu</a>,
+  <a href="https://www.inf.ethz.ch/personal/marc.pollefeys/">Marc Pollefeys</a>,
+  <a href="http://cvlibs.net">Andreas Geiger</a>
+  <p>Companion webpage to our ICRA 2018 publication.</p>
+  <video width="580" height="354" controls preload>
+      <source src="/assets/dynslam/dynslam-video-v0.4.1.reencoded.mp4"
+              type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+      <source src="/assets/dynslam/dynslam-video-v0.4.1.webm"
+              type='video/webm; codecs="vp8, vorbis"' />
+  </video>
+  <div>
+    [<a href="/assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf" download>Paper PDF</a>]
+    [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" download>Video Download</a>]
+    [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Source Code</a>]
+    [<a href="/assets/dynslam/BARSAN-IoanAndrei-ICRA-2018-dynslam-poster.pdf" target="_blank">Poster</a>]
+  </div>
 </div>
 
 <br/>
-<br/>
-
 
 ## Abstract
 
@@ -394,27 +385,4 @@ accuracy.
 <!-- the 'linguist' plugin does not know what bibtex is... -->
 ```latex
 {% include_relative assets/bib/barsan-robust-dense-mapping-icra-18.bib %}```
-
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/slick.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-  setTimeout(function() {
-    // Slick seems to break because of our responsive layout, so we force it to
-    // shrink back to our desired width after it gets initialized.
-    //
-    // The shadow of JavaScript will haunt me until the cold, bitter end.
-    oldWidth = $('.voxel-gc-slider').width();
-    $('.voxel-gc-slider').slick({
-        fade: true,
-        speed: 100,
-        arrows: true,
-        infinite: true,
-        dots: true,
-    });
-    $('.voxel-gc-slider').width(oldWidth);
-  }, 100);
-});
-</script>
-
 

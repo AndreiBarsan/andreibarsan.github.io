@@ -1,4 +1,5 @@
 (function($) {
+  // TODO(andreib): Aggressively prune unused stuff from this page.
 
 	/**
 	 * Generate an indented list of links from a nav. Meant for use with panel().

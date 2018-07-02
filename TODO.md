@@ -6,8 +6,9 @@ CRITICAL
  * [X] Add sidebar to DynSLAM page
  * [X] Fix DynSLAM page
  * [X] Add LaTeX support
- * [ ] Fix jquery version conflict
- * [ ] Some basic entries in the Projects page (DynSLAM, Crowd, Yeti)
+ * [X] Fix jquery version conflict
+ * [X] Some basic entries in the Projects page (DynSLAM, Crowd, Yeti)
+      - Added on front page, scrapped dedicated projects page for now
  * [X] Include DynSLAM bib file in page, instead of the current pasted version
      (also, inconsistent with about page)
 

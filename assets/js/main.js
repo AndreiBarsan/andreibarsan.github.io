@@ -35,6 +35,32 @@ function retina() {
  
 $(document).ready(retina);
 
+/*
+ * Actual stuff for my website
+ */
+$(document).ready(function() {
+  sliderBox = $('.voxel-gc-slider');
+  if (sliderBox.length == 0) {
+    return;
+  }
+
+  setTimeout(function() {
+    // Slick seems to break because of our responsive layout, so we force it to
+    // shrink back to our desired width after it gets initialized.
+    //
+    // The shadow of JavaScript will haunt me until the cold, bitter end.
+    oldWidth = sliderBox.width();
+    sliderBox.slick({
+        fade: true,
+        speed: 100,
+        arrows: true,
+        infinite: true,
+        dots: true,
+    });
+    sliderBox.width(oldWidth);
+  }, 25);
+});
+
 
 /*
 	Future Imperfect by HTML5 UP
@@ -56,7 +82,6 @@ $(document).ready(retina);
 
 		var	$window = $(window),
 			$body = $('body'),
-			$menu = $('#menu'),
 			$sidebar = $('#sidebar'),
 			$main = $('#main');
 
@@ -69,9 +94,6 @@ $(document).ready(retina);
 				}, 100);
 			});
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
-
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
 				$.prioritize(
@@ -81,64 +103,14 @@ $(document).ready(retina);
 			});
 
 		// IE<=9: Reverse order of main and sidebar.
-			if (skel.vars.IEVersion <= 9)
-				$main.insertAfter($sidebar);
+		if (skel.vars.IEVersion <= 9) {
+			$main.insertAfter($sidebar);
+    }
 
-		// Menu.
-			$menu
-				.appendTo($body)
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'right',
-					target: $body,
-					visibleClass: 'is-menu-visible'
-				});
-
-    // TODO(andreib): Clean up. We don't use most of this crap.
-		// Search (header).
-			var $search = $('#search'),
-				$search_input = $search.find('input');
-
-			$body
-				.on('click', '[href="#search"]', function(event) {
-
-					event.preventDefault();
-
-					// Not visible?
-						if (!$search.hasClass('visible')) {
-
-							// Reset form.
-								$search[0].reset();
-
-							// Show.
-								$search.addClass('visible');
-
-							// Focus input.
-								$search_input.focus();
-
-						}
-
-				});
-
-			$search_input
-				.on('keydown', function(event) {
-
-					if (event.keyCode == 27)
-						$search_input.blur();
-
-				})
-				.on('blur', function() {
-					window.setTimeout(function() {
-						$search.removeClass('visible');
-					}, 100);
-				});
-
+    // TODO(andreib): I am 100% sure we can do the layout stuff without
+    // JavaScript.
 		// Intro.
-			var $intro = $('#intro');
+  	var $intro = $('#intro');
 
 			// Move to main on <=large, back to sidebar on >large.
 				skel
@@ -148,7 +120,6 @@ $(document).ready(retina);
 					.on('-large', function() {
 						$intro.prependTo($sidebar);
 					});
-
 	});
 
 })(jQuery);
