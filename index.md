@@ -10,23 +10,55 @@ University of Toronto, focusing on deep learning for autonomous robotics.
 I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
-In parallel to this, I am also a full-time researcher at [Uber Advanced Technologies Group
-(ATG)](https://www.uber.com/info/atg/) Toronto, working on applying my research
-to the challenges associated with autonomous driving in the real world.
+In addition to this, I am also a full-time researcher at [Uber Advanced Technologies Group
+(ATG)](https://www.uber.com/info/atg/) Toronto, also led by Professor Urtasun, 
+working on applying my research to the challenges associated with autonomous
+driving in the real world.
 
-Before starting my PhD, I completed my Master's in Computer Science at ETH
-Zurich, also focusing on deep learning and computer vision, together with their
-applications in robotics, specifically autonomous vehicles.
-For my Master's Thesis, I developed DynSLAM, a dense mapping system capable of
-simultaneously reconstructing dynamic and potentially dynamic objects
-encountered in an environment, in addition to the background map, using just
-stereo input. More details can be found on the <a href="/dynslam">
+Before starting my PhD, I completed my Master's in Computer Science at [ETH
+Zurich](https://www.inf.ethz.ch/).
+For my Master's Thesis, I developed 
+<a href="https://github.com/AndreiBarsan/DynSLAM">DynSLAM</a>, a dense mapping
+system capable of simultaneously reconstructing dynamic and potentially dynamic
+objects encountered in an environment, in addition to the background map, using
+just stereo input. More details can be found on the <a href="/dynslam">
 DynSLAM project page</a>.
 
-Previously, while doing my Undergraduate at Transilvania University, in Brașov,
-Romania, I interned at Microsoft (2013, Redmond, WA), Google (2014, New York,
-NY) and Twitter (2015, San Francisco, CA), working on projects related to
-privacy, data protection, and data pipeline engineering.
+Previously, while doing my undergraduate studies at
+<a href="https://mateinfo.unitbv.ro/">Transilvania University</a>, in Brașov, 
+Romania, I interned at Microsoft (2013, Redmond, WA), Google (2014, New
+York, NY) and Twitter (2015, San Francisco, CA), working on projects related to
+privacy, data protection, and data pipeline engineering. More info below.
+
+# Publications
+
+For more details, check out the [projects](/projects) page.
+
+ * [Robust Dense Mapping for Large-Scale Dynamic
+     Environments](/dynslam) <br/>
+    Ioan Andrei Bârsan, Peidong Liu, Marc Pollefeys, Andreas Geiger
+    <br/>
+    Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) 2018
+    <br/>
+    [[Web](dynslam/)] [PDF] [Code] [BibTeX]
+
+
+
+# Side Projects
+
+ * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
+   by training a language model to generate its own metal. (Source code and blog
+   post coming soon™!)
+ * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
+ forward and deferred rendering support, real time shadow mapping and more
+ <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
+ <!-- lightweight, free POSIX shell implementation written in C++ -->
+
+# Work Experience
+
+### Industry
+
+<!-- currently: Uber ATG -->
 
 <!-- In the summer of 2015, I interned on Twitter's Performance Ads team, working on -->
 <!-- data pipelines written in Scala, running on Apache Storm and Hadoop. -->
@@ -41,27 +73,16 @@ privacy, data protection, and data pipeline engineering.
 <!-- Tools Business division. I performed the security and reliability analysis of -->
 <!-- a web service which was part of the Microsoft Azure portal. -->
 
-# Research and Patents
-
-For more details, check out the [research](/research) page.
-
-Robust Dense blah
-
-# Side Projects
-
- * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
-   by training a language model to generate its own metal. (Source code and blog
-   post coming soon™!)
- * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
- forward and deferred rendering support, real time shadow mapping and more
- <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
- <!-- lightweight, free POSIX shell implementation written in C++ -->
-
-# Work Experience
 
  * TODO add more details here
  * Currently full-time at Uber ATG Toronto.
  * Summer of 2015: Internship at Twitter
+
+
+### Academic
+
+ * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
+     Toronto, Fall 2017.
 
 # Contact
 

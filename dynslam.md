@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: no-about-page
 title: Robust Dense Mapping for Large-Scale Dynamic Environments
 permalink: /dynslam/
 gc_thresholds:

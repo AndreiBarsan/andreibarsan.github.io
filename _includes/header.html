@@ -6,4 +6,7 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
+  {% for url in page.extra_css %}
+  <link rel="stylesheet" type="text/css" href="{{ url }}" />
+  {% endfor %}
 </head>

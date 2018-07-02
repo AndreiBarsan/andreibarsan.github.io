@@ -1,10 +1,11 @@
 # Site settings
-title:        "Andrei Bârsan's Blog"
+title:        Andrei Bârsan's Website
 email:        andrei.ioan.barsan@gmail.com
 description: >
-  PhD Student at the University of Toronto focusing on Computer Vision and Deep Learning for Autonomous Robotics
-# baseurl:      "" # the subpath of your site, e.g. /blog/
-# url:          andreibarsan.github.io # the base hostname & protocol for your site
+  PhD Student at the University of Toronto working in computer vision and
+  machine learning.
+baseurl:      ""
+# domain_name:  "http://siegedog.com"
 future:       true
 
 # Build settings
@@ -14,20 +15,22 @@ plugins: [jekyll-paginate]
 
 # TODO(andrei): Possibly increase this in the future.
 paginate:     5
-baseurl:      /
-domain_name:  'http://siegedog.com'
 #google_analytics: 'UA-XXXXXXXX-X'
 disqus_shortname: 'andreibarsan'
 
 # Details for the RSS feed generator
 url:            "http://siegedog.com"
-author:         "Andrei Bârsan's Blog"
-authorTwitter:  "andreib"
+author:         "Andrei Bârsan"
+
+twitter_username:  "andreib"
+github_username: AndreiBarsan
 
 # Otherwise the permalink gets "spammed" with all the tags...
 permalink:       /:year/:month/:day/:title/
 
 excerpt_separator: "<!--more-->"
+
+plugins: [jekyll-paginate]
 
 defaults:
     -
@@ -43,4 +46,3 @@ defaults:
         values:
             layout: post
 
-aboutPage: true
