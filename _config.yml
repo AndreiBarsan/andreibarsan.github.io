@@ -13,6 +13,8 @@ markdown:     kramdown
 highlighter:  pygments
 plugins: [jekyll-paginate]
 
+permalink: /404.html
+
 # TODO(andrei): Possibly increase this in the future.
 paginate:     5
 #google_analytics: 'UA-XXXXXXXX-X'

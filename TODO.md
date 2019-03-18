@@ -3,23 +3,26 @@ TODO list of things to do
 
 Misc
 ----
+ * [ ] Make publications clickable, and expand to show abstract and additional links
  * [ ] Google analytics code
- * [ ] Consider minification for CSS and stuff.
  * [ ] Update font-awesome and use new book icon for google scholar.
- * [ ] Make site responsive even with no JavaScript
  * [X] Ensure site perfectly readable with JS off.
       - it's OK, but not 100% responsive
  * [X] Give credit to Siera guy who created the Jekyll package you are using.
  * [X] Unify asset directories to make the project cleaner
  * [ ] Maybe add a small picture for every project
- * [ ] Fix git history.
+ * [X] Fix git history.
  * [ ] Add proper icon.
+ * [ ] Add CV download link.
+ * [ ] Add CoRL video
+ * [ ] Add CoRL slides, poster, and my talk
 
 Low-priority
 -----------
- * [ ] Make publications clickable, and expand to show abstract and additional links
  * [ ] Auto-render publications from raw bib files.
  * [ ] Remove old portraits
+ * [ ] Consider minification for CSS and stuff.
+ * [ ] Make site fully responsive even with no JavaScript
 
 New Layout Tasks
 ----------------

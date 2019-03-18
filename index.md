@@ -20,11 +20,55 @@ learning security, and I believe that more research is needed in this area
 (together with its complementary subfield, interpretability), given the growing
 influence of various machine learning-powered technologies on our daily lives.
 
+
 # Publications
+
+ * Learning to Localize through Compressed Binary Maps <br/>
+     Xinkai Wei, **Ioan Andrei Bârsan**, 
+     <a href="https://www.cs.ubc.ca/~julm/" target="_blank">Julieta Martinez</a>,
+     <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang</a>,
+     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>,
+    <br/>
+    International Conference on Computer Vision and Pattern Recognition (CVPR) 2019
+    <br/>
+    [PDF Coming Soon]
+    <p style="font-size: 80%">
+      <!-- TODO(andreib): Use proper CSS and consider making panels collapsible. -->
+      <b>TL;DR:</b> High-resolution maps, while allowing extremely accurate
+      localization, have very high storage requirements. In this paper, we use
+      neural networks to perform task-specific compression to address this issue,
+      achieving two orders of magnitude of improvement over traditional
+      general-purpose methods like WebP.
+    </p>
+
+ * [Learning to Localize Using a LiDAR Intensity Map](http://proceedings.mlr.press/v87/barsan18a.html) <br/>
+     <b>Ioan Andrei Bârsan<span>&#42;</span></b>,
+     <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang<span>&#42;</span></a>,
+     <a href="https://scholar.google.com/citations?user=0jJgmHkAAAAJ&hl=en" target="_blank">Andrei Pokrovsky</a>,
+     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>,
+     <br/>
+     Proceedings of the Second Conference on Robot Learning (CoRL) 2018
+     <br/>
+     Note: <span>&#42;</span>denotes equal contribution.
+     <br/>
+     [<a href="http://proceedings.mlr.press/v87/barsan18a.html"
+     target="_blank">PDF</a>] [<a
+     href="/assets/bib/barsan-learning-to-localize-corl-18.bib">BibTeX</a>]
+    <p style="font-size: 80%">
+      <b>TL;DR:</b> Matching-based localization methods using LiDAR can provide
+        centimeter-level accuracy, but require careful beam intensity
+        calibration in order to perform well. In this paper, we cast the
+        matching problem as a learning task and show that it is possible to
+        learn to match online LiDAR observations to a known map without
+        calibrated intensities.
+    </p>
 
  * [Robust Dense Mapping for Large-Scale Dynamic
      Environments](/dynslam) <br/>
-    **Ioan Andrei Bârsan**, Peidong Liu, Marc Pollefeys, Andreas Geiger
+    **Ioan Andrei Bârsan**, 
+    <a href="http://people.inf.ethz.ch/liup/" target="_blank">Peidong Liu</a>,
+    <a href="https://inf.ethz.ch/personal/marc.pollefeys/" target="_blank">Marc Pollefeys</a>, 
+    <a href="http://www.cvlibs.net" target="_blank">Andreas Geiger</a>
     <br/>
     Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) 2018
     <br/>
@@ -35,16 +79,6 @@ influence of various machine learning-powered technologies on our daily lives.
      [<a href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
          target="_blank">BibTeX</a>]
 
- * [Learning to Localize Using a LiDAR Intensity Map](http://proceedings.mlr.press/v87/barsan18a.html) <br/>
-     <b>Ioan Andrei Bârsan<span>&#42;</span></b>, Shenlong Wang<span>&#42;</span> , Andrei Pokrovsky, Raquel Urtasun
-     <br/>
-     Proceedings of the Second Conference on Robot Learning (CoRL) 2018
-     <br/>
-     Note: <span>&#42;</span>denotes equal contribution.
-     <br/>
-     [<a href="http://proceedings.mlr.press/v87/barsan18a.html"
-     target="_blank">PDF</a>] [<a
-     href="/assets/bib/barsan-learning-to-localize-corl-18.bib">BibTeX</a>]
 
 # Work Experience
 
@@ -63,6 +97,7 @@ influence of various machine learning-powered technologies on our daily lives.
 
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
+ * Reviewer: ICRA 2019, IROS 2019
 
 
 # Education
