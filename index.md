@@ -35,30 +35,16 @@ influence of various machine learning-powered technologies on our daily lives.
      [<a href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
          target="_blank">BibTeX</a>]
 
- * Learning to Localize Using a LiDAR Intensity Map <br/>
+ * [Learning to Localize Using a LiDAR Intensity Map](http://proceedings.mlr.press/v87/barsan18a.html) <br/>
      <b>Ioan Andrei Bârsan<span>&#42;</span></b>, Shenlong Wang<span>&#42;</span> , Andrei Pokrovsky, Raquel Urtasun
      <br/>
      Proceedings of the Second Conference on Robot Learning (CoRL) 2018
      <br/>
-     Note: the asterisk denotes equal contribution.
+     Note: <span>&#42;</span>denotes equal contribution.
      <br/>
-     [PDF (coming soon!)]
-
-# Other Projects
-
- * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
-   by training a language model to generate its own metal. (Source code and blog
-   post coming soon™!)
- * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
- forward and deferred rendering support, real time shadow mapping and more
- <!-- If you care enough to look at the HTML source, then you'll probably find
-      uShell a little interesting (despite its incomplete state), so feel free
-      to check it out! ;) -->
- <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
- <!-- lightweight, free POSIX shell implementation written in C++ -->
- * A bunch of old games I developed for fun can be found on my old
-   [Ludum Dare page](http://ludumdare.com/compo/author/andreibarsan/). It may be
-   tricky to build and run them, though, given the age of the code.
+     [<a href="http://proceedings.mlr.press/v87/barsan18a.html"
+     target="_blank">PDF</a>] [<a
+     href="/assets/bib/barsan-learning-to-localize-corl-18.bib">BibTeX</a>]
 
 # Work Experience
 
@@ -88,6 +74,24 @@ influence of various machine learning-powered technologies on our daily lives.
  * BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
    target="_blank">Transilvania University</a>, Brașov,
    Romania (Sep 2011--Jul 2014)
+
+
+# Other Projects
+
+ * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
+   by training a language model to generate its own metal. (Source code and blog
+   post coming soon™!)
+ * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
+ forward and deferred rendering support, real time shadow mapping and more
+ <!-- If you care enough to look at the HTML source, then you'll probably find
+      uShell a little interesting (despite its incomplete state), so feel free
+      to check it out! ;) -->
+ <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
+ <!-- lightweight, free POSIX shell implementation written in C++ -->
+ * A bunch of old games I developed for fun can be found on my old
+   [Ludum Dare page](http://ludumdare.com/compo/author/andreibarsan/). It may be
+   tricky to build and run them, though, given the age of the code.
+
 
 # Bio
 
