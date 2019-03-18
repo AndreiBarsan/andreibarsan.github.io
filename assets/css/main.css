@@ -2882,9 +2882,9 @@
 	header p {
     font-family: "Raleway", Helvetica, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 		font-size: 0.7em;
-		font-weight: 400;
-		letter-spacing: 0.25em;
-		line-height: 2.5;
+		font-weight: 600;
+		letter-spacing: 0.20em;
+		/* line-height: 2.5; */
 		margin-top: -1em;
 		text-transform: uppercase;
 	}
@@ -3285,7 +3285,7 @@
 
 		#intro .logo:before {
 			/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200px' height='200px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E"); */
-      /* Changed version fixes artifacts on some HDPI screens. */
+      /* This changed version fixes artifacts on some HDPI screens. */
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200px' height='200px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 105,105 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
 			background-position: top left;
 			background-repeat: no-repeat;

@@ -35,6 +35,15 @@ influence of various machine learning-powered technologies on our daily lives.
      [<a href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
          target="_blank">BibTeX</a>]
 
+ * Learning to Localize Using a LiDAR Intensity Map <br/>
+     <b>Ioan Andrei Bârsan<span>&#42;</span></b>, Shenlong Wang<span>&#42;</span> , Andrei Pokrovsky, Raquel Urtasun
+     <br/>
+     Proceedings of the Second Conference on Robot Learning (CoRL) 2018
+     <br/>
+     Note: the asterisk denotes equal contribution.
+     <br/>
+     [PDF (coming soon!)]
+
 # Other Projects
 
  * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
