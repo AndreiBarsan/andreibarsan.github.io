@@ -82,10 +82,7 @@ influence of various machine learning-powered technologies on our daily lives.
    by training a language model to generate its own metal. (Source code and blog
    post coming soon™!)
  * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
- forward and deferred rendering support, real time shadow mapping and more
- <!-- If you care enough to look at the HTML source, then you'll probably find
-      uShell a little interesting (despite its incomplete state), so feel free
-      to check it out! ;) -->
+ forward and deferred rendering support, real time shadow mapping and more.
  <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
  <!-- lightweight, free POSIX shell implementation written in C++ -->
  * A bunch of old games I developed for fun can be found on my old

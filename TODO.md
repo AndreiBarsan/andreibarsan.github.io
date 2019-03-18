@@ -12,6 +12,8 @@ Misc
  * [X] Give credit to Siera guy who created the Jekyll package you are using.
  * [X] Unify asset directories to make the project cleaner
  * [ ] Maybe add a small picture for every project
+ * [ ] Fix git history.
+ * [ ] Add proper icon.
 
 Low-priority
 -----------
