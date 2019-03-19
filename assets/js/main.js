@@ -94,13 +94,14 @@ $(document).ready(function() {
 				}, 100);
 			});
 
+    // This no longer works for some reason.
 		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
+			// skel.on('+medium -medium', function() {
+				// $.prioritize(
+					// '.important\\28 medium\\29',
+					// skel.breakpoint('medium').active
+				// );
+			// });
 
 		// IE<=9: Reverse order of main and sidebar.
 		if (skel.vars.IEVersion <= 9) {
