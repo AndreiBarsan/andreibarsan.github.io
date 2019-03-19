@@ -13,6 +13,7 @@ markdown:     kramdown
 highlighter:  pygments
 plugins: [jekyll-paginate]
 
+# Custom 404 page.
 permalink: /404.html
 
 # TODO(andrei): Possibly increase this in the future.
