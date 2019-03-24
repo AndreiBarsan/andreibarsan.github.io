@@ -21,13 +21,24 @@ learning security, and I believe that more research is needed in this area
 influence of various machine learning-powered technologies on our daily lives.
 
 
+# Education
+
+ * PhD Student at the <a href="http://learning.cs.toronto.edu" target="_blank">University
+   of Toronto (Sep 2017--present)</a>
+ * MSc. in Computer Science with Distinction from 
+   <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (Sep 2015--Aug 2017)
+ * BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
+   target="_blank">Transilvania University</a>, Brașov,
+   Romania (Sep 2011--Jul 2014)
+
+
 # Publications
 
  * Learning to Localize through Compressed Binary Maps <br/>
      Xinkai Wei, **Ioan Andrei Bârsan**, 
      <a href="https://www.cs.ubc.ca/~julm/" target="_blank">Julieta Martinez</a>,
      <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang</a>,
-     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>,
+     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>
     <br/>
     International Conference on Computer Vision and Pattern Recognition (CVPR) 2019
     <br/>
@@ -35,17 +46,22 @@ influence of various machine learning-powered technologies on our daily lives.
     <p style="font-size: 80%">
       <!-- TODO(andreib): Use proper CSS and consider making panels collapsible. -->
       <b>TL;DR:</b> High-resolution maps, while allowing extremely accurate
-      localization, have very high storage requirements. In this paper, we use
-      neural networks to perform task-specific compression to address this issue,
-      achieving two orders of magnitude of improvement over traditional
-      general-purpose methods like WebP.
+      localization, can also take up a lot of storage. In this paper, we use
+      neural networks to perform task-specific compression to address this 
+      issue by learning a special-purpose compression scheme for the specific
+      task of localization.
+      We achieve two orders of magnitude of improvement (0.007 bits/px) over 
+      traditional methods like WebP (0.580 bits/px), as well as less than 
+      half the bitrate of a general-purpose learning-based compression scheme 
+      (0.016 bits/px). For reference, a lossless PNG uses 4.94 bits/px in our
+      dataset.
     </p>
 
  * [Learning to Localize Using a LiDAR Intensity Map](http://proceedings.mlr.press/v87/barsan18a.html) <br/>
      <b>Ioan Andrei Bârsan<span>&#42;</span></b>,
      <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang<span>&#42;</span></a>,
      <a href="https://scholar.google.com/citations?user=0jJgmHkAAAAJ&hl=en" target="_blank">Andrei Pokrovsky</a>,
-     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>,
+     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>
      <br/>
      Proceedings of the Second Conference on Robot Learning (CoRL) 2018
      <br/>
@@ -78,6 +94,12 @@ influence of various machine learning-powered technologies on our daily lives.
      [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Code</a>]
      [<a href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
          target="_blank">BibTeX</a>]
+    <p style="font-size: 80%">
+      <b>TL;DR:</b> A system for outdoor online mapping using a stereo camera
+      capable of also reconstructing the dynamic objects it encounters, in
+      addition to the static map. Supports map pruning to eliminate stereo
+      artifacts and reduce memory consumption.
+    </p>
 
 
 # Work Experience
@@ -85,30 +107,25 @@ influence of various machine learning-powered technologies on our daily lives.
 ### Industry
 
  * Current: Full-time researcher at **Uber ATG Toronto** (Jan 2018--present).
- * Internship: **Twitter** (Summer 2015, San Francisco, CA), Performance Ads
-      * Developed Apache Storm and Hadoop data pipelines using Scala.
- * Internship: **Google** (Summer 2014, New York, NY), Data Protection
-      * Co-developed a system for performing security-oriented static analysis
+      * Helping develop scalable and robust centimeter-accurate 
+        localization methods for self-driving cars.
+      * LiDAR-based map localization, visual localization, learning-based
+        compression, large-scale machine learning (Apache Spark).
+ * Previously, I did a series of software engineering internships in the US
+     during my undergrad:
+    * Internship: **Twitter** (Summer 2015, San Francisco, CA), Performance Ads
+      - Developed Apache Storm and Hadoop data pipelines using Scala.
+    * Internship: **Google** (Summer 2014, New York, NY), Data Protection
+      - Co-developed a system for performing security-oriented static analysis
         of shell scripts used to run large numbers of cluster jobs.
- * Internship: **Microsoft** (Summer 2013, Redmond, WA), Server and Tools Business
-     * Security and reliability analysis of a web service part of the Azure portal.
+    * Internship: **Microsoft** (Summer 2013, Redmond, WA), Server and Tools Business
+      - Security and reliability analysis of a web service part of the Azure portal.
 
 ### Academic
 
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
  * Reviewer: ICRA 2019, IROS 2019
-
-
-# Education
-
- * PhD Student at the <a href="http://learning.cs.toronto.edu" target="_blank">University
-   of Toronto (Sep 2017--present)</a>
- * MSc. in Computer Science with Distinction from 
-   <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (Sep 2015--Aug 2017)
- * BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
-   target="_blank">Transilvania University</a>, Brașov,
-   Romania (Sep 2011--Jul 2014)
 
 
 # Other Projects

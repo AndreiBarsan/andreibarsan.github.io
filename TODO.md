@@ -16,6 +16,8 @@ Misc
  * [ ] Add CV download link.
  * [ ] Add CoRL video
  * [ ] Add CoRL slides, poster, and my talk
+ * [ ] Add MSc thesis
+ * [ ] Make repo private
 
 Low-priority
 -----------
