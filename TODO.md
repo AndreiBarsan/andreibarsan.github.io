@@ -18,6 +18,9 @@ Misc
  * [ ] Add CoRL slides, poster, and my talk
  * [ ] Add MSc thesis
  * [ ] Make repo private
+ * [ ] PDF / Blog post about NMOP project.
+ * [ ] PDF (arXiv?) / Blog post about TD3 extensions for IL after we tweak them
+     a bit more.
 
 Low-priority
 -----------
