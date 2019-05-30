@@ -34,15 +34,18 @@ influence of various machine learning-powered technologies on our daily lives.
 
 # Publications
 
- * Learning to Localize through Compressed Binary Maps <br/>
-     Xinkai Wei, **Ioan Andrei Bârsan**, 
+ * [Learning to Localize through Compressed Binary Maps](http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html) <br/>
+     Xinkai Wei<span>&#42;</span>, **Ioan Andrei Bârsan**<span>&#42;</span>,
+     <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang</a>
+     <span>&#42;</span>,
      <a href="https://www.cs.ubc.ca/~julm/" target="_blank">Julieta Martinez</a>,
-     <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang</a>,
      <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>
     <br/>
     International Conference on Computer Vision and Pattern Recognition (CVPR) 2019
     <br/>
-    [PDF Coming Soon]
+    Note: <span>&#42;</span>denotes equal contribution.
+    <br/>
+     [<a href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>] [<a href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>]
     <p style="font-size: 80%">
       <!-- TODO(andreib): Use proper CSS and consider making panels collapsible. -->
       <b>TL;DR:</b> High-resolution maps, while allowing extremely accurate
