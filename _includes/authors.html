@@ -1,0 +1,35 @@
+{%- assign authors_split = include.names | split: ", " -%}
+{%- assign n_authors = authors_split | size -%}
+{%- for i in (0..n_authors) -%}
+  {%- assign author_key = authors_split[i] -%}
+  {%- if author_key contains "*" -%}
+    {%- assign k = author_key | replace: "*", "" -%}
+    {%- assign prefix = "" -%}
+    {%- assign suffix = "<span>&#42;</span>" -%}
+  {%- else -%}
+    {%- assign k = author_key -%}
+    {%- assign prefix = "" -%}
+    {%- assign suffix = "" -%}
+  {%- endif -%}
+  {%- if k == "me" -%}
+    {%- assign k = "barsan" -%}
+  {%- endif -%}
+  {%- if k == "barsan" -%}
+    {%- assign prefix = "<strong>" -%}
+    {%- assign suffix = "</strong>" | append: suffix -%}
+  {%- endif -%}
+  {%- assign a = site.people[k] -%}
+  <div style="display:inline-block; margin: 0; border: 0">
+    {%- if a.site -%}
+      {{prefix}} <a href="{{ a.site }}" title="{{ a.name }}'s website" target="_blank">{{ a.name }}</a>{{suffix}}
+    {%- else -%}
+      {{prefix}}{{ a.name }}{{suffix}}
+    {%- endif -%}
+    {%- assign limit = n_authors | minus: 1 -%}
+    {%- if i < limit -%}
+      ,&nbsp;
+    {%- endif -%}
+  </div>
+{%- endfor -%}
+
+

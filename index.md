@@ -33,14 +33,25 @@ influence of various machine learning-powered technologies on our daily lives.
 
 
 # Publications
+ * <a href="https://arxiv.org/abs/1908.03274" target="_blank">
+      Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization
+  </a><br/>
+    {% include authors.html names="ma*, tartavull*, me*, wang*, bai, mattyus, homayounfar, lakshmikanth, pokrovsky, urtasun" %}
+  International Conference on Intelligent Robots and Systems (IROS) 2019
+  <br/>
+  Note: <span>&#42;</span>denotes equal contribution.
+  <br/>
+  [<a href="https://arxiv.org/abs/1908.03274" target="_blank">PDF</a>] [<a href="/assets/bib/ma-sparse-maps-iros-19.bib">BibTeX</a>]
+    <p style="font-size: 80%">
+      <b>TL;DR:</b> We use very sparse maps consisting in lane graphs (i.e., polylines) and stored
+      traffic sign positions to localize autonomous vehicles. These maps take up ~0.5MiB/km<sup>2</sup>,
+      compared to, e.g., LiDAR ground intensity images which
+      can take over 150MiB/km<sup>2</sup>. We use these maps in the context of a histogram filter localizer, and show
+      median lateral accuracy of 0.05m and median longitudinal accuracy of 1.12m on a highway dataset.
+    </p>
 
  * [Learning to Localize through Compressed Binary Maps](http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html) <br/>
-     Xinkai Wei<span>&#42;</span>, **Ioan Andrei Bârsan**<span>&#42;</span>,
-     <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang</a>
-     <span>&#42;</span>,
-     <a href="https://www.cs.ubc.ca/~julm/" target="_blank">Julieta Martinez</a>,
-     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>
-    <br/>
+    {% include authors.html names="wei*, me*, wang*, martinez, urtasun" %}
     International Conference on Computer Vision and Pattern Recognition (CVPR) 2019
     <br/>
     Note: <span>&#42;</span>denotes equal contribution.
@@ -61,11 +72,7 @@ influence of various machine learning-powered technologies on our daily lives.
     </p>
 
  * [Learning to Localize Using a LiDAR Intensity Map](http://proceedings.mlr.press/v87/barsan18a.html) <br/>
-     <b>Ioan Andrei Bârsan<span>&#42;</span></b>,
-     <a href="https://www.cs.toronto.edu/~slwang" target="_blank">Shenlong Wang<span>&#42;</span></a>,
-     <a href="https://scholar.google.com/citations?user=0jJgmHkAAAAJ&hl=en" target="_blank">Andrei Pokrovsky</a>,
-     <a href="https://www.cs.toronto.edu/~urtasun" target="_blank">Raquel Urtasun</a>
-     <br/>
+     {% include authors.html names="me*, wang*, pokrovsky, urtasun" %}
      Proceedings of the Second Conference on Robot Learning (CoRL) 2018
      <br/>
      Note: <span>&#42;</span>denotes equal contribution.
@@ -82,13 +89,8 @@ influence of various machine learning-powered technologies on our daily lives.
         calibrated intensities.
     </p>
 
- * [Robust Dense Mapping for Large-Scale Dynamic
-     Environments](/dynslam) <br/>
-    **Ioan Andrei Bârsan**, 
-    <a href="http://people.inf.ethz.ch/liup/" target="_blank">Peidong Liu</a>,
-    <a href="https://inf.ethz.ch/personal/marc.pollefeys/" target="_blank">Marc Pollefeys</a>, 
-    <a href="http://www.cvlibs.net" target="_blank">Andreas Geiger</a>
-    <br/>
+ * [Robust Dense Mapping for Large-Scale Dynamic Environments](/dynslam) <br/>
+     {% include authors.html names="me, liu, pollefeys, geiger" %}
     Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) 2018
     <br/>
     [[Web](dynslam/)]
@@ -109,11 +111,13 @@ influence of various machine learning-powered technologies on our daily lives.
 
 ### Industry
 
- * Current: Full-time researcher at **Uber ATG Toronto** (Jan 2018--present).
+ * Current: Full-time research scientist at **Uber ATG Toronto** (Jan 2018--present).
       * Helping develop scalable and robust centimeter-accurate 
         localization methods for self-driving cars.
       * LiDAR-based map localization, visual localization, learning-based
         compression, large-scale machine learning (Apache Spark).
+      * Researching the next generation of autonomous vehicle maps. What can we encode in maps that goes beyond
+          topology and appearance?
  * Previously, I did a series of software engineering internships in the US
      during my undergrad:
     * Internship: **Twitter** (Summer 2015, San Francisco, CA), Performance Ads
