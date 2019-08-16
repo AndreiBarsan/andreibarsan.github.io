@@ -10,15 +10,13 @@ future:       true
 
 # Build settings
 markdown:     kramdown
-highlighter:  pygments
-plugins: [jekyll-paginate]
+highlighter:  rouge
+# plugins: [jekyll-paginate]
 
 # Custom 404 page.
 permalink: /404.html
 
-# TODO(andrei): Possibly increase this in the future.
-paginate:     5
-#google_analytics: 'UA-XXXXXXXX-X'
+# paginate:     5
 disqus_shortname: 'andreibarsan'
 
 # Details for the RSS feed generator
@@ -33,8 +31,6 @@ permalink:       /:year/:month/:day/:title/
 
 excerpt_separator: "<!--more-->"
 
-plugins: [jekyll-paginate]
-
 defaults:
     -
         scope:
@@ -48,4 +44,66 @@ defaults:
             type: posts
         values:
             layout: post
+
+people:
+  barsan:
+    name: Ioan Andrei Bârsan
+    not_used_site: https://andreibarsan.github.io    # No point in linking to my own website ;)
+
+  bai:
+    name: Min Bai
+    site: http://www.cs.toronto.edu/~mbai/
+
+  geiger:
+    name: Andreas Geiger
+    site: http://www.cvlibs.net
+
+  homayounfar:
+    name: Namdar Homayounfar
+    site: http://www.cs.toronto.edu/~namdar/
+
+  liu:
+    name: Peidong Liu
+    site: http://people.inf.ethz.ch/liup/
+
+  ma:
+    name: Wei-Chiu Ma
+    site: https://people.csail.mit.edu/weichium/
+
+  martinez:
+    name: Julieta Martinez
+    site: https://www.cs.ubc.ca/~julm/
+
+  mattyus:
+    name: Gellért Máttyus
+    site: http://www.gellertmattyus.info
+
+  lakshmikanth:
+    name: Shrinidhi Kowshika Lakshmikanth
+    site: https://scholar.google.com/citations?user=UjpM6IAAAAAJ&hl=en
+
+  pokrovsky:
+    name: Andrei Pokrovsky
+    site: https://scholar.google.com/citations?user=0jJgmHkAAAAJ&hl=en
+
+  pollefeys:
+    name: Marc Pollefeys
+    site: https://inf.ethz.ch/personal/marc.pollefeys/
+
+  tartavull:
+    name: Ignacio Tartavull
+    site: http://tartavull.com/
+
+  urtasun:
+    name: Raquel Urtasun
+    site: https://www.cs.toronto.edu/~urtasun/
+
+  wang:
+    name: Shenlong Wang
+    site: http://www.cs.toronto.edu/~slwang/
+
+  wei:
+    name: Xinkai Wei
+    site: https://kyewei.com
+
 
