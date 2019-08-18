@@ -3177,7 +3177,7 @@
 		margin: 0 auto;
 		max-width: 100%;
 		opacity: 1;
-		padding: 4.5em;
+		padding: 4.5em 4.5em 0 4.5em;
 		width: 90em;
 	}
 
@@ -3188,7 +3188,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3em;
+				padding: 3em 3em 0 3em;
 			}
 
 		}
@@ -3204,7 +3204,7 @@
 		@media screen and (max-width: 736px) {
 
 			#wrapper {
-				padding: 1.5em;
+				padding: 1.5em 1.5em 0 1.5em;
 			}
 
 		}
@@ -3280,7 +3280,9 @@
 		overflow: hidden;
 		position: relative;
 		/* width: 4em; */
-    width: 6em;
+    /* width: 6em; */
+    width: 16em;
+    height: 16em;
 	}
 
 		#intro .logo:before {
@@ -3303,7 +3305,9 @@
 			display: block;
 			margin-left: -0.25em;
 			/* width: 4.5em; */
-      width: 6.75em;
+      /* width: 6.75em; */
+      width: 16em;
+      height: 16em;
 		}
 
 	#intro header h2 {
@@ -3364,8 +3368,11 @@
 	}
 
   #superfooter {
-    /* TODO(andrei): Match the width of the main content. */
-    width: 50%;
+    margin: 0;
+  }
+
+  #superfooter>div {
+    margin: auto;
   }
 
 	#footer .copyright, #superfooter .copyright {
