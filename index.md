@@ -135,6 +135,25 @@ influence of various machine learning-powered technologies on our daily lives.
  * Reviewer: ICRA 2019, IROS 2019
 
 
+# Talks
+ 
+ * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-ILW2019-Talk-SharedAutonomyViaDRL.pdf" target="_blank">
+    [PDF Slides] Shared Autonomy via Deep Reinforcement Learning
+  </a> (2019-02-22)
+    * Paper I presented: <a href="https://arxiv.org/abs/1802.01744" target="_blank">
+      [PDF] Reddy et al., RSS 2018
+  </a>
+    * Seminar Presentation for 
+    <a href="http://www.cs.toronto.edu/~florian/courses/imitation_learning/" target="_blank">
+      CSC2621HS at UofT (Imitation Learning for Robotics)
+    </a>
+ * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-Geometry-Aware Learning Methods for Computer Vision.pdf" target="_blank">
+    [PDF Slides] Geometry-Aware Learning Methods for Computer Vision
+  </a> (2019-01-18)
+    * This talk was the first part of my PhD's qualifying oral examination. It's a bit barebones since it was meant to
+      support the examination itself (i.e., lots of discussing beyond the slides), but may still be of interest.
+
+
 # Other Projects
 
  * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
