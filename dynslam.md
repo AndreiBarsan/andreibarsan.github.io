@@ -19,6 +19,7 @@ extra_css:
   - '/assets/css/slick.css'
   - '/assets/css/slick-theme.css'
 extra_js:
+  - '/assets/js/jquery-1.11.0.min.js'
   - '/assets/js/slick.min.js'
 extra_cdn_js:
   - '//code.jquery.com/jquery-migrate-1.2.1.min.js'

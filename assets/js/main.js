@@ -17,6 +17,7 @@ function isRetina() {
 };
  
  
+/* No need for explicit JS retina support.
 function retina() {
 	
 	if (!isRetina())
@@ -32,34 +33,42 @@ function retina() {
 		$(image).attr("src", path);
 	});
 };
- 
-$(document).ready(retina);
+*/
+
 
 /*
  * Actual stuff for my website
  */
-$(document).ready(function() {
-  sliderBox = $('.voxel-gc-slider');
-  if (sliderBox.length == 0) {
+// On pages which have it, makes sure the image carousel doesn't get confused by the site's layout.
+function checkSlider(event) {
+  if (typeof jQuery == 'undefined') {
+    // Don't bother doing anything without jQuery, since the slider requires
+    // it anyway.
+    // jQuery is only loaded where it's needed, so if it's unavailable we can just 
+    // assume there's no slider/carousel.
     return;
   }
+  const sliderBox = $('.voxel-gc-slider');
+  if (sliderBox.length) {
+    setTimeout(function() {
+      // Slick seems to break because of our responsive layout, so we force it to
+      // shrink back to our desired width after it gets initialized.
+      //
+      // The shadow of JavaScript will haunt me until the cold, bitter end.
+      oldWidth = sliderBox.width();
+      sliderBox.slick({
+          fade: true,
+          speed: 100,
+          arrows: true,
+          infinite: true,
+          dots: true,
+      });
+      sliderBox.width(oldWidth);
+    }, 25);
+  }
+}
 
-  setTimeout(function() {
-    // Slick seems to break because of our responsive layout, so we force it to
-    // shrink back to our desired width after it gets initialized.
-    //
-    // The shadow of JavaScript will haunt me until the cold, bitter end.
-    oldWidth = sliderBox.width();
-    sliderBox.slick({
-        fade: true,
-        speed: 100,
-        arrows: true,
-        infinite: true,
-        dots: true,
-    });
-    sliderBox.width(oldWidth);
-  }, 25);
-});
+document.addEventListener("DOMContentLoaded", checkSlider);
 
 
 /*
@@ -68,8 +77,7 @@ $(document).ready(function() {
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
-
+function skelHelpers() {
 	skel.breakpoints({
 		xlarge:	'(max-width: 1680px)',
 		large:	'(max-width: 1280px)',
@@ -78,49 +86,45 @@ $(document).ready(function() {
 		xsmall:	'(max-width: 480px)'
 	});
 
-	$(function() {
+  var $body = document.body;
+  var $sidebar = document.querySelectorAll('#sidebar')[0];
+  var $main = document.querySelectorAll('#main')[0];
 
-		var	$window = $(window),
-			$body = $('body'),
-			$sidebar = $('#sidebar'),
-			$main = $('#main');
+  // Disable animations/transitions until the page has loaded.
+  $body.classList.add('is-loading');
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+  // $window.on('load', function() {
+    window.setTimeout(function() {
+      $body.classList.remove('is-loading');
+    }, 100);
+  // });
 
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+  // This no longer works for some reason.
+  // Prioritize "important" elements on medium.
+    // skel.on('+medium -medium', function() {
+      // $.prioritize(
+        // '.important\\28 medium\\29',
+        // skel.breakpoint('medium').active
+      // );
+    // });
 
-    // This no longer works for some reason.
-		// Prioritize "important" elements on medium.
-			// skel.on('+medium -medium', function() {
-				// $.prioritize(
-					// '.important\\28 medium\\29',
-					// skel.breakpoint('medium').active
-				// );
-			// });
+  // IE<=9: Reverse order of main and sidebar.
+  if (skel.vars.IEVersion <= 9) {
+    $main.insertAfter($sidebar);
+  }
 
-		// IE<=9: Reverse order of main and sidebar.
-		if (skel.vars.IEVersion <= 9) {
-			$main.insertAfter($sidebar);
-    }
+  // Intro.
+  var $intro = document.querySelectorAll('#intro')[0];
+  // Move to main on <=large, back to sidebar on >large.
+  skel
+    .on('+large', function() {
+      // $intro.prependTo($main);
+      $main.insertBefore($intro, $main.firstChild);
+    })
+    .on('-large', function() {
+      // $intro.prependTo($sidebar);
+      $sidebar.insertBefore($intro, $sidebar.firstChild);
+    });
+}
+skelHelpers();
 
-    // TODO(andreib): I am 100% sure we can do the layout stuff without
-    // JavaScript.
-		// Intro.
-  	var $intro = $('#intro');
-
-			// Move to main on <=large, back to sidebar on >large.
-				skel
-					.on('+large', function() {
-						$intro.prependTo($main);
-					})
-					.on('-large', function() {
-						$intro.prependTo($sidebar);
-					});
-	});
-
-})(jQuery);
