@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900&display=swap");
 
 /*
 	Future Imperfect by HTML5 UP
@@ -1428,7 +1428,6 @@
 		color: #646464;
 		font-family: "Source Sans Pro", Helvetica, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 		font-size: 14pt;
-    font-display: swap;
 		font-weight: 400;
 		line-height: 1.75;
 	}
