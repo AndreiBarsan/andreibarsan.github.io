@@ -42,8 +42,10 @@ extra_cdn_js:
     [<a href="/assets/dynslam/dynslam-video-v0.4.1.webm" download>Video Download</a>]
     [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Source Code</a>]
     [<a href="/assets/dynslam/BARSAN-IoanAndrei-ICRA-2018-dynslam-poster.pdf" target="_blank">Poster</a>]
+    [<a href="/assets/pdf/BARSAN-IoanAndrei-2017-MSc-Thesis-Simultaneous-Localization-and-Mapping-in-Dynamic-Scenes.pdf" target="_blank">Thesis PDF</a>]
   </div>
 </div>
+
 
 <br/>
 
