@@ -4,7 +4,7 @@ TODO list of things to do
 Misc
 ----
  * [ ] Make publications clickable, and expand to show abstract and additional links
- * [ ] Google analytics code
+ * [X] Google analytics code
  * [ ] Update font-awesome and use new book icon for google scholar.
  * [X] Ensure site perfectly readable with JS off.
       - it's OK, but not 100% responsive
@@ -14,9 +14,12 @@ Misc
  * [X] Fix git history.
  * [ ] Add proper icon.
  * [ ] Add CV download link.
- * [ ] Add CoRL video
- * [ ] Add CoRL slides, poster, and my talk
- * [ ] Add MSc thesis
+ * [ ] Add paper reviews as txt files.
+ * [ ] Add ICRA poster
+ * [ ] Add CVPR poster
+ * [ ] Add IROS slides and my talk video
+ * [ ] Add CoRL slides, poster, and my talk video
+ * [X] Add MSc thesis
  * [ ] Make repo private
  * [ ] PDF / Blog post about NMOP project.
  * [ ] PDF (arXiv?) / Blog post about TD3 extensions for IL after we tweak them
