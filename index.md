@@ -42,6 +42,8 @@ influence of various machine learning-powered technologies on our daily lives.
   Note: <span>&#42;</span>denotes equal contribution.
   <br/>
   [<a href="https://arxiv.org/abs/1908.03274" target="_blank">PDF</a>] [<a href="/assets/bib/ma-sparse-maps-iros-19.bib">BibTeX</a>]
+  [<a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.pdf" target="_blank">Talk Slides (PDF)</a>]
+  [<a href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key" target="_blank">Talk Slides (Keynote)</a>]
     <p style="font-size: 80%">
       <b>TL;DR:</b> We use very sparse maps consisting in lane graphs (i.e., polylines) and stored
       traffic sign positions to localize autonomous vehicles. These maps take up ~0.5MiB/km<sup>2</sup>,
@@ -137,7 +139,7 @@ influence of various machine learning-powered technologies on our daily lives.
 
 # Talks
  
- * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-ILW2019-Talk-SharedAutonomyViaDRL.pdf" target="_blank">
+ * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-ImitationLearning-SharedAutonomyViaDRL.pdf" target="_blank">
     [PDF Slides] Shared Autonomy via Deep Reinforcement Learning
   </a> (2019-02-22)
     * Paper I presented: <a href="https://arxiv.org/abs/1802.01744" target="_blank">
@@ -147,7 +149,7 @@ influence of various machine learning-powered technologies on our daily lives.
     <a href="http://www.cs.toronto.edu/~florian/courses/imitation_learning/" target="_blank">
       CSC2621HS at UofT (Imitation Learning for Robotics)
     </a>
- * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-Geometry-Aware Learning Methods for Computer Vision.pdf" target="_blank">
+ * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-Qualifier-Geometry-Aware-Learning-Methods-for-Computer-Vision.pdf" target="_blank">
     [PDF Slides] Geometry-Aware Learning Methods for Computer Vision
   </a> (2019-01-18)
     * This talk was the first part of my PhD's qualifying oral examination. It's a bit barebones since it was meant to
