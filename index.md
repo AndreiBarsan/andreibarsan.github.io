@@ -58,7 +58,9 @@ influence of various machine learning-powered technologies on our daily lives.
     <br/>
     Note: <span>&#42;</span>denotes equal contribution.
     <br/>
-     [<a href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>] [<a href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>]
+     [<a href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>] 
+     [<a href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>]
+     [<a href="/assets/pdf/posters/BARSAN-IoanAndrei-2019-CVPR-CBC-Poster-v0.6.pdf" target="_blank">Poster</a>]
     <p style="font-size: 80%">
       <!-- TODO(andreib): Use proper CSS and consider making panels collapsible. -->
       <b>TL;DR:</b> High-resolution maps, while allowing extremely accurate
