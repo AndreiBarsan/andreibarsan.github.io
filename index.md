@@ -43,7 +43,7 @@ influence of various machine learning-powered technologies on our daily lives.
   <br/>
   [<a href="https://arxiv.org/abs/1908.03274" target="_blank">PDF</a>] [<a href="/assets/bib/ma-sparse-maps-iros-19.bib">BibTeX</a>]
   [<a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.pdf" target="_blank">Talk Slides (PDF)</a>]
-  [<a href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key" target="_blank">Talk Slides (Keynote)</a>]
+  [<a href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key" target="_blank">Talk Slides (Apple Keynote)</a>]
     <p style="font-size: 80%">
       <b>TL;DR:</b> We use very sparse maps consisting in lane graphs (i.e., polylines) and stored
       traffic sign positions to localize autonomous vehicles. These maps take up ~0.5MiB/km<sup>2</sup>,
@@ -81,9 +81,10 @@ influence of various machine learning-powered technologies on our daily lives.
      <br/>
      Note: <span>&#42;</span>denotes equal contribution.
      <br/>
-     [<a href="http://proceedings.mlr.press/v87/barsan18a.html"
-     target="_blank">PDF</a>] [<a
-     href="/assets/bib/barsan-learning-to-localize-corl-18.bib">BibTeX</a>]
+     [<a href="http://proceedings.mlr.press/v87/barsan18a.html" target="_blank">PDF</a>] 
+     [<a href="/assets/bib/barsan-learning-to-localize-corl-18.bib" target="_blank">BibTeX</a>]
+     [<a href="/assets/pdf/talks/BARSAN-IoanAndrei-2018-CoRL-LearningToLocalize-Talk-v3.pdf" target="_blank">Talk Slides (PDF)</a>] 
+     [<a href="https://www.youtube.com/watch?v=ISQZzWZmbEs" target="_blank">Video</a>]
     <p style="font-size: 80%">
       <b>TL;DR:</b> Matching-based localization methods using LiDAR can provide
         centimeter-level accuracy, but require careful beam intensity
@@ -100,9 +101,9 @@ influence of various machine learning-powered technologies on our daily lives.
     [[Web](dynslam/)]
     [<a href="assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf" 
         target="_blank">PDF</a>]
-     [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Code</a>]
      [<a href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
          target="_blank">BibTeX</a>]
+     [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Code</a>]
     <p style="font-size: 80%">
       <b>TL;DR:</b> A system for outdoor online mapping using a stereo camera
       capable of also reconstructing the dynamic objects it encounters, in
