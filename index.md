@@ -138,13 +138,28 @@ influence of various machine learning-powered technologies on our daily lives.
 
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
- * Reviewer: ICRA 2019, IROS 2019
+ * Reviewer: **ICRA** 2019, **IROS** (2019, 2020), **ECCV** 2020
 
 
 # Talks
  
+ * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2020-100k-Points.pdf" target="_blank">
+     [PDF Slides] **Unsupervised Sequence Forecasting of 100,000 Points for Unsupervised Trajectory Forecasting**
+  </a> (2020-04-10)
+    * Paper I presented: <a href="https://arxiv.org/abs/2003.08376" target="_blank">
+        [PDF] Weng et al., 2020
+        </a>
+ * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-Deep-Point-Cloud-Registration.pdf" target="_blank">
+     [PDF Slides] **Deep Point Cloud Registration**
+   </a> (2019-09-12)
+   * In this talk, I give a brief overview of recent advances in learning-based methods for robust point cloud
+       registration, including 
+       <a href="https://songshiyu01.github.io/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf" target="_blank">L<sup>3</sup>-Net</a>,
+       <a href="https://songshiyu01.github.io/pdf/DeepVCP_W.Lu_S.Song_ICCV2019.pdf" target="_blank">DeepVCP</a>, and
+       <a href="https://arxiv.org/abs/1905.03304" target="_blank">Deep Closest Point</a>. I cover the main ideas in
+       these papers, as well as their strengths and weaknesses, and discuss some insights and possible avenues for future research.
  * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-ImitationLearning-SharedAutonomyViaDRL.pdf" target="_blank">
-    [PDF Slides] Shared Autonomy via Deep Reinforcement Learning
+    [PDF Slides] **Shared Autonomy via Deep Reinforcement Learning**
   </a> (2019-02-22)
     * Paper I presented: <a href="https://arxiv.org/abs/1802.01744" target="_blank">
       [PDF] Reddy et al., RSS 2018
@@ -154,7 +169,7 @@ influence of various machine learning-powered technologies on our daily lives.
       CSC2621HS at UofT (Imitation Learning for Robotics)
     </a>
  * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-Qualifier-Geometry-Aware-Learning-Methods-for-Computer-Vision.pdf" target="_blank">
-    [PDF Slides] Geometry-Aware Learning Methods for Computer Vision
+    [PDF Slides] **Geometry-Aware Learning Methods for Computer Vision**
   </a> (2019-01-18)
     * This talk was the first part of my PhD's qualifying oral examination. It's a bit barebones since it was meant to
       support the examination itself (i.e., lots of discussing beyond the slides), but may still be of interest.
