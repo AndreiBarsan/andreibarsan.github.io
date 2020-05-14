@@ -12,6 +12,7 @@ Andrei's Website (rad edition)
 <br/>
 <hr/>
 This page contains gifs of my favorite dragons.&nbsp;<BR/>
+Special credit to MODRAN LIVIUS PAUL for technical and conceptual support.!<BR
 
 <img src="/assets/images/rad/dragao33.gif" width="130px" />
 <img src="/assets/images/rad/greydragon.gif" width="130px" />
@@ -21,6 +22,7 @@ This page contains gifs of my favorite dragons.&nbsp;<BR/>
 <br>
 <img src="/assets/images/rad/dragon_animado1.gif" width="130px" />
 <img src="/assets/images/rad/kingdom_links_dragon2.gif" width="130px" />
+<img src="/assets/images/rad/bywd.png" width="130px" />
 <img src="/assets/images/rad/rdragon.gif" width="130px" />
 <br>
 <p>
