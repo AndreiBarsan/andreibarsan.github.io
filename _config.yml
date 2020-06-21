@@ -54,6 +54,10 @@ people:
     name: Min Bai
     site: http://www.cs.toronto.edu/~mbai/
 
+  frossard:
+    name: Davi Frossard
+    site: https://www.cs.toronto.edu/~frossard/about/
+
   geiger:
     name: Andreas Geiger
     site: http://www.cvlibs.net
@@ -89,6 +93,10 @@ people:
   pollefeys:
     name: Marc Pollefeys
     site: https://inf.ethz.ch/personal/marc.pollefeys/
+
+  suo:
+    name: Simon Suo
+    site: http://www.cs.toronto.edu/~suo/
 
   tartavull:
     name: Ignacio Tartavull

@@ -15,21 +15,22 @@
     {%- assign k = "barsan" -%}
   {%- endif -%}
   {%- if k == "barsan" -%}
-    {%- assign prefix = "<strong>" -%}
+    {%- assign prefix = "<strong title='You are here!'>" -%}
     {%- assign suffix = "</strong>" | append: suffix -%}
   {%- endif -%}
   {%- assign a = site.people[k] -%}
-  <div style="display:inline-block; margin: 0; border: 0">
     {%- if a.site -%}
       {{prefix}} <a href="{{ a.site }}" title="{{ a.name }}'s website" target="_blank">{{ a.name }}</a>{{suffix}}
     {%- else -%}
       {{prefix}}{{ a.name }}{{suffix}}
     {%- endif -%}
-    {%- assign limit = n_authors | minus: 1 -%}
+    {%- assign limit = n_authors | minus: 2 -%}
     {%- if i < limit -%}
       ,&nbsp;
     {%- endif -%}
-  </div>
+    {%- if i == limit -%}
+      &nbsp;and
+    {%- endif -%}
 {%- endfor -%}
 
 

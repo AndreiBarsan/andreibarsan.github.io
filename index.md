@@ -21,70 +21,96 @@ learning security, and I believe that more research is needed in this area
 influence of various machine learning-powered technologies on our daily lives.
 
 
-# Education
+<h2>Education</h2>
 
  * PhD Student at the <a href="http://learning.cs.toronto.edu" target="_blank">University
    of Toronto (Sep 2017--present)</a>
- * MSc. in Computer Science with Distinction from 
+ * MSc. in Computer Science with Distinction from
    <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (Sep 2015--Aug 2017)
  * BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
    target="_blank">Transilvania University</a>, Brașov,
    Romania (Sep 2011--Jul 2014)
 
 
-# Publications
- * <a href="https://arxiv.org/abs/1908.03274" target="_blank">
-      Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization
-  </a><br/>
-    {% include authors.html names="ma*, tartavull*, me*, wang*, bai, mattyus, homayounfar, lakshmikanth, pokrovsky, urtasun" %}
-  International Conference on Intelligent Robots and Systems (IROS) 2019
+<h2> Publications </h2>
+
+<div class="paper row">
+<h3>
+  <a href="https://arxiv.org/abs/1908.03274" target="_blank">
+    Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization
+    (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2019)
+  </a>
+</h3>
+<div class="col-4">
+  <img src="assets/images/iros-icon-v1.png" alt="Illustration." title="Illustration of the cues leveraged by our system: lane detection and traffic signs." />
+</div>
+<div class="col-8 details">
+  {% include authors.html names="ma*, tartavull*, me*, wang*, bai, mattyus, homayounfar, lakshmikanth, pokrovsky, urtasun" %}
+  <br/>
+  International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2019
+  <br/>
+  <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
+  <br/>
+  <a class="badge pdf" href="https://arxiv.org/abs/1908.03274" target="_blank">PDF (arXiv)</a>
+  <a class="badge bibtex" href="/assets/bib/ma-sparse-maps-iros-19.bib">BibTeX</a>
+  <a class="badge slides" href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.pdf" target="_blank">Talk Slides (PDF)</a>
+  <a class="badge slides" href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key" target="_blank">Talk Slides (Apple Keynote)</a>
+</div>
+</div>
+  <!--p style="font-size: 80%">
+    <b>TL;DR:</b> We use very sparse maps consisting in lane graphs (i.e., polylines) and stored
+    traffic sign positions to localize autonomous vehicles. These maps take up ~0.5MiB/km<sup>2</sup>,
+    compared to, e.g., LiDAR ground intensity images which
+    can take over 150MiB/km<sup>2</sup>. We use these maps in the context of a histogram filter localizer, and show
+    median lateral accuracy of 0.05m and median longitudinal accuracy of 1.12m on a highway dataset.
+  </p -->
+
+<div class="paper row">
+<h3>
+  <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html" target="_blank">Learning to Localize through Compressed Binary Maps (CVPR 2019)</a>
+</h3>
+<div class="col-4">
+  <img src="assets/images/deep_gil.png" alt="" title="" />
+</div>
+<div class="col-8">
+  {% include authors.html names="wei*, me*, wang*, martinez, urtasun" %}
+  International Conference on Computer Vision and Pattern Recognition (CVPR) 2019
   <br/>
   Note: <span>&#42;</span>denotes equal contribution.
   <br/>
-  [<a href="https://arxiv.org/abs/1908.03274" target="_blank">PDF</a>] [<a href="/assets/bib/ma-sparse-maps-iros-19.bib">BibTeX</a>]
-  [<a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.pdf" target="_blank">Talk Slides (PDF)</a>]
-  [<a href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key" target="_blank">Talk Slides (Apple Keynote)</a>]
-    <p style="font-size: 80%">
-      <b>TL;DR:</b> We use very sparse maps consisting in lane graphs (i.e., polylines) and stored
-      traffic sign positions to localize autonomous vehicles. These maps take up ~0.5MiB/km<sup>2</sup>,
-      compared to, e.g., LiDAR ground intensity images which
-      can take over 150MiB/km<sup>2</sup>. We use these maps in the context of a histogram filter localizer, and show
-      median lateral accuracy of 0.05m and median longitudinal accuracy of 1.12m on a highway dataset.
-    </p>
+    [<a href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>]
+    [<a href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>]
+    [<a href="/assets/pdf/posters/BARSAN-IoanAndrei-2019-CVPR-CBC-Poster-v0.6.pdf" target="_blank">Poster</a>]
+    [<a href="https://youtu.be/vL9F6qfwBFk" target="_blank">Video</a>]
+  <p style="font-size: 80%">
+    <!-- TODO(andreib): Use proper CSS and consider making panels collapsible. -->
+    <b>TL;DR:</b> High-resolution maps can take up a lot of storage.
+    We use neural networks to perform task-specific compression to address this
+    issue by learning a special-purpose compression scheme specifically for localization.
+    We achieve two orders of magnitude of improvement (0.007 bits/px) over
+    traditional methods like WebP (0.580 bits/px), as well as less than
+    half the bitrate of a general-purpose learning-based compression scheme
+    (0.016 bits/px). For reference, PNG ~ 4.94 bits/px on our dataset.
+  </p>
+</div>
+</div>
 
- * [Learning to Localize through Compressed Binary Maps](http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html) <br/>
-    {% include authors.html names="wei*, me*, wang*, martinez, urtasun" %}
-    International Conference on Computer Vision and Pattern Recognition (CVPR) 2019
-    <br/>
-    Note: <span>&#42;</span>denotes equal contribution.
-    <br/>
-     [<a href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>] 
-     [<a href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>]
-     [<a href="/assets/pdf/posters/BARSAN-IoanAndrei-2019-CVPR-CBC-Poster-v0.6.pdf" target="_blank">Poster</a>]
-     [<a href="https://youtu.be/vL9F6qfwBFk" target="_blank">Video</a>]
-    <p style="font-size: 80%">
-      <!-- TODO(andreib): Use proper CSS and consider making panels collapsible. -->
-      <b>TL;DR:</b> High-resolution maps, while allowing extremely accurate
-      localization, can also take up a lot of storage. In this paper, we use
-      neural networks to perform task-specific compression to address this 
-      issue by learning a special-purpose compression scheme for the specific
-      task of localization.
-      We achieve two orders of magnitude of improvement (0.007 bits/px) over 
-      traditional methods like WebP (0.580 bits/px), as well as less than 
-      half the bitrate of a general-purpose learning-based compression scheme 
-      (0.016 bits/px). For reference, a lossless PNG uses 4.94 bits/px in our
-      dataset.
-    </p>
-
- * [Learning to Localize Using a LiDAR Intensity Map](http://proceedings.mlr.press/v87/barsan18a.html) <br/>
+<div class="paper row">
+<h3>
+<a href="http://proceedings.mlr.press/v87/barsan18a.html" target="_blank">Learning to Localize Using a LiDAR Intensity Map (CoRL 2018)</a>
+</h3>
+<div class="col-4">
+  <img src="assets/images/deep_gil.png" alt="" title="" />
+</div>
+<div class="col-8">
      {% include authors.html names="me*, wang*, pokrovsky, urtasun" %}
      Proceedings of the Second Conference on Robot Learning (CoRL) 2018
      <br/>
      Note: <span>&#42;</span>denotes equal contribution.
      <br/>
-     [<a href="http://proceedings.mlr.press/v87/barsan18a.html" target="_blank">PDF</a>] 
+     [<a href="http://proceedings.mlr.press/v87/barsan18a.html" target="_blank">PDF</a>]
      [<a href="/assets/bib/barsan-learning-to-localize-corl-18.bib" target="_blank">BibTeX</a>]
-     [<a href="/assets/pdf/talks/BARSAN-IoanAndrei-2018-CoRL-LearningToLocalize-Talk-v3.pdf" target="_blank">Talk Slides (PDF)</a>] 
+     [<a href="/assets/pdf/talks/BARSAN-IoanAndrei-2018-CoRL-LearningToLocalize-Talk-v3.pdf" target="_blank">Talk Slides (PDF)</a>]
      [<a href="https://www.youtube.com/watch?v=ISQZzWZmbEs" target="_blank">Video</a>]
     <p style="font-size: 80%">
       <b>TL;DR:</b> Matching-based localization methods using LiDAR can provide
@@ -94,13 +120,22 @@ influence of various machine learning-powered technologies on our daily lives.
         learn to match online LiDAR observations to a known map without
         calibrated intensities.
     </p>
+</div>
+</div> <!-- end .paper .row -->
 
- * [Robust Dense Mapping for Large-Scale Dynamic Environments](/dynslam) <br/>
+<div class="paper row">
+<h3>
+<a href="/dynslam">Robust Dense Mapping for Large-Scale Dynamic Environments</a>
+</h3>
+<div class="col-4">
+  <img src="assets/images/deep_gil.png" alt="" title="" />
+</div>
+<div class="col-8">
      {% include authors.html names="me, liu, pollefeys, geiger" %}
     Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) 2018
     <br/>
     [[Web](dynslam/)]
-    [<a href="assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf" 
+    [<a href="assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf"
         target="_blank">PDF</a>]
      [<a href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
          target="_blank">BibTeX</a>]
@@ -111,19 +146,19 @@ influence of various machine learning-powered technologies on our daily lives.
       addition to the static map. Supports map pruning to eliminate stereo
       artifacts and reduce memory consumption.
     </p>
+</div>
+</div> <!-- end .paper .row -->
 
 
-# Work Experience
+<h2>Work Experience</h2>
 
-### Industry
+<h3>Industry</h3>
 
  * Current: Full-time research scientist at **Uber ATG Toronto** (Jan 2018--present).
-      * Helping develop scalable and robust centimeter-accurate 
+      * Helping develop scalable and robust centimeter-accurate
         localization methods for self-driving cars.
       * LiDAR-based map localization, visual localization, learning-based
         compression, large-scale machine learning (Apache Spark).
-      * Researching the next generation of autonomous vehicle maps. What can we encode in maps that goes beyond
-          topology and appearance?
  * Previously, I did a series of software engineering internships in the US
      during my undergrad:
     * Internship: **Twitter** (Summer 2015, San Francisco, CA), Performance Ads
@@ -134,7 +169,7 @@ influence of various machine learning-powered technologies on our daily lives.
     * Internship: **Microsoft** (Summer 2013, Redmond, WA), Server and Tools Business
       - Security and reliability analysis of a web service part of the Azure portal.
 
-### Academic
+<h3>Industry</h3>
 
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
@@ -142,7 +177,19 @@ influence of various machine learning-powered technologies on our daily lives.
 
 
 # Talks
- 
+ * <span class="badge new">New</span> &nbsp; <a href="http://allaboutselfdriving.com" target="_blank">
+    <strong>All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)</strong>
+   </a>
+    <ul>
+    <li>
+      I was a speaker at the CVPR2020 Tutorial on self-driving cars organized by our lab.
+    </li>
+    <li>I talked about hardware with {% include authors.html names="frossard" %}
+        and localization with {% include authors.html names="martinez, wang" %}. (Including
+        a crash course on monte carlo localization!)
+    </li>
+    </ul>
+
  * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2020-100k-Points.pdf" target="_blank">
      [PDF Slides] **Unsupervised Sequence Forecasting of 100,000 Points for Unsupervised Trajectory Forecasting**
   </a> (2020-04-10)
@@ -153,7 +200,7 @@ influence of various machine learning-powered technologies on our daily lives.
      [PDF Slides] **Deep Point Cloud Registration**
    </a> (2019-09-12)
    * In this talk, I give a brief overview of recent advances in learning-based methods for robust point cloud
-       registration, including 
+       registration, including
        <a href="https://songshiyu01.github.io/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf" target="_blank">L<sup>3</sup>-Net</a>,
        <a href="https://songshiyu01.github.io/pdf/DeepVCP_W.Lu_S.Song_ICCV2019.pdf" target="_blank">DeepVCP</a>, and
        <a href="https://arxiv.org/abs/1905.03304" target="_blank">Deep Closest Point</a>. I cover the main ideas in
@@ -164,7 +211,7 @@ influence of various machine learning-powered technologies on our daily lives.
     * Paper I presented: <a href="https://arxiv.org/abs/1802.01744" target="_blank">
       [PDF] Reddy et al., RSS 2018
   </a>
-    * Seminar Presentation for 
+    * Seminar Presentation for
     <a href="http://www.cs.toronto.edu/~florian/courses/imitation_learning/" target="_blank">
       CSC2621HS at UofT (Imitation Learning for Robotics)
     </a>
@@ -201,7 +248,7 @@ just stereo input. More details can be found on the <a href="/dynslam">
 DynSLAM project page</a>.
 
 Previously, while doing my undergraduate studies at
-<a href="https://mateinfo.unitbv.ro/">Transilvania University</a>, in Brașov, 
+<a href="https://mateinfo.unitbv.ro/">Transilvania University</a>, in Brașov,
 Romania, I interned at Microsoft (2013, Redmond, WA), Google (2014, New
 York, NY) and Twitter (2015, San Francisco, CA), working on projects related to
 privacy, data protection, and data pipeline engineering.
