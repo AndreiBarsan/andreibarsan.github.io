@@ -4,29 +4,36 @@ TODO list of things to do
 Misc
 ----
  * [ ] Make publications clickable, and expand to show abstract and additional links
- * [X] Google analytics code
+ * [ ] Autoplay publication gif on hover (e.g., for GILL), and click for full video in lightbox (where available)
+      - I will do this once I actually publish my next primary research project! (Task added 2020-06-21)
+ * [ ] Make links more salient. It can still look good! Example: https://bastian.rieck.me/
  * [ ] Update font-awesome and use new book icon for google scholar.
+ * [ ] Add ResearchGate and ORCID
+ * [ ] Maybe add a small picture for every project
+ * [ ] Add proper website icon.
+ * [ ] Add CV download link.
+ * [ ] Add paper reviews as txt files.
+ * [ ] Add ICRA poster
+ * [ ] Add IROS talk video
+ * [ ] Add CoRL poster
+ * [ ] Add CoRL talk video
+ * [ ] Automatic link checking to prevent/minimize link rot
+ * [ ] Make repo private
+ * [ ] PDF / Blog post about NMOP project.
  * [X] Ensure site perfectly readable with JS off.
       - it's OK, but not 100% responsive
  * [X] Give credit to Siera guy who created the Jekyll package you are using.
  * [X] Unify asset directories to make the project cleaner
- * [ ] Maybe add a small picture for every project
+ * [X] Google analytics code
  * [X] Fix git history.
- * [ ] Add proper icon.
- * [ ] Add CV download link.
- * [ ] Add paper reviews as txt files.
- * [ ] Add ICRA poster
- * [ ] Add CVPR poster
- * [ ] Add IROS slides and my talk video
- * [ ] Add CoRL slides, poster, and my talk video
+ * [X] Add CVPR poster
+ * [X] Add IROS slides 
+ * [X] Add CoRL slides
  * [X] Add MSc thesis
- * [ ] Make repo private
- * [ ] PDF / Blog post about NMOP project.
- * [ ] PDF (arXiv?) / Blog post about TD3 extensions for IL after we tweak them
-     a bit more.
 
 Low-priority
 -----------
+ * [ ] Automatic link archival a la Gwern
  * [ ] Auto-render publications from raw bib files.
  * [ ] Remove old portraits
  * [ ] Consider minification for CSS and stuff.
@@ -53,3 +60,5 @@ Old
  * Replace siegedog.com with the static site
  * Fix lists inside posts on main page
  * Fix heading spacing on article pages
+ * PDF (arXiv?) / Blog post about TD3 extensions for IL after we tweak them
+     a bit more.
