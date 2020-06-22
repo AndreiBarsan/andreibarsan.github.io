@@ -3516,6 +3516,9 @@ h3 a {
 	color: black;
 }
 
+/* Badge color based on the free version of the Argon design system (Creative Tim),
+   based, in turn, on Bootstrap. */
+
 a:hover {
 	color: blue !important;
 	border-bottom: solid 1px blue;
@@ -3541,25 +3544,40 @@ div.paper img {
 	color: #fff;
 }
 
+.badge:hover {
+	background: #324cdd;
+}
+
 a.badge {
 	border: 0 !important;
 }
 
 a.badge:hover {
 	border: 0 !important;
-	color: lightblue !important;
+	color: #eee !important;
 }
 
-.badge .pdf {
-	background: #11cdef;
+.pdf {
+	/* Default color */
+}
+
+.pdf:hover {
+	/* Default color */
 }
 
 .bibtex {
 	background: #2dce89;
 }
 
+.bibtex:hover {
+	background: #24a46d;
+}
+
 .poster {
-	/* Default color */
+	background: #11cdef;
+}
+.poster:hover {
+	background: #0da5c0;
 }
 
 .slides {
@@ -3575,11 +3593,24 @@ a.badge:hover {
 	background: #fb6340
 }
 
+.code:hover {
+	background: #fa3a0e;
+}
+
 .new {
 	background: #f5365c
 }
 .new:hover {
 	background: #ec0c38;
+}
+
+.video {
+	background: #f4f5f7;
+	color: #32325d;
+}
+.video:hover {
+	background: #d6dae2;
+	color: #212529;
 }
 
 /* Footer */
