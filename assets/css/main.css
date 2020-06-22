@@ -2344,6 +2344,10 @@
 				ul.icons li > * {
 					text-decoration: none;
 					border: 0;
+					/* Make the icons (Twitter, LinkedIn, etc.) bigger and not blue, since they're icons, and not
+					   textual links. */
+					font-size: 36px;
+					color: inherit;
 				}
 
 					ul.icons li > *:before {
