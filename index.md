@@ -54,7 +54,9 @@ influence of various machine learning-powered technologies on our daily lives.
   <a class="badge pdf" href="https://arxiv.org/abs/1908.03274" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/ma-sparse-maps-iros-19.bib">BibTeX</a>
   <a class="badge slides" href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.pdf" target="_blank">Talk Slides (PDF)</a>
-  <a class="badge slides" href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key" target="_blank">Talk Slides (Apple Keynote)</a>
+  <a class="badge slides" href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key"
+     title="The Keynote slides have the original animations as well as a video not available in the PDF version."
+     target="_blank">Talk Slides (Apple Keynote)</a>
 </div>
 </div>
   <!--p style="font-size: 80%">
@@ -70,18 +72,19 @@ influence of various machine learning-powered technologies on our daily lives.
   <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html" target="_blank">Learning to Localize through Compressed Binary Maps (CVPR 2019)</a>
 </h3>
 <div class="col-4">
-  <img src="assets/images/deep_gil.png" alt="" title="" />
+  <img src="assets/images/cvpr2019-icon-v0.png" alt="" title="" />
 </div>
 <div class="col-8">
   {% include authors.html names="wei*, me*, wang*, martinez, urtasun" %}
-  International Conference on Computer Vision and Pattern Recognition (CVPR) 2019
+  <br/>
+  International Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>) 2019
   <br/>
   Note: <span>&#42;</span>denotes equal contribution.
   <br/>
-    [<a href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>]
-    [<a href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>]
-    [<a href="/assets/pdf/posters/BARSAN-IoanAndrei-2019-CVPR-CBC-Poster-v0.6.pdf" target="_blank">Poster</a>]
-    [<a href="https://youtu.be/vL9F6qfwBFk" target="_blank">Video</a>]
+    <a class="badge pdf" href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>
+    <a class="badge bibtex" href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>
+    <a class="badge poster" href="/assets/pdf/posters/BARSAN-IoanAndrei-2019-CVPR-CBC-Poster-v0.6.pdf" target="_blank">Poster</a>
+    <a class="badge video" href="https://youtu.be/vL9F6qfwBFk" target="_blank">Video</a>
   <p style="font-size: 80%">
     <!-- TODO(andreib): Use proper CSS and consider making panels collapsible. -->
     <b>TL;DR:</b> High-resolution maps can take up a lot of storage.
@@ -106,12 +109,13 @@ influence of various machine learning-powered technologies on our daily lives.
      {% include authors.html names="me*, wang*, pokrovsky, urtasun" %}
      Proceedings of the Second Conference on Robot Learning (CoRL) 2018
      <br/>
-     Note: <span>&#42;</span>denotes equal contribution.
+     <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
      <br/>
-     [<a href="http://proceedings.mlr.press/v87/barsan18a.html" target="_blank">PDF</a>]
-     [<a href="/assets/bib/barsan-learning-to-localize-corl-18.bib" target="_blank">BibTeX</a>]
-     [<a href="/assets/pdf/talks/BARSAN-IoanAndrei-2018-CoRL-LearningToLocalize-Talk-v3.pdf" target="_blank">Talk Slides (PDF)</a>]
-     [<a href="https://www.youtube.com/watch?v=ISQZzWZmbEs" target="_blank">Video</a>]
+     <a class="badge pdf" href="http://proceedings.mlr.press/v87/barsan18a.html" target="_blank">PDF</a>
+     <a class="badge bibtex" href="/assets/bib/barsan-learning-to-localize-corl-18.bib" target="_blank">BibTeX</a>
+     <a class="badge poster" href="/assets/pdf/posters/BARSAN-IoanAndrei-2018-CoRL-LearningToLocalize-Poster-v0.6.pdf" target="_blank">Poster</a>
+     <a class="badge slides" href="/assets/pdf/talks/BARSAN-IoanAndrei-2018-CoRL-LearningToLocalize-Talk-v3.pdf" target="_blank">Talk Slides (PDF)</a>
+     <a class="badge video" href="https://www.youtube.com/watch?v=ISQZzWZmbEs" target="_blank">Video</a>
     <p style="font-size: 80%">
       <b>TL;DR:</b> Matching-based localization methods using LiDAR can provide
         centimeter-level accuracy, but require careful beam intensity
@@ -134,12 +138,13 @@ influence of various machine learning-powered technologies on our daily lives.
      {% include authors.html names="me, liu, pollefeys, geiger" %}
     Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) 2018
     <br/>
-    [[Web](dynslam/)]
-    [<a href="assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf"
-        target="_blank">PDF</a>]
-     [<a href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
-         target="_blank">BibTeX</a>]
-     [<a href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Code</a>]
+    <a class="badge" href="dynslam/">Web</a>
+    <a class="badge pdf" href="assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf"
+       target="_blank">PDF</a>
+    <a class="badge bibtex" href="/assets/bib/barsan-robust-dense-mapping-icra-18.bib"
+       target="_blank">BibTeX</a>
+    <a class="badge poster" href="/assets/pdf/posters/BARSAN-IoanAndrei-2018-ICRA-DynSLAM-Poster-v0.4.pdf" target="_blank">Poster</a>
+    <a class="badge code" href="https://github.com/AndreiBarsan/DynSLAM" target="_blank">Code</a>
     <p style="font-size: 80%">
       <b>TL;DR:</b> A system for outdoor online mapping using a stereo camera
       capable of also reconstructing the dynamic objects it encounters, in
