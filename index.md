@@ -185,7 +185,7 @@ influence of various machine learning-powered technologies on our daily lives.
     * Internship: **Microsoft** (Summer 2013, Redmond, WA), Server and Tools Business
       - Security and reliability analysis of a web service part of the Azure portal.
 
-<h3>Industry</h3>
+<h3>Academic</h3>
 
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
