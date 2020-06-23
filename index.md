@@ -137,7 +137,7 @@ influence of various machine learning-powered technologies on our daily lives.
 <div class="paper row">
 <div class="col-12">
 <h3>
-<a href="/dynslam">Robust Dense Mapping for Large-Scale Dynamic Environments</a>
+<a href="/dynslam">Robust Dense Mapping for Large-Scale Dynamic Environments (ICRA 2018)</a>
 </h3>
 </div>
 <div class="col-4">
