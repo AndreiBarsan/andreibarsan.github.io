@@ -3511,7 +3511,7 @@
 
 /* Color customization for publications */
 .paper h3 {
-	padding: 0 0 0 0.75em;
+	/* padding: 0 0 0 0.75em; */
 }
 
 .paper img {
