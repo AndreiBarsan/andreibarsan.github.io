@@ -2350,6 +2350,11 @@
 					color: inherit;
 				}
 
+				ul.icons li a:hover {
+					/* TODO(andreib): Remove the !important in the link coloring. */
+					color: #2ebaae !important;
+				}
+
 					ul.icons li > *:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;

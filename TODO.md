@@ -3,29 +3,27 @@ TODO list of things to do
 
 Misc
 ----
- * [ ] Make publications clickable, and expand to show abstract and additional links
  * [ ] Autoplay publication gif on hover (e.g., for GILL), and click for full video in lightbox (where available)
       - I will do this once I actually publish my next primary research project! (Task added 2020-06-21)
- * [ ] Update font-awesome and use new book icon for google scholar.
- * [ ] Add ResearchGate and ORCID
- * [ ] Maybe add a small picture for every project
- * [ ] Add proper website icon.
- * [ ] Add CV download link.
+ * [ ] Make publications clickable, and expand to show abstract and additional links
+ * [ ] Add proper website/bookmark icon.
+ * [ ] Add CV (resume) download link.
  * [ ] Add paper reviews as txt files.
  * [ ] Automatic link checking to prevent/minimize link rot
  * [ ] Make repo private
 
 Low-priority
 -----------
- * [ ] Automatic link archival a la Gwern
+ * [ ] On small screens, on all pages except the main, completely hide my name & face, instead of flowing it on top of
+       the main content, which could be annoying to readers.
  * [ ] Auto-render publications from raw bib files.
- * [ ] Remove old portraits
  * [ ] Consider minification for CSS and stuff.
  * [ ] Make site fully responsive even with no JavaScript
  * [ ] Add IROS talk video (does that even exist?)
  * [ ] Add CoRL talk video
  * [ ] PDF / Blog post about NMOP project.
      - insights may re-appear in our AMV-SLAM paper after all!
+ * [ ] Automatic link archival a la Gwern
 
 Done
 ---
@@ -42,6 +40,10 @@ Done
  * [X] Add CoRL slides
  * [X] Add MSc thesis
  * [X] Make links more salient. It can still look good! Example: https://bastian.rieck.me/
+ * [X] Update font-awesome and use new book icon for google scholar. (Used academicons!)
+ * [X] Add ResearchGate and ORCID (orcid is enough)
+ * [X] Maybe add a small picture for every project
+ * [X] Remove old portraits
 
 Old Layout Update Tasks
 ----------------

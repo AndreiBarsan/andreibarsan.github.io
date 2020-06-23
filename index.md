@@ -35,12 +35,14 @@ influence of various machine learning-powered technologies on our daily lives.
 <h2> Publications </h2>
 
 <div class="paper row">
+<div class="col-12">
 <h3>
   <a href="https://arxiv.org/abs/1908.03274" target="_blank">
     Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization
     (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2019)
   </a>
 </h3>
+</div>
 <div class="col-4">
   <img src="assets/images/iros-icon-v1.png" alt="Illustration." title="Illustration of the cues leveraged by our system: lane detection and traffic signs." />
 </div>
@@ -57,29 +59,32 @@ influence of various machine learning-powered technologies on our daily lives.
   <a class="badge slides" href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key"
      title="The Keynote slides have the original animations as well as a video not available in the PDF version."
      target="_blank">Talk Slides (Apple Keynote)</a>
-</div>
-</div>
-  <!--p style="font-size: 80%">
+  <p style="font-size: 80%">
     <b>TL;DR:</b> We use very sparse maps consisting in lane graphs (i.e., polylines) and stored
     traffic sign positions to localize autonomous vehicles. These maps take up ~0.5MiB/km<sup>2</sup>,
     compared to, e.g., LiDAR ground intensity images which
-    can take over 150MiB/km<sup>2</sup>. We use these maps in the context of a histogram filter localizer, and show
+    can take >100MiB/km<sup>2</sup>. We use these maps in the context of a histogram filter localizer, and show
     median lateral accuracy of 0.05m and median longitudinal accuracy of 1.12m on a highway dataset.
-  </p -->
+  </p>
+</div>
+</div> <!-- paper row -->
 
 <div class="paper row">
+<div class="col-12">
 <h3>
   <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html" target="_blank">Learning to Localize through Compressed Binary Maps (CVPR 2019)</a>
 </h3>
+</div>
 <div class="col-4">
-  <img src="assets/images/cvpr2019-icon-v0.png" alt="" title="" />
+  <img src="assets/images/cvpr2019-icon-v0.png" alt="Compressed maps demo image"
+       title="Overview of our map compression module, embedded in our end-to-end learned LiDAR matcher." />
 </div>
 <div class="col-8">
   {% include authors.html names="wei*, me*, wang*, martinez, urtasun" %}
   <br/>
   International Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>) 2019
   <br/>
-  Note: <span>&#42;</span>denotes equal contribution.
+  <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
     <a class="badge pdf" href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>
     <a class="badge bibtex" href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>
@@ -90,24 +95,26 @@ influence of various machine learning-powered technologies on our daily lives.
     <b>TL;DR:</b> High-resolution maps can take up a lot of storage.
     We use neural networks to perform task-specific compression to address this
     issue by learning a special-purpose compression scheme specifically for localization.
-    We achieve two orders of magnitude of improvement (0.007 bits/px) over
-    traditional methods like WebP (0.580 bits/px), as well as less than
-    half the bitrate of a general-purpose learning-based compression scheme
-    (0.016 bits/px). For reference, PNG ~ 4.94 bits/px on our dataset.
+    We achieve two orders of magnitude of improvement over
+    traditional methods like WebP, as well as less than
+    half the bitrate of a general-purpose learning-based compression scheme.
+    For reference, PNG takes up 700&times; more storage on our dataset.
   </p>
 </div>
 </div>
 
 <div class="paper row">
+<div class="col-12">
 <h3>
 <a href="http://proceedings.mlr.press/v87/barsan18a.html" target="_blank">Learning to Localize Using a LiDAR Intensity Map (CoRL 2018)</a>
 </h3>
-<div class="col-4">
-  <img src="assets/images/deep_gil.png" alt="" title="" />
 </div>
-<div class="col-8">
+<div class="col-4">
+  <img src="assets/images/deep_gil.png" alt="Localizer preview image" title="A screenshot from the paper's demo video. The green ground truth trajectory overlaps almost perfectly with our inferred one, making it hard to spot at first glance." />
+</div>
+  <div class="col-8">
      {% include authors.html names="me*, wang*, pokrovsky, urtasun" %}
-     Proceedings of the Second Conference on Robot Learning (CoRL) 2018
+     Proceedings of the Second Conference on Robot Learning (<strong>CoRL</strong>) 2018
      <br/>
      <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
      <br/>
@@ -124,19 +131,23 @@ influence of various machine learning-powered technologies on our daily lives.
         learn to match online LiDAR observations to a known map without
         calibrated intensities.
     </p>
-</div>
+  </div>
 </div> <!-- end .paper .row -->
 
 <div class="paper row">
+<div class="col-12">
 <h3>
 <a href="/dynslam">Robust Dense Mapping for Large-Scale Dynamic Environments</a>
 </h3>
-<div class="col-4">
-  <img src="assets/images/deep_gil.png" alt="" title="" />
 </div>
-<div class="col-8">
-     {% include authors.html names="me, liu, pollefeys, geiger" %}
-    Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) 2018
+<div class="col-4">
+  <img src="assets/dynslam/gc-dispnet/odo-05-intersection-gc-w-3.png" alt="Map preview image"
+       title="Exacmple of a map produced by our system. Please see the project's website or paper for more results! (Buttons to the right!)" />
+</div>
+  <div class="col-8">
+    {% include authors.html names="me, liu, pollefeys, geiger" %}
+    <br/>
+    Proceedings of the IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>) 2018
     <br/>
     <a class="badge" href="dynslam/">Web</a>
     <a class="badge pdf" href="assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf"
@@ -149,9 +160,9 @@ influence of various machine learning-powered technologies on our daily lives.
       <b>TL;DR:</b> A system for outdoor online mapping using a stereo camera
       capable of also reconstructing the dynamic objects it encounters, in
       addition to the static map. Supports map pruning to eliminate stereo
-      artifacts and reduce memory consumption.
+      artifacts and reduce memory consumption to less than half.
     </p>
-</div>
+  </div>
 </div> <!-- end .paper .row -->
 
 
