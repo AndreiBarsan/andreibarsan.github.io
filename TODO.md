@@ -11,6 +11,7 @@ Misc
  * [ ] Add paper reviews as txt files.
  * [ ] Automatic link checking to prevent/minimize link rot
  * [ ] Make repo private
+ * [ ] Add URL to Pit30M BibTeX once arXiv/proceedings available
 
 Low-priority
 -----------
@@ -36,7 +37,7 @@ Done
  * [X] Google analytics code
  * [X] Fix git history.
  * [X] Add CVPR poster
- * [X] Add IROS slides 
+ * [X] Add IROS slides
  * [X] Add CoRL slides
  * [X] Add MSc thesis
  * [X] Make links more salient. It can still look good! Example: https://bastian.rieck.me/
