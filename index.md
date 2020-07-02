@@ -37,7 +37,7 @@ influence of various machine learning-powered technologies on our daily lives.
 <div class="paper row">
 <div class="col-12">
 <h3>
-  <a href="" target="_blank">
+  <a href="#"> <!-- target="_blank" -->
     <span class="badge new">New</span>
     Pit30M: A Benchmark for Global Localization in the Age of Self-Driving Cars
     (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2020)
@@ -54,9 +54,9 @@ influence of various machine learning-powered technologies on our daily lives.
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
   <br/>
   <a class="badge" href="#">Web (Coming Soon!)</a>
-  <a class="badge pdf" href="#" target="_blank">PDF (Coming Soon!)</a>
-  <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib">BibTeX</a>
-  <a class="badge slides" href="#" target="_blank">Play with it! (Coming Soon!)</a>
+  <a class="badge pdf" href="#">PDF (Coming Soon!)</a>
+  <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
+  <a class="badge slides" href="#">Play with it! (Coming Soon!)</a>
   <p style="font-size: 80%">
     <b>TL;DR:</b> A new self-driving dataset containing >30M HD images and LiDAR sweeps covering Pittsburgh
     over one year, all with centimeter-level pose accuracy. We investigate the potential of
