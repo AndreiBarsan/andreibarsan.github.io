@@ -46,7 +46,7 @@ influence of various machine learning-powered technologies on our daily lives.
 </div>
 <div class="col-4">
   <img src="assets/images/pit30m-teaser-v1.jpg" alt="Dataset overview map."
-       title="This plot showcases the geographic extent of the dataset, which includes residential, urban, highway, and industrial areas." />
+       title="This plot showcases the geographic extent of the dataset, which includes residential, urban, highway, and industrial areas. The bottom diagram plots the temporal extent of the data, where x = day in year and y = time of day." />
 </div>
 <div class="col-8 details">
   {% include authors.html names="martinez, doubov, fan, me, wang, mattyus, urtasun" %}
@@ -58,11 +58,13 @@ influence of various machine learning-powered technologies on our daily lives.
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib">BibTeX</a>
   <a class="badge slides" href="#" target="_blank">Play with it! (Coming Soon!)</a>
   <p style="font-size: 80%">
-    <b>TL;DR:</b> A new self-driving dataset containing >30M HD images and LiDAR sweeps covering the city of Pittsburgh
-    over a time span of over one year, all with centimeter-level pose accuracy. We also investigate the potential of
-    retrieval-based localization in this setting, and show that simple architecture (e.g., ResNet+pool) perform
-    surprisingly well, outperforming more complex approaches (e.g., NetVLAD-based).
+    <b>TL;DR:</b> A new self-driving dataset containing >30M HD images and LiDAR sweeps covering Pittsburgh
+    over one year, all with centimeter-level pose accuracy. We investigate the potential of
+    retrieval-based localization in this setting, and show that simple architecture (e.g., ResNet + global pool) perform
+    surprisingly well, outperforming more complex architectures like NetVLAD.
     <!-- haha HTML go --><br/><br/>
+    The figure shows the geographic (top) and temporal (bottom, x = date, y = time of day) extent of the data.
+    <br/><br/>
     We are hard at work preparing the benchmark website and data download! Stay tuned!
   </p>
 </div>
