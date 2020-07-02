@@ -37,6 +37,40 @@ influence of various machine learning-powered technologies on our daily lives.
 <div class="paper row">
 <div class="col-12">
 <h3>
+  <a href="" target="_blank">
+    <span class="badge new">New</span>
+    Pit30M: A Benchmark for Global Localization in the Age of Self-Driving Cars
+    (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2020)
+  </a>
+</h3>
+</div>
+<div class="col-4">
+  <img src="assets/images/pit30m-teaser-v1.jpg" alt="Dataset overview map."
+       title="This plot showcases the geographic extent of the dataset, which includes residential, urban, highway, and industrial areas." />
+</div>
+<div class="col-8 details">
+  {% include authors.html names="martinez, doubov, fan, me, wang, mattyus, urtasun" %}
+  <br/>
+  International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
+  <br/>
+  <a class="badge" href="#">Web (Coming Soon!)</a>
+  <a class="badge pdf" href="#" target="_blank">PDF (Coming Soon!)</a>
+  <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib">BibTeX</a>
+  <a class="badge slides" href="#" target="_blank">Play with it! (Coming Soon!)</a>
+  <p style="font-size: 80%">
+    <b>TL;DR:</b> A new self-driving dataset containing >30M HD images and LiDAR sweeps covering the city of Pittsburgh
+    over a time span of over one year, all with centimeter-level pose accuracy. We also investigate the potential of
+    retrieval-based localization in this setting, and show that simple architecture (e.g., ResNet+pool) perform
+    surprisingly well, outperforming more complex approaches (e.g., NetVLAD-based).
+    <!-- haha HTML go --><br/><br/>
+    We are hard at work preparing the benchmark website and data download! Stay tuned!
+  </p>
+</div>
+</div> <!-- paper row -->
+
+<div class="paper row">
+<div class="col-12">
+<h3>
   <a href="https://arxiv.org/abs/1908.03274" target="_blank">
     Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization
     (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2019)
