@@ -3547,6 +3547,7 @@ div.paper img {
 	vertical-align: baseline;
 	white-space: nowrap;
 	line-height: 1;
+	letter-spacing: 0;
 	border-radius: .25rem;
 	transition: all .15s ease;
 	background: #5e72e4;

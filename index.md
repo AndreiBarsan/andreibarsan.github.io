@@ -37,8 +37,8 @@ influence of various machine learning-powered technologies on our daily lives.
 <div class="paper row">
 <div class="col-12">
 <h3>
+  <span class="badge new">New</span>
   <a href="#"> <!-- target="_blank" -->
-    <span class="badge new">New</span>
     Pit30M: A Benchmark for Global Localization in the Age of Self-Driving Cars
     (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2020)
   </a>
