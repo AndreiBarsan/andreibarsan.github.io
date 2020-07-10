@@ -226,6 +226,7 @@ influence of various machine learning-powered technologies on our daily lives.
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
  * Reviewer: **ICRA** 2019, **IROS** (2019, 2020), **ECCV** 2020
+   * Acknowledged as one of the **top reviewers** for **[ECCV](https://eccv2020.eu)** 2020.
 
 
 # Talks
