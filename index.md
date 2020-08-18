@@ -53,7 +53,7 @@ influence of various machine learning-powered technologies on our daily lives.
   <br/>
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
   <br/>
-  <a class="badge" href="#">Web (Coming Soon!)</a>
+  <a class="badge" href="https://uber.com/atg/datasets/pit30m">Web</a>
   <a class="badge pdf" href="#">PDF (Coming Soon!)</a>
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
   <a class="badge slides" href="#">Play with it! (Coming Soon!)</a>
