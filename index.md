@@ -52,13 +52,13 @@ influence of various machine learning-powered technologies on our daily lives.
   {% include authors.html names="martinez, doubov, fan, me, wang, mattyus, urtasun" %}
   <br/>
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
-  <p style="font-size: 80%">Best Application Paper Finalist!</p>
   <br/>
   <a class="badge" href="https://uber.com/atg/datasets/pit30m">Web</a>
   <a class="badge pdf" href="#">PDF (Coming Soon!)</a>
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
   <a class="badge slides" href="#">Play with it! (Coming Soon!)</a>
   <p style="font-size: 80%">
+    <b><p style="font-size: 80%">Best Application Paper Finalist!</p></b>
     <b>TL;DR:</b> A new self-driving dataset containing >30M HD images and LiDAR sweeps covering Pittsburgh
     over one year, all with centimeter-level pose accuracy. We investigate the potential of
     retrieval-based localization in this setting, and show that simple architecture (e.g., ResNet + global pool) perform
