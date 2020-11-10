@@ -52,6 +52,7 @@ influence of various machine learning-powered technologies on our daily lives.
   {% include authors.html names="martinez, doubov, fan, me, wang, mattyus, urtasun" %}
   <br/>
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
+  <p style="font-size: 80%">Best Application Paper Finalist!</p>
   <br/>
   <a class="badge" href="https://uber.com/atg/datasets/pit30m">Web</a>
   <a class="badge pdf" href="#">PDF (Coming Soon!)</a>
@@ -225,8 +226,8 @@ influence of various machine learning-powered technologies on our daily lives.
 
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
- * Reviewer: **ICRA** 2019, **IROS** (2019, 2020), **ECCV** 2020
-   * Acknowledged as one of the **top reviewers** for **[ECCV](https://eccv2020.eu)** 2020.
+ * Reviewer: **ICRA** 2019, **IROS** (2019, 2020), **ECCV** 2020, **CoRL** 2020, **AAAI 2021**, **RA-L**
+   * Acknowledged as one of the **top reviewers** for **[ECCV](https://eccv2020.eu)** 2020 (top 7.5%).
 
 
 # Talks
