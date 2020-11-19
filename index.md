@@ -81,7 +81,7 @@ influence of various machine learning-powered technologies on our daily lives.
 </h3>
 </div>
 <div class="col-4">
-  <img src="assets/images/iros-icon-v1.png" alt="Illustration." title="Illustration of the cues leveraged by our system: lane detection and traffic signs." />
+  <img src="assets/images/iros-icon-v1.jpeg" alt="Illustration." title="Illustration of the cues leveraged by our system: lane detection and traffic signs." />
 </div>
 <div class="col-8 details">
   {% include authors.html names="ma*, tartavull*, me*, wang*, bai, mattyus, homayounfar, lakshmikanth, pokrovsky, urtasun" %}
@@ -147,7 +147,7 @@ influence of various machine learning-powered technologies on our daily lives.
 </h3>
 </div>
 <div class="col-4">
-  <img src="assets/images/deep_gil.png" alt="Localizer preview image" title="A screenshot from the paper's demo video. The green ground truth trajectory overlaps almost perfectly with our inferred one, making it hard to spot at first glance." />
+  <img src="assets/images/deep_gil.jpeg" alt="Localizer preview image" title="A screenshot from the paper's demo video. The green ground truth trajectory overlaps almost perfectly with our inferred one, making it hard to spot at first glance." />
 </div>
   <div class="col-8">
      {% include authors.html names="me*, wang*, pokrovsky, urtasun" %}
@@ -178,8 +178,8 @@ influence of various machine learning-powered technologies on our daily lives.
 </h3>
 </div>
 <div class="col-4">
-  <img src="assets/dynslam/gc-dispnet/odo-05-intersection-gc-w-3.png" alt="Map preview image"
-       title="Exacmple of a map produced by our system. Please see the project's website or paper for more results! (Buttons to the right!)" />
+  <img src="assets/images/2018-icra-teaser.jpeg" alt="Map preview image"
+       title="Example of a map produced by our system. Please see the project's website or paper for more results! (Buttons to the right!)" />
 </div>
   <div class="col-8">
     {% include authors.html names="me, liu, pollefeys, geiger" %}
