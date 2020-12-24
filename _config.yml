@@ -7,6 +7,7 @@ description: >
 baseurl:      ""
 # domain_name:  "http://siegedog.com"
 future:       true
+timezone:     America/Toronto
 
 # Build settings
 markdown:     kramdown

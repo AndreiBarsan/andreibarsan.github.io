@@ -53,8 +53,8 @@ influence of various machine learning-powered technologies on our daily lives.
   <br/>
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
   <br/>
-  <a class="badge" href="https://uber.com/atg/datasets/pit30m">Web</a>
-  <a class="badge pdf" href="#">PDF (Coming Soon!)</a>
+  <a class="badge" href="https://uber.com/atg/datasets/pit30m" target="_blank">Web</a>
+  <a class="badge pdf" href="https://arxiv.org/abs/2012.12437" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
   <a class="badge slides" href="#">Play with it! (Coming Soon!)</a>
   <p style="font-size: 80%">
@@ -226,7 +226,7 @@ influence of various machine learning-powered technologies on our daily lives.
 
  * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
      Toronto, Fall 2017.
- * Reviewer: **ICRA** 2019, **IROS** (2019, 2020), **ECCV** 2020, **CoRL** 2020, **AAAI 2021**, **RA-L**
+ * Reviewer: **CVPR** 2021, **ECCV** 2020, **ICRA** (2019, 2021), **IROS** (2019, 2020), **CoRL** 2020, **AAAI** 2021, **RA-L** 2020
    * Acknowledged as one of the **top reviewers** for **[ECCV](https://eccv2020.eu)** 2020 (top 7.5%).
 
 
