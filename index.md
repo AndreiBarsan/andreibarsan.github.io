@@ -3,7 +3,7 @@ layout: no-about-page
 title: About Me
 ---
 
-I'm a PhD student in the [Machine Learning
+I'm a PhD candidate in the [Machine Learning
 Group](http://learning.cs.toronto.edu/) at the University of Toronto,
 focusing on computer vision and deep learning for
 autonomous robotics.  I started in September 2017, under the supervision of
