@@ -47,6 +47,10 @@ defaults:
             layout: post
 
 people:
+  ajyang:
+    name: Joyce Yang
+    site: http://www.cs.toronto.edu/~ajyang/
+
   barsan:
     name: Ioan Andrei Bârsan
     not_used_site: https://andreibarsan.github.io    # No point in linking to my own website ;)
@@ -54,6 +58,10 @@ people:
   bai:
     name: Min Bai
     site: http://www.cs.toronto.edu/~mbai/
+
+  cuic:
+    name: Can Cui
+    site: https://github.com/cancui
 
   doubov:
     name: Sasha Doubov

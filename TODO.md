@@ -1,6 +1,11 @@
 TODO list of things to do
 =========================
 
+High-priority
+-------------
+ - [ ] Add multi-task paper to website
+ - [ ] Add PQ-SGD to website
+
 Misc
 ----
  * [ ] Autoplay publication gif on hover (e.g., for GILL), and click for full video in lightbox (where available)

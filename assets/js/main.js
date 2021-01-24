@@ -36,10 +36,13 @@ function retina() {
 */
 
 
-/*
+/*******************************************************************************
  * Actual stuff for my website
- */
+ ******************************************************************************/
+
+//
 // On pages which have it, makes sure the image carousel doesn't get confused by the site's layout.
+//
 function checkSlider(event) {
   if (typeof jQuery == 'undefined') {
     // Don't bother doing anything without jQuery, since the slider requires
@@ -69,6 +72,40 @@ function checkSlider(event) {
 }
 
 document.addEventListener("DOMContentLoaded", checkSlider);
+
+//
+// Generic function to play HTML videos while hovered, and show a generic image otherwise.
+//
+// JQuery-free, but not guaranteed bug-free. :)
+//
+// How to use:
+//
+//    Create the following HTML structure, and as long as 'playWhenHovered' will run, it will turn it into
+//    a play-on-hover-then-pause-when-mouse-out video:
+//      <div class="play-when-hovered">
+//        <video loop ...> <!-- Your video here. It's recommended to loop it, and ensure it's roughly the same aspect
+//                              ratio and size as the image. -->
+//        <img  ...>
+//      </div>
+//
+function playWhenHovered() {
+  let vids = document.querySelectorAll(".play-when-hovered");
+  vids.forEach(vid => {
+    let image = vid.querySelector("img");
+    let video = vid.querySelector("video");
+    vid.addEventListener("mouseenter", (e) => {
+      image.style.display = "none";
+      video.style.display = "block";
+      video.play();
+    });
+    vid.addEventListener("mouseleave", (e) => {
+      image.style.display = "block";
+      video.style.display = "none";
+      video.pause();
+    });
+  });
+}
+playWhenHovered();
 
 
 /*
