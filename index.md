@@ -80,7 +80,7 @@ driving in the real world.
 <div class="col-12">
 <h3>
   <!-- <span class="badge new">New</span> -->
-  <a href="#"> <!-- target="_blank" -->
+  <a href="https://arxiv.org/abs/2012.12437" target="_blank">
     Pit30M: A Benchmark for Global Localization in the Age of Self-Driving Cars
     (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2020)
   </a>

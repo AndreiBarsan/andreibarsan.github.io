@@ -10,25 +10,27 @@ Misc
 ----
  * [ ] Autoplay publication gif on hover (e.g., for GILL), and click for full video in lightbox (where available)
       - I will do this once I actually publish my next primary research project! (Task added 2020-06-21)
+ * [ ] Shrink my headshot ~2x on mobile, since it's a bit too huge now.
  * [ ] Make publications clickable, and expand to show abstract and additional links
  * [ ] Add proper website/bookmark icon.
  * [ ] Add CV (resume) download link.
  * [ ] Add paper reviews as txt files.
- * [ ] Automatic link checking to prevent/minimize link rot
- * [ ] Make repo private
+ * [ ] Automatic link checking to prevent/minimize link rot (git hook)
  * [ ] Add URL to Pit30M BibTeX once arXiv/proceedings available
+ * [ ] Make repo private
 
 Low-priority
 -----------
  * [ ] On small screens, on all pages except the main, completely hide my name & face, instead of flowing it on top of
        the main content, which could be annoying to readers.
- * [ ] Auto-render publications from raw bib files.
+ * [ ] Collapse TL;DR into expandable box on mobile
  * [ ] Consider minification for CSS and stuff.
  * [ ] Make site fully responsive even with no JavaScript
  * [ ] Add IROS talk video (does that even exist?)
  * [ ] Add CoRL talk video
  * [ ] PDF / Blog post about NMOP project.
      - insights may re-appear in our AMV-SLAM paper after all!
+ * [ ] Auto-render publications from raw bib files.
  * [ ] Automatic link archival a la Gwern
 
 Done
@@ -73,4 +75,4 @@ Old
  * Fix lists inside posts on main page
  * Fix heading spacing on article pages
  * PDF (arXiv?) / Blog post about TD3 extensions for IL after we tweak them
-     a bit more.
+   a bit more.
