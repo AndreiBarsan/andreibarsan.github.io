@@ -6,19 +6,13 @@ title: About Me
 I'm a PhD candidate in the [Machine Learning
 Group](http://learning.cs.toronto.edu/) at the University of Toronto,
 focusing on computer vision and deep learning for
-autonomous robotics.  I started in September 2017, under the supervision of
+robotics and long-term autonomy. I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
 In addition to this, I am also a full-time researcher at [Uber Advanced Technologies Group
 (ATG)](https://www.uber.com/info/atg/) Toronto, also led by Professor Urtasun,
 working on applying my research to the challenges associated with autonomous
 driving in the real world.
-
-In addition to machine learning and computer vision, my research interests
-include robotics and long-term autonomy. I am also interested in machine
-learning security, and I believe that more research is needed in this area
-(together with its complementary subfield, interpretability), given the growing
-influence of various machine learning-powered technologies on our daily lives.
 
 
 <h2>Education</h2>
@@ -32,7 +26,7 @@ influence of various machine learning-powered technologies on our daily lives.
    Romania (Sep 2011--Jul 2014)
 
 
-<h2> Publications </h2>
+<h2>Publications</h2>
 
 <div class="paper row">
 <div class="col-12">
