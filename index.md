@@ -62,7 +62,9 @@ influence of various machine learning-powered technologies on our daily lives.
   </a>
 </div>
 <div class="col-8 details">
-  {% include authors.html names="ajyang, cuic, me, urtasun, wang" %}
+  {% include authors.html names="ajyang*, cuic*, me*, urtasun, wang" %}
+  <br/>
+  <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06562" target="_blank">PDF (arXiv)</a>
   <a class="badge video" href="https://www.youtube.com/watch?v=EV1vhUkHIy8" target="_blank">Video</a>
