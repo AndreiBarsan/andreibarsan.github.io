@@ -59,7 +59,7 @@ driving in the real world.
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06562" target="_blank">PDF (arXiv)</a>
-  <a class="badge video" href="https://www.youtube.com/watch?v=EV1vhUkHIy8" target="_blank">Video</a>
+  <a class="badge video" href="https://www.youtube.com/watch?v=UBgc0cXqXlw" target="_blank">Video</a>
   <p class="tldr">
     <b>TL;DR:</b> We analyze Simultaneous Localization and Mapping (SLAM) in a setting where multiple cameras are
     attached to a robot but fire at different times, e.g., by following a spinning LiDAR. We extend a classic SLAM
