@@ -98,6 +98,8 @@ driving in the real world.
   <a class="badge pdf" href="https://arxiv.org/abs/2012.12437" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
   <a class="badge slides" href="#">Play with it! (Coming Soon!)</a>
+  <a class="badge video" href="https://www.youtube.com/watch?v=hJ6A_1YSITo" target="_blank">Overview Video (90s)</a>
+  <a class="badge video" href="https://www.youtube.com/watch?v=W_ZJ9oojp-o" target="_blank">IROS Talk (15min)</a>
   <p class="tldr">
     <b>TL;DR:</b> A new self-driving dataset containing >30M HD images and LiDAR sweeps covering Pittsburgh
     over one year, all with centimeter-level pose accuracy. We investigate the potential of
