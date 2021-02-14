@@ -137,6 +137,7 @@ driving in the real world.
   <a class="badge slides" href="/assets/key/talks/BARSAN-IoanAndrei-2019-IROS-SparseHDMaps-Talk-v6.key"
      title="The Keynote slides have the original animations as well as a video not available in the PDF version."
      target="_blank">Talk Slides (Apple Keynote)</a>
+  <a class="badge video" href="https://youtu.be/-_PvPPr7y28" target="_blank">Video</a>
   <p class="tldr">
     <b>TL;DR:</b> We use very sparse maps consisting in lane graphs (i.e., polylines) and stored
     traffic sign positions to localize autonomous vehicles. These maps take up ~0.5MiB/km<sup>2</sup>,
