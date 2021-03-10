@@ -3,7 +3,9 @@ TODO list of things to do
 
 High-priority
 -------------
- - [ ] Add multi-task video once the camera-ready version is done
+ - [ ] Add multi-task video link once the camera-ready version is done (can't
+     think of a good mini-video-on-hover since the outputs are not as visual
+     as, e.g., SLAM)
  - [ ] Add PQ-SGD to website
 
 Misc

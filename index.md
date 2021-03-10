@@ -9,15 +9,17 @@ focusing on computer vision and deep learning for
 robotics and long-term autonomy. I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
-In addition to this, I am also a full-time researcher at [Uber Advanced Technologies Group
-(ATG)](https://www.uber.com/info/atg/) Toronto, also led by Professor Urtasun,
-working on applying my research to the challenges associated with autonomous
-driving in the real world.
+I am also full-time research scientist at a stealth startup.
+
+Before this, I spent three wonderful years as a researcher at [Uber Advanced
+Technologies Group (ATG)](https://www.uber.com/info/atg/) Toronto, working on
+applying my research to the challenges associated with autonomous driving in
+the real world.
 
 
 <h2>Education</h2>
 
- * PhD Student at the <a href="http://learning.cs.toronto.edu" target="_blank">University
+ * PhD Candidate at the <a href="http://learning.cs.toronto.edu" target="_blank">University
    of Toronto (Sep 2017--present)</a>
  * MSc. in Computer Science with Distinction from
    <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (Sep 2015--Aug 2017)
@@ -58,7 +60,7 @@ driving in the real world.
     <b>TL;DR:</b> 
     We show that the impact of localization errors on autonomous driving tasks
     like perception and motion planning can be significant, and propose an 
-    efficient multi-task neural network which can correct such errors.
+    efficient multi-task neural network which can correct such errors. 
   </p>
 </div>
 </div>
