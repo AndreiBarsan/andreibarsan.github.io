@@ -289,11 +289,16 @@ the real world.
 
 <h3>Industry</h3>
 
- * Full-time research scientist at **Uber ATG Toronto** (Jan 2018--present).
+ * Full-time research scientist at a **startup currently in stealth** (Mar 2021--Present).
+ * Full-time research scientist at **Uber ATG Toronto** (Jan 2018--Feb 2021).
       * Helping develop scalable and robust centimeter-accurate
-        localization methods for self-driving cars.
-      * LiDAR-based map localization, visual localization, learning-based
-        compression, large-scale machine learning (Apache Spark).
+        **localization** methods for **self-driving cars**.
+      * LiDAR-based map localization, visual **localization**, learning-based
+        **compression**, large-scale machine learning (Apache Spark).
+      * **Multi-Task Learning** for autonomous driving with a focus on real-time
+        operation.
+      * Data engineering; **petabyte-scale** data ingestion, curation, and
+        benchmark selection.
  * Previously, I did a series of software engineering internships in the US
      during my undergrad:
     * Internship: **Twitter** (Summer 2015, San Francisco, CA), Performance Ads
