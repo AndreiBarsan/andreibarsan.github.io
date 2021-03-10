@@ -32,6 +32,41 @@ driving in the real world.
 <div class="col-12">
 <h3>
   <span class="badge new">New</span>
+  <a href="https://arxiv.org/abs/2101.06720" target="_blank">
+    Deep Multi-Task Learning for Joint Localization, Perception, and Prediction
+    (<abbr title="International Conference on Computer Vision and Pattern
+    Recognition">CVPR</abbr> 2021)
+  </a>
+</h3>
+</div>
+
+<div class="col-4">
+  <a href="https://arxiv.org/abs/2101.06720" target="_blank">
+    <img src="assets/images/cvpr2021-multi-task-icon-v0.small.png"
+         alt="Multi-task learning diagram overview. Please see the paper for
+         a full version of the diagram and further details!" />
+  </a>
+</div>
+<div class="col-8 details">
+  {% include authors.html names="phillips*, martinez*, me*, casas, sadat, urtasun" %}
+  <br/>
+  <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
+  <br/>
+  <a class="badge pdf" href="https://arxiv.org/abs/2101.06562" target="_blank">PDF (arXiv)</a>
+  <a class="badge bibtex" href="/assets/bib/phillips-multi-task-cvpr-21.bib" target="_blank">BibTeX</a>
+  <p class="tldr">
+    <b>TL;DR:</b> 
+    We show that the impact of localization errors on autonomous driving tasks
+    like perception and motion planning can be significant, and propose an 
+    efficient multi-task neural network which can correct such errors.
+  </p>
+</div>
+</div>
+
+<div class="paper row">
+<div class="col-12">
+<h3>
+  <span class="badge new">New</span>
   <a href="https://arxiv.org/abs/2101.06562" target="_blank">
     Asynchronous Multi-View SLAM
     (<abbr title="International Conference on Robotics and Automation">ICRA</abbr> 2021)
@@ -48,7 +83,7 @@ driving in the real world.
     >
       <source src="assets/video/amv-mini-preview.mp4"  type="video/mp4" />
     </video>
-    <img src="assets/images/amv-slam-teaser-web-v0.opt.jpeg"
+    <img src="assets/images/icra2021-slam-icon-v0.opt.jpeg"
          alt="AMV-SLAM teaser image." />
   </div>
   </a>
@@ -59,6 +94,7 @@ driving in the real world.
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06562" target="_blank">PDF (arXiv)</a>
+  <a class="badge bibtex" href="/assets/bib/yang-amv-slam-icra-21.bib" target="_blank">BibTeX</a>
   <a class="badge video" href="https://www.youtube.com/watch?v=UBgc0cXqXlw" target="_blank">Video</a>
   <p class="tldr">
     <b>TL;DR:</b> We analyze Simultaneous Localization and Mapping (SLAM) in a setting where multiple cameras are
@@ -228,7 +264,7 @@ driving in the real world.
   <div class="col-8">
     {% include authors.html names="me, liu, pollefeys, geiger" %}
     <br/>
-    Proceedings of the IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>) 2018
+    IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>) 2018
     <br/>
     <a class="badge" href="dynslam/">Web</a>
     <a class="badge pdf" href="assets/dynslam/BARSAN-IoanAndrei-RobustDenseMapping-ICRA-2018-CameraReady.pdf"
