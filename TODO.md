@@ -3,31 +3,29 @@ TODO list of things to do
 
 High-priority
 -------------
- - [ ] Add multi-task paper to website
+ - [ ] Add multi-task video once the camera-ready version is done
  - [ ] Add PQ-SGD to website
 
 Misc
 ----
- * [ ] Autoplay publication gif on hover (e.g., for GILL), and click for full video in lightbox (where available)
-      - I will do this once I actually publish my next primary research project! (Task added 2020-06-21)
  * [ ] Shrink my headshot ~2x on mobile, since it's a bit too huge now.
+ * [ ] Make Bibtex pop up, rather than insta-download (annoying)
  * [ ] Make publications clickable, and expand to show abstract and additional links
- * [ ] Add proper website/bookmark icon.
+ * [ ] Add proper website/bookmark icon
  * [ ] Add CV (resume) download link.
- * [ ] Add paper reviews as txt files.
  * [ ] Automatic link checking to prevent/minimize link rot (git hook)
  * [ ] Add URL to Pit30M BibTeX once arXiv/proceedings available
  * [ ] Make repo private
+ * [ ] Add CoRL talk video
 
 Low-priority
 -----------
  * [ ] On small screens, on all pages except the main, completely hide my name & face, instead of flowing it on top of
        the main content, which could be annoying to readers.
+ * [ ] Add paper reviews as txt files.
  * [ ] Collapse TL;DR into expandable box on mobile
- * [ ] Consider minification for CSS and stuff.
  * [ ] Make site fully responsive even with no JavaScript
  * [ ] Add IROS talk video (does that even exist?)
- * [ ] Add CoRL talk video
  * [ ] PDF / Blog post about NMOP project.
      - insights may re-appear in our AMV-SLAM paper after all!
  * [ ] Auto-render publications from raw bib files.
@@ -35,6 +33,9 @@ Low-priority
 
 Done
 ---
+ - [X] Add multi-task paper to website
+ * [X] Autoplay publication gif on hover (e.g., for GILL), and click for full video in lightbox (where available)
+      - I will do this once I actually publish my next primary research project! (Task added 2020-06-21)
  * [X] Add CoRL poster
  * [X] Add ICRA poster
  * [X] Ensure site perfectly readable with JS off.
