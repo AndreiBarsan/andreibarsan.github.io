@@ -9,7 +9,7 @@ focusing on computer vision and deep learning for
 robotics and long-term autonomy. I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
-I am also full-time research scientist at a stealth startup.
+I am also a full-time research scientist at a stealth startup.
 
 Before this, I spent three wonderful years as a researcher at [Uber Advanced
 Technologies Group (ATG)](https://www.uber.com/info/atg/) Toronto, working on
