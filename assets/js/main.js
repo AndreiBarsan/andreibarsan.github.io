@@ -1,45 +1,6 @@
-// To make images retina, add a class "2x" to the img element
-// and add a <image-name>@2x.png image. Assumes jquery is loaded.
- 
-function isRetina() {
-	var mediaQuery = "(-webkit-min-device-pixel-ratio: 1.5),\
-					  (min--moz-device-pixel-ratio: 1.5),\
-					  (-o-min-device-pixel-ratio: 3/2),\
-					  (min-resolution: 1.5dppx)";
- 
-	if (window.devicePixelRatio > 1)
-		return true;
- 
-	if (window.matchMedia && window.matchMedia(mediaQuery).matches)
-		return true;
- 
-	return false;
-};
- 
- 
-/* No need for explicit JS retina support.
-function retina() {
-	
-	if (!isRetina())
-		return;
-	
-	$("img.2x").map(function(i, image) {
-		
-		var path = $(image).attr("src");
-		
-		path = path.replace(".png", "@2x.png");
-		path = path.replace(".jpg", "@2x.jpg");
-		
-		$(image).attr("src", path);
-	});
-};
-*/
-
-
 /*******************************************************************************
  * Actual stuff for my website
  ******************************************************************************/
-
 //
 // On pages which have it, makes sure the image carousel doesn't get confused by the site's layout.
 //
@@ -90,29 +51,45 @@ document.addEventListener("DOMContentLoaded", checkSlider);
 //
 function playWhenHovered() {
   let vids = document.querySelectorAll(".play-when-hovered");
-  vids.forEach(vid => {
-    let image = vid.querySelector("img");
-    let video = vid.querySelector("video");
-    vid.addEventListener("mouseenter", (e) => {
+  // TODO(andreib): Prettier alt text tooltip, or just remove, since otherwise it
+  // obstructs the video.
+  vids.forEach(videoContainer => {
+    let image = videoContainer.querySelector("img");
+    let video = videoContainer.querySelector("video");
+    var mouseInside = false;
+    videoContainer.addEventListener("mouseenter", (e) => {
+      mouseInside = true;
       image.style.display = "none";
       video.style.display = "block";
-      video.play();
+      var playPromise = video.play();
+      if (undefined !== playPromise) {
+        playPromise.catch(error => {
+          console.error("Could not play video:", error);
+        });
+      }
     });
-    vid.addEventListener("mouseleave", (e) => {
-      image.style.display = "block";
-      video.style.display = "none";
-      video.pause();
+    videoContainer.addEventListener("mouseleave", (e) => {
+      mouseInside = false;
+    });
+    video.addEventListener("playing", (evt) => {
+      console.log("Video end event.");
+      if (! mouseInside) {
+        image.style.display = "block";
+        video.style.display = "none";
+        console.log("pausing video...");
+        video.pause();
+      }
     });
   });
 }
 playWhenHovered();
 
 
-/*
+/*********************************************************************************
 	Future Imperfect by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+*********************************************************************************/
 
 function skelHelpers() {
 	skel.breakpoints({
@@ -164,4 +141,43 @@ function skelHelpers() {
     });
 }
 skelHelpers();
+//
+// To make images retina, add a class "2x" to the img element
+// and add a <image-name>@2x.png image. Assumes jquery is loaded.
+ 
+function isRetina() {
+	var mediaQuery = "(-webkit-min-device-pixel-ratio: 1.5),\
+					  (min--moz-device-pixel-ratio: 1.5),\
+					  (-o-min-device-pixel-ratio: 3/2),\
+					  (min-resolution: 1.5dppx)";
+ 
+	if (window.devicePixelRatio > 1)
+		return true;
+ 
+	if (window.matchMedia && window.matchMedia(mediaQuery).matches)
+		return true;
+ 
+	return false;
+};
+ 
+
+
+ 
+/* No need for explicit JS retina support.
+function retina() {
+	
+	if (!isRetina())
+		return;
+	
+	$("img.2x").map(function(i, image) {
+		
+		var path = $(image).attr("src");
+		
+		path = path.replace(".png", "@2x.png");
+		path = path.replace(".jpg", "@2x.jpg");
+		
+		$(image).attr("src", path);
+	});
+};
+*/
 
