@@ -317,7 +317,7 @@ the real world.
    * Acknowledged as one of the **top reviewers** for **[ECCV](https://eccv2020.eu)** 2020 (top 7.5%).
 
 
-# Talks
+<h2>Talks</h2>
  * <span class="badge new">New</span> &nbsp; <a href="http://allaboutselfdriving.com" target="_blank">
     <strong>All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)</strong>
    </a>
@@ -370,11 +370,10 @@ the real world.
       support the examination itself (i.e., lots of discussing beyond the slides), but may still be of interest.
 
 
-# Other Projects
+<h2>Miscellaneous</h2>
 
- * MetalNet, a small toolkit for scraping and processing metal lyrics, followed
-   by training a language model to generate its own metal. (Source code and blog
-   post coming soon™!)
+ * A short [blog post with a few tips on making academic
+     videos](2021/03/25/video-tips)
  * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
  forward and deferred rendering support, real time shadow mapping and more.
  <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
@@ -384,7 +383,7 @@ the real world.
    tricky to build and run them, though, given the age of the code.
 
 
-# Bio
+<h2>Bio</h2>
 
 Before starting my PhD, I completed my Master's in Computer Science at [ETH
 Zurich](https://www.inf.ethz.ch/).
@@ -405,7 +404,7 @@ I am originally from Brașov, Romania, a lovely little town which I encourage
 everybody to visit, together with the rest of Southeast Europe.
 
 
-# Contact
+<h2>Contact</h2>
 
 Email me at iab (at) cs (dawt) toronto (dawt) edu.
 

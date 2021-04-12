@@ -23,12 +23,12 @@
                 </div>
                 <div class="meta">
                   <time class="published" datetime="{{ page.date | date: "%F" }}">{{ page.date | date: "%B %d, %Y" }}</time>
-                  {% for category in page.categories limit:1 %}
+                  <!-- disabled categories until I have a proper blog; also,
+                    looks bad on mobile due to using border-bottom to underline
+                    links -->
+                  {% for category in page.categories limit:0 %}
                     <a href="#">{{ category }}</a>
                   {% endfor %}
-                  {% if page.writing_status  %}
-                  <span> | {{ page.writing_status }}</span>
-                  {% endif %}
 
         
         <!-- <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a> -->

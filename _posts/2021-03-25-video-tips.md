@@ -30,6 +30,10 @@ replace in-person sessions and networking, it does open the door to putting
 a little bit more thought and creativity in one's talks: preparing more
 interesting visualizations, doing more professional editing, etc.
 
+| ![Inference architecture diagram from the PointFlow paper by Yang et al. (not mine!)](/assets/images/guandao-yang-pointflow-inference-architecture.gif) |
+|:--:| 
+| **Animated Inference Diagram from PointFlow.** This great animation from [PointFlow](https://www.guandaoyang.com/PointFlow/) by Yang et al. is a fantastic example of a crisp and descriptive animation which can instantly convey the gist of a method. |
+
 However, there are many decisions which must be made in order to determine what
 makes for a good video.  While I am still far from an expert in video editing
 myself, over times I have gathered a number of tips and tricks, and this post
