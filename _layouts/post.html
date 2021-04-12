@@ -19,13 +19,16 @@
               <header>
                 <div class="title">
                   <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-                  <p>{{ page.subtitle{{ page.subtitle }}</p>
+                  <p>{{ page.subtitle }}</p>
                 </div>
                 <div class="meta">
                   <time class="published" datetime="{{ page.date | date: "%F" }}">{{ page.date | date: "%B %d, %Y" }}</time>
                   {% for category in page.categories limit:1 %}
                     <a href="#">{{ category }}</a>
                   {% endfor %}
+                  {% if page.writing_status  %}
+                  <span> | {{ page.writing_status }}</span>
+                  {% endif %}
 
         
         <!-- <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a> -->
