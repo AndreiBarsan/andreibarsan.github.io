@@ -115,7 +115,7 @@ editor! :)
  * Abe Davis’s videos, like [Crowdsampling the Plenoptic
      Function](https://www.youtube.com/watch?v=MAVFKWX8LYo)
  * Qualcomm makes very professional videos with a blog post with top highlights
-for every conference. Example from NeurIPS 2020. (Thanks to 
+for every conference. {% include a.html href='https://www.qualcomm.com/news/onq/2020/12/03/neurips-2020-explore-our-latest-innovations-ai' text='Here is an example from NeurIPS 2020' %}. (Thanks to 
   {% include authors.html names="martinez" %}
   for pointing me to this page!)
  * For general examples on polished videos and attention to detail, the “Two

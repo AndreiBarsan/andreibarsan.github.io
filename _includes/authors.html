@@ -1,3 +1,14 @@
+{% comment %}
+  Renders an author list defined in 'config.yaml' with links to people's sites.
+
+  Supports rendering asterisks to indicate equal contribution for paper
+  authorship. You can also use this to simply link to a single person's
+  website.
+
+  Usage: include authors.html names="foo, bar, baz" surrounded by the
+  appropriate tags.
+{% endcomment %}
+
 {%- assign authors_split = include.names | split: ", " -%}
 {%- assign n_authors = authors_split | size -%}
 {%- for i in (0..n_authors) -%}
