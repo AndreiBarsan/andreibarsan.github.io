@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Academic Video Tips
+title: Tips for Kickass Academic Videos
 subtitle: 
 date: 2021-03-25 21:56:00.00 -05:00
 categories:
@@ -36,10 +36,12 @@ interesting visualizations, doing more professional editing, etc.
 
 However, there are many decisions which must be made in order to determine what
 makes for a good video.  While I am still far from an expert in video editing
-myself, over times I have gathered a number of tips and tricks, and this post
-is meant to gather them in one place.
+myself (many of my own videos could benefit from the advice in this post), over
+time I learned a number of tips and tricks, and this post is meant to
+gather them in one place.
 
-Hopefully the tips and references will be helpful to some!
+Hopefully the tips and references will be helpful for people in the process of
+putting together a paper video!
 
 <!--more-->
 
@@ -64,6 +66,10 @@ often, you can achieve this while reducing the file size 5--10x, which can be
 the difference between a slow-non responsive 50Mb webpage and a comparatively
 nimble 5Mb one!
 
+This can make an even bigger difference when posting many small videos on the
+website, e.g., to show off an [awesome new image-based rendering
+method](https://phog.github.io/snerg/).
+
 Some simple tricks:
 
  * Compress a video to a fixes size budget, e.g., for Papercept or CMT, using
@@ -74,8 +80,13 @@ Some simple tricks:
   ffmpeg -y -i $INPUT -c:v libx264 -preset veryslow -b:v $BITRATE -pass 1 -f mp4 /dev/null && \
   ffmpeg -i $INPUT -c:v libx264 -preset veryslow -b:v $BITRATE -pass 2 "$OUT"
   ```
-  Where you'd set the bitrate by dividing the length of the video in seconds by the max allowed file size in Kb. Note that for videos that are not very long (&lt;3min) and
-  file size limits &gt;50Mb, using `-crf 18` instead of the two-pass process is probably also fine.
+  Where you'd set the bitrate by dividing the length of the video in seconds by
+  the max allowed file size in Kb. Note that for videos that are not very long
+  (&lt;3min) and
+  file size limits &gt;50Mb, using `-crf 18` instead of the two-pass process is probably also fine:
+   ```bash
+   ffmpeg -i YOUR_RAW_VIDEO.mp4 -crf 18 YOUR_RAW_VIDEO.re-encoded.mp4
+   ```
  * I noticed lots of videos exported by MacOS's screen recorder, or even Adobe
    Premiere itself (!) are not compressed very efficiently. Often simply
    doing
@@ -118,9 +129,7 @@ editor! :)
 for every conference. {% include a.html href='https://www.qualcomm.com/news/onq/2020/12/03/neurips-2020-explore-our-latest-innovations-ai' text='Here is an example from NeurIPS 2020' %}. (Thanks to 
   {% include authors.html names="martinez" %}
   for pointing me to this page!)
- * For general examples on polished videos and attention to detail, the “Two
-Minute Papers” YouTube channel is also a nice (albeit not too technical)
-reference.
+ * For general examples on polished videos and attention to detail, the {% include a.html href='https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg' text='“Two Minute Papers” YouTube channel' %} is also a nice (albeit not very technical) reference.
 
 <!-- More of a note to self.
 
