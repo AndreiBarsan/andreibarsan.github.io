@@ -47,11 +47,30 @@ putting together a paper video!
 
 ## Tools 
 
-[Screencast-o-Matic](https://screencast-o-matic.com) seems like a nice tool for
+I found that using the {% include a.html href="https://obsproject.com/"
+title="OBS" text="Open Broadcaster Software (OBS)" %} gives the most
+flexibility in terms of high-quality screen, audio, and video recording. It's
+free, open-source, cross-platform, and very flexible (e.g., you can drag around
+your webcam view to reposition yourself on the video so there is minimal
+overlap with your slides).
+
+In general, I would strongly advise against just using Zoom for this. Since
+Zoom is optimized for video conferences, it compresses the video and audio
+aggressively, producing serios artifacts and generally not-very-professional
+results. It also takes a while for the Zoom recording to be available, while
+OBS produces it instantly once the recording stops. Furthermore, you can
+customize the output resolution, framerate, and format in OBS, which can't
+easily be done with Zoom.
+
+Something like OBS takes maybe 10 minutes to figure out the first time, and
+then it's just as seamless, while also producing much higher quality outputs and
+being more flexible.
+
+[Screencast-o-Matic](https://screencast-o-matic.com) also seems like a nice tool for
 Mac screen recording, closed captioning, basic editing, etc., and it’s
-C$25/year, so seems worth it. Otherwise, relying on Zoom for closed caption
-generation is very unreliable--sometimes it can take over 24h to get the
-caption file.
+C$25/year, so seems worth it. However, I have not tried this yet. Relying on
+Zoom for closed caption generation can be unreliable--sometimes it can take
+over 24h to get the caption file.
 
 ### ffmpeg
 While I do my primary video editing in Adobe Premiere, nothing beats
@@ -72,7 +91,7 @@ method](https://phog.github.io/snerg/).
 
 Some simple tricks:
 
- * Compress a video to a fixes size budget, e.g., for Papercept or CMT, using
+ * Compress a video to a fixed size budget, e.g., for Papercept or CMT, using
    the “two pass” method from [this wiki page](https://trac.ffmpeg.org/wiki/Encode/H.264):
    ```bash
   INPUT=YOUR_RAW_VIDEO.mp4; BITRATE=875k; 
@@ -83,7 +102,7 @@ Some simple tricks:
   Where you'd set the bitrate by dividing the length of the video in seconds by
   the max allowed file size in Kb. Note that for videos that are not very long
   (&lt;3min) and
-  file size limits &gt;50Mb, using `-crf 18` instead of the two-pass process is probably also fine:
+  file size limits &gt;50Mb, using `-crf 18` instead of the two-pass process is probably also fine (for `crf`, higher means more compression and thus more artifacts):
    ```bash
    ffmpeg -i YOUR_RAW_VIDEO.mp4 -crf 18 YOUR_RAW_VIDEO.re-encoded.mp4
    ```
@@ -103,10 +122,12 @@ A good microphone and camera combo can make a huge difference in the quality of
 academic videos. While not all videos need a face cam, audio narration is
 always a nice thing to have.
 
-**Audio:** I am currently in the process of learning more about audio
-equipment. Stay tuned! :)
+**Audio:** I recently purchased a FiFine T669 USB microphone kit, and I am
+currently in the process of evaluating it. So far, I am very happy with it,
+especially considering the C$95 price tag (microphone, boom arm, and pop filter).
+Stay tuned for more details! :)
 
-**Video:** I have recently purchased a [Logitech Brio](https://www.logitech.com/en-ca/products/webcams/brio-4k-hdr-webcam.960-001105.html) webcam, after getting tired of my old 720p Macbook camera. While quite pricey, at C$250+tax in February 2021, it is still much cheaper and easier to set up than a dedicated DSLR, while still offering 60FPS 1080p recording, 30FPS 4k, as well as HDR. I've recorded a few videos with it so far, and the footage quality is very good.
+**Video:** I bought a [Logitech Brio](https://www.logitech.com/en-ca/products/webcams/brio-4k-hdr-webcam.960-001105.html) webcam, after getting tired of my old 720p Macbook camera. While quite pricey, at C$250+tax in February 2021, it is still much cheaper and easier to set up than a dedicated DSLR, while still offering 60FPS 1080p recording, 30FPS 4k, as well as HDR. I've recorded a few videos with it so far, and the footage quality is very good.
 
 <!--
 That being said, it's still a little frustrating that we only get 30FPS 4k with
