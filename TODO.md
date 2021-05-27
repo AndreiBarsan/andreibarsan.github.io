@@ -7,6 +7,7 @@ High-priority
      think of a good mini-video-on-hover since the outputs are not as visual
      as, e.g., SLAM)
  - [ ] Add PQ-SGD to website
+ - [ ] Link to LP3 page from main page once the LP3 video is online
 
 Misc
 ----

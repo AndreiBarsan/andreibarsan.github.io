@@ -54,7 +54,7 @@ the real world.
   <br/>
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
-  <a class="badge pdf" href="https://arxiv.org/abs/2101.06562" target="_blank">PDF (arXiv)</a>
+  <a class="badge pdf" href="https://arxiv.org/abs/2101.06720" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/phillips-multi-task-cvpr-21.bib" target="_blank">BibTeX</a>
   <p class="tldr">
     <b>TL;DR:</b> 
