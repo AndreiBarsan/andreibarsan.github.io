@@ -8,6 +8,7 @@ baseurl:      ""
 # domain_name:  "http://siegedog.com"
 future:       true
 timezone:     America/Toronto
+repository:   AndreiBarsan/andreibarsan.github.io
 
 # Build settings
 markdown:     kramdown
