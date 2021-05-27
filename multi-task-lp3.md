@@ -34,7 +34,25 @@ In this paper we question this assumption, and investigate the issues that
 arise in state-of-the-art autonomy stacks under localization error. Based on our observations, we design a system that
 jointly performs perception, prediction, and localization. Our architecture is able to reuse computation between both
 tasks, and is thus able to correct localization errors efficiently. We show experiments on a large-scale autonomy
-dataset, demonstrating the efficiency and accuracy of our proposed approach. 
+dataset, demonstrating the efficiency and accuracy of our proposed approach.
+
+<br/>
+
+
+<!-- 
+ ## The Effects of Localizer Error
+
+ TODO(andrei): Add this, plus gifs of the videos that make up the main video. Make sure the legend is clear!
+
+<br/>
+-->
+
+
+## Joint Localization, Perception, and Prediction
+
+| ![The architecture of the combined localization, perception, and prediction (LP2) model.](/assets/multi-task-lp3/lp3-diagram.png ) |
+|:--:| 
+| **Proposed Architecture.** We propose a joint architecture for localization, perception, and prediction (LP2) from LiDAR data. Please refer to the video above or our paper for additional information.|
 
 
 <br/>
