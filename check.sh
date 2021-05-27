@@ -7,5 +7,11 @@ IFS=$'\n\t'
 
 PORT=${PORT-44444}
 
+if ! command -v linkchecker; then
+  echo "linkchecker not found, try 'pip install --user LinkChecker'"
+  exit 10
+fi
 
-linkchecker "http://0.0.0.0:$PORT"
+
+linkchecker --threads $(nproc) --check-extern "http://0.0.0.0:$PORT" 
+

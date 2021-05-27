@@ -12,9 +12,9 @@ robotics and long-term autonomy. I started in September 2017, under the supervis
 I am also a full-time research scientist at a stealth startup.
 
 Before this, I spent three wonderful years as a researcher at [Uber Advanced
-Technologies Group (ATG)](https://www.uber.com/info/atg/) Toronto, working on
-applying my research to the challenges associated with autonomous driving in
-the real world.
+Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www.uber.com/us/en/atg/) 
+Toronto, working on applying my research to the challenges associated with 
+autonomous driving in the real world.
 
 
 <h2>Education</h2>
