@@ -56,7 +56,7 @@ overlap with your slides).
 
 In general, I would strongly advise against just using Zoom for this. Since
 Zoom is optimized for video conferences, it compresses the video and audio
-aggressively, producing serios artifacts and generally not-very-professional
+aggressively, producing serious artifacts and generally not very good-looking
 results. It also takes a while for the Zoom recording to be available, while
 OBS produces it instantly once the recording stops. Furthermore, you can
 customize the output resolution, framerate, and format in OBS, which can't
