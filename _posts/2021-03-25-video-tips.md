@@ -66,11 +66,18 @@ Something like OBS takes maybe 10 minutes to figure out the first time, and
 then it's just as seamless, while also producing much higher quality outputs and
 being more flexible.
 
-[Screencast-o-Matic](https://screencast-o-matic.com) also seems like a nice tool for
-Mac screen recording, closed captioning, basic editing, etc., and it’s
+[Screencast-o-Matic](https://screencast-o-matic.com) also seems like a nice tool
+for Mac screen recording, closed captioning, basic editing, etc., and it’s
 C$25/year, so seems worth it. However, I have not tried this yet. Relying on
 Zoom for closed caption generation can be unreliable--sometimes it can take
 over 24h to get the caption file.
+
+[qrd.by](https://qrd.by) is a nice free online QR code generator, if you want 
+to encode a link to your paper or project website to your video or slides. I
+noticed that many free QR code generators produce tracking URLs which reduce
+privacy and can potentially become stale once the redirect provider disappears, 
+so I'd recommend QR code generators which directly encode your provided link.
+You can also generate the code yourself with, e.g, [QRencode](https://github.com/fukuchi/libqrencode).
 
 ### ffmpeg
 While I do my primary video editing in Adobe Premiere, nothing beats

@@ -3,17 +3,17 @@ TODO list of things to do
 
 High-priority
 -------------
+ - [ ] Add PQ-SGD to website
+ - [ ] Update LP3 page with video
+ - [ ] Link to LP3 page from main page once the LP3 video is online
  - [ ] Add multi-task video link once the camera-ready version is done (can't
      think of a good mini-video-on-hover since the outputs are not as visual
      as, e.g., SLAM)
- - [ ] Add PQ-SGD to website
- - [ ] Link to LP3 page from main page once the LP3 video is online
 
 Misc
 ----
  * [ ] Shrink my headshot ~2x on mobile, since it's a bit too huge now.
  * [ ] Make Bibtex pop up, rather than insta-download (annoying)
- * [ ] Make publications clickable, and expand to show abstract and additional links
  * [ ] Add proper website/bookmark icon
  * [ ] Add CV (resume) download link.
  * [ ] Automatic link checking to prevent/minimize link rot (git hook)
@@ -24,7 +24,7 @@ Misc
 Low-priority
 -----------
  * [ ] On small screens, on all pages except the main, completely hide my name & face, instead of flowing it on top of
-       the main content, which could be annoying to readers.
+       the main content, which could be annoying to readers. The page title should be enough.
  * [ ] Add paper reviews as txt files.
  * [ ] Collapse TL;DR into expandable box on mobile
  * [ ] Make site fully responsive even with no JavaScript
@@ -33,6 +33,7 @@ Low-priority
      - insights may re-appear in our AMV-SLAM paper after all!
  * [ ] Auto-render publications from raw bib files.
  * [ ] Automatic link archival a la Gwern
+ * [ ] Make publications clickable, and expand to show abstract and additional links
 
 Done
 ---
