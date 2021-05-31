@@ -58,9 +58,11 @@ autonomous driving in the real world.
   <a class="badge bibtex" href="/assets/bib/phillips-multi-task-cvpr-21.bib" target="_blank">BibTeX</a>
   <p class="tldr">
     <b>TL;DR:</b> 
-    We show that the impact of localization errors on autonomous driving tasks
-    like perception and motion planning can be significant, and propose an 
-    efficient multi-task neural network which can correct such errors. 
+    We show that object detection and prediction systems for self-driving cars can
+    tolerate relatively large sensor-to-map misalignments (up to 0.5m) without 
+    errors increasing too much. However, motion planning is much more sensitive.
+    We propose a lightweight 2ms-overhead multi-task approach to correct the pose 
+    and increase resilience to localization errors.
   </p>
 </div>
 </div>
