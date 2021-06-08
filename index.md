@@ -9,7 +9,10 @@ focusing on computer vision and deep learning for
 robotics and long-term autonomy. I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
-I am also a full-time research scientist at a stealth startup.
+I am also a full-time research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, helping develop the
+next generation of AI-first autonomous vehicles.
+
+<a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
 
 Before this, I spent three wonderful years as a researcher at [Uber Advanced
 Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www.uber.com/us/en/atg/) 
