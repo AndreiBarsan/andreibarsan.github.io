@@ -294,7 +294,7 @@ autonomous driving in the real world.
 
 <h3>Industry</h3>
 
- * Full-time research scientist at a **startup currently in stealth** (Mar 2021--Present).
+ * Full-time research scientist at a <a href="https://waabi.ai" target="_blank">**Waabi**</a> (Mar 2021--Present).
  * Full-time research scientist at **Uber ATG Toronto** (Jan 2018--Feb 2021).
       * Helping develop scalable and robust centimeter-accurate
         **localization** methods for **self-driving cars**.
@@ -325,7 +325,17 @@ autonomous driving in the real world.
 
 <h2>Talks</h2>
  * <span class="badge new">New</span> &nbsp; <a href="http://allaboutselfdriving.com" target="_blank">
-    <strong>All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)</strong>
+   All About Self-Driving CVPR2021 Tutorial (Speaker, coming soon!)
+   </a>
+ * <span class="badge new">New</span> &nbsp; <a href="assets/pdf/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-no-videos.pdf" target="_blank">
+     Scaling Up Precise Localization for Autonomous Robots (DevTalks Reimagined 2021)
+     </a>
+     - DevTalks website: <a href="https://www.devtalks.ro/speakers/" target="_blank">devtalks.ro/speakers</a>
+     - <a href="assets/key/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-compressed.key" download>Keynote Slides (83MB)</a>
+
+
+ * <a href="http://allaboutselfdriving.com" target="_blank">
+    All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)
    </a>
     <ul>
     <li>
