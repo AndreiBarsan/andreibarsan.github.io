@@ -3470,10 +3470,39 @@
 
 	@media screen and (max-width: 1280px) {
 
+
+    /* Tweaked by Andrei to show the name & title on the side of my photo on smaller screens. */
 		#intro {
-			margin: 0 0 3em 0;
+			margin: 0 0 1.5em 0;
 			text-align: center;
+			padding: 1.25em 0 0 0;
 		}
+
+    /* Make my picture smaller. Need to change both .logo and .logo img to properly resize the image and the mask. */
+    #intro .logo {
+      width: 8em;
+      height: 8em;
+    }
+    #intro .logo img {
+      width: 8em;
+      height: 8em;
+    }
+
+     /* A little hacky but it works! 
+      * Vertically aligns the title text with my photo on smaller displays.
+      */
+    #intro header
+    {
+      display: inline-block;
+      position: relative;
+      top: -2.5em;
+      left: 1.25em;
+    }
+
+    #intro .logo:before 
+    {
+			display: inline-block;
+    }
 
 			#intro header h2 {
 				font-size: 2em;
@@ -3487,10 +3516,6 @@
 
 	@media screen and (max-width: 736px) {
 
-		#intro {
-			margin: 0 0 1.5em 0;
-			padding: 1.25em 0; !ij
-		}
 
 			#intro > :last-child {
 				margin-bottom: 0;
