@@ -15,8 +15,8 @@ next generation of AI-first autonomous vehicles.
 <a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
 
 Before this, I spent three wonderful years as a researcher at [Uber Advanced
-Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www.uber.com/us/en/atg/) 
-Toronto, working on applying my research to the challenges associated with 
+Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www.uber.com/us/en/atg/)
+Toronto, working on applying my research to the challenges associated with
 autonomous driving in the real world.
 
 
@@ -59,12 +59,13 @@ autonomous driving in the real world.
   <br/>
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06720" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/phillips-multi-task-cvpr-21.bib" target="_blank">BibTeX</a>
+  <a class="badge video" href="/assets/multi-task-lp3/lp3-cvpr-vid-v1.2.crf24.mp4" target="_blank">Video (Download)</a>
   <p class="tldr">
-    <b>TL;DR:</b> 
+    <b>TL;DR:</b>
     We show that object detection and prediction systems for self-driving cars can
-    tolerate relatively large sensor-to-map misalignments (up to 0.5m) without 
+    tolerate relatively large sensor-to-map misalignments (up to 0.5m) without
     errors increasing too much. However, motion planning is much more sensitive.
-    We propose a lightweight 2ms-overhead multi-task approach to correct the pose 
+    We propose a lightweight 2ms-overhead multi-task approach to correct the pose
     and increase resilience to localization errors.
   </p>
 </div>
@@ -100,9 +101,11 @@ autonomous driving in the real world.
   <br/>
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
+  <a class="badge" href="http://www.cs.toronto.edu/~ajyang/amv-slam/">Web</a>
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06562" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/yang-amv-slam-icra-21.bib" target="_blank">BibTeX</a>
-  <a class="badge video" href="https://www.youtube.com/watch?v=UBgc0cXqXlw" target="_blank">Video</a>
+  <a class="badge video" href="https://www.youtube.com/watch?v=oqv-yhcziMU" target="_blank">Talk Video (YouTube)</a>
+  <a class="badge video" href="https://www.youtube.com/watch?v=UBgc0cXqXlw" target="_blank">Results Video</a>
   <p class="tldr">
     <b>TL;DR:</b> We analyze Simultaneous Localization and Mapping (SLAM) in a setting where multiple cameras are
     attached to a robot but fire at different times, e.g., by following a spinning LiDAR. We extend a classic SLAM
@@ -140,7 +143,8 @@ autonomous driving in the real world.
   <a class="badge" href="https://uber.com/atg/datasets/pit30m" target="_blank">Web</a>
   <a class="badge pdf" href="https://arxiv.org/abs/2012.12437" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
-  <a class="badge slides" href="#">Play with it! (Coming Soon!)</a>
+  <!-- still waiting to get approval for this... :( -->
+  <!-- a class="badge slides" href="#">Play with it! (Coming Soon!)</a -->
   <a class="badge video" href="https://www.youtube.com/watch?v=hJ6A_1YSITo" target="_blank">Overview Video (90s)</a>
   <a class="badge video" href="https://www.youtube.com/watch?v=W_ZJ9oojp-o" target="_blank">IROS Talk (15min)</a>
   <p class="tldr">
@@ -324,15 +328,16 @@ autonomous driving in the real world.
 
 
 <h2>Talks</h2>
- * <span class="badge new">New</span> &nbsp; <a href="http://allaboutselfdriving.com" target="_blank">
-   All About Self-Driving CVPR2021 Tutorial (Speaker, coming soon!)
-   </a>
- * <span class="badge new">New</span> &nbsp; <a href="assets/pdf/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-no-videos.pdf" target="_blank">
+ * <span class="badge new">New</span> &nbsp; <a href="https://cvpr2021.waabi.ai/" target="_blank">All About Self-Driving CVPR 2021 Tutorial (Speaker, 2021-06-20)</a>
+      - I was a speaker at the CVPR2021 Tutorial on self-driving cars organized by Waabi.
+      - I covered the same topics as last year, with some additional material on RTKs and localization.
+ * <span class="badge new">New</span> &nbsp; <a href="https://www.youtube.com/watch?v=UpBtOzNQ-EU" target="_blank">
      Scaling Up Precise Localization for Autonomous Robots (DevTalks Reimagined 2021)
      </a>
+     - The talk video is available <a href="https://www.youtube.com/watch?v=UpBtOzNQ-EU" target="_blank">on YouTube</a>
      - DevTalks website: <a href="https://www.devtalks.ro/speakers/" target="_blank">devtalks.ro/speakers</a>
-     - <a href="assets/key/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-compressed.key" download>Keynote Slides (83MB)</a>
-
+     - <a href="assets/key/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-compressed.key" download>Keynote Slides</a> (83MB)
+     - <a href="assets/pdf/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-no-videos.pdf" download>PDF Slides </a> (no videos, 3.6MB)</a>
 
  * <a href="http://allaboutselfdriving.com" target="_blank">
     All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)
@@ -341,14 +346,14 @@ autonomous driving in the real world.
     <li>
       I was a speaker at the CVPR2020 Tutorial on self-driving cars organized by our lab.
     </li>
-    <li>I talked about 
+    <li>I talked about
     <a href="https://www.youtube.com/watch?v=V8rz6YWjnhQ" target="_blank">hardware</a>
-    with {% include authors.html names="frossard" %} and 
+    with {% include authors.html names="frossard" %} and
     <a href="https://www.youtube.com/watch?v=oel2CbOuIe4" target="_blank">localization</a>
-    with {% include authors.html names="martinez, wang" %}. 
+    with {% include authors.html names="martinez, wang" %}.
     (Including a crash course on Monte Carlo localization!) All the videos from the tutorial are available on its
     <a href="http://www.allaboutselfdriving.com" target="_blank">website</a>
-    or directly on YouTube in 
+    or directly on YouTube in
     <a href="https://www.youtube.com/watch?v=BtxGlFpqpg4&list=PLflOOOY6Z-LrjwpEUx6hdmkCwYDXWmi0e" target="_blank"
     title="Protip: youtube-dl works on playlists!">this playlist</a>.
     </li>
