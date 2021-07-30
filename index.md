@@ -60,6 +60,7 @@ autonomous driving in the real world.
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06720" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/phillips-multi-task-cvpr-21.bib" target="_blank">BibTeX</a>
   <a class="badge video" href="/assets/multi-task-lp3/lp3-cvpr-vid-v1.2.crf24.mp4" target="_blank">Video (Download)</a>
+  <a class="badge video" href="https://www.youtube.com/watch?v=u31uEg5HfRc" target="_blank">Video (YouTube)</a>
   <p class="tldr">
     <b>TL;DR:</b>
     We show that object detection and prediction systems for self-driving cars can
