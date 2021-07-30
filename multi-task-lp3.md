@@ -17,7 +17,7 @@ permalink: /multi-task-lp3/
     [<a href="/assets/multi-task-lp3/PHILLIPS-DeepMultiTask-LocalizationPerception-Prediction-CVPR-2021-CameraReady.pdf" title="Download the CVPR camera-ready paper PDF" download>Paper PDF</a>]
     [<a href="https://arxiv.org/abs/2101.06720" title="Grab the latest paper PDF" target="_blank">arXiv</a>]
     [<a href="/assets/multi-task-lp3/lp3-cvpr-vid-v1.2.crf24.mp4" title="Download the MP4 video" download>Video Download</a>]
-    [<a href="#">Poster (Coming Soon)</a>]
+    [<a href="/assets/pdf/posters/PHILLIPS-John-2021-CVPR-Multi-Task-LP3-Poster-v9.0.pdf">CVPR '21 Poster</a>]
   </div>
 </div>
 

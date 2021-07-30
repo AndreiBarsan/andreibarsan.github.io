@@ -57,8 +57,10 @@ autonomous driving in the real world.
   <br/>
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
+  <a class="badge web" href="/multi-task-lp3" target="_blank">Web</a>
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06720" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/phillips-multi-task-cvpr-21.bib" target="_blank">BibTeX</a>
+  <a class="badge poster" href="assets/pdf/posters/PHILLIPS-John-2021-CVPR-Multi-Task-LP3-Poster-v9.0.pdf" target="_blank">Poster</a>
   <a class="badge video" href="/assets/multi-task-lp3/lp3-cvpr-vid-v1.2.crf24.mp4" target="_blank">Video (Download)</a>
   <a class="badge video" href="https://www.youtube.com/watch?v=u31uEg5HfRc" target="_blank">Video (YouTube)</a>
   <p class="tldr">
