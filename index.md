@@ -340,7 +340,7 @@ autonomous driving in the real world.
      - The talk video is available <a href="https://www.youtube.com/watch?v=UpBtOzNQ-EU" target="_blank">on YouTube</a>
      - DevTalks website: <a href="https://www.devtalks.ro/speakers/" target="_blank">devtalks.ro/speakers</a>
      - <a href="assets/key/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-compressed.key" download>Keynote Slides</a> (83MB)
-     - <a href="assets/pdf/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-no-videos.pdf" download>PDF Slides </a> (no videos, 3.6MB)</a>
+     - <a href="assets/pdf/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-no-videos.pdf" download>PDF Slides </a> (no videos, 3.6MB)
 
  * <a href="http://allaboutselfdriving.com" target="_blank">
     All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)
