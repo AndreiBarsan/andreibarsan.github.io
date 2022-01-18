@@ -323,11 +323,11 @@ autonomous driving in the real world.
 
 <h3>Academic</h3>
 
- * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
-     Toronto, Fall 2017.
- * Reviewer: **CVPR** 2021, **ECCV** 2020, **ICRA** (2019, 2021), **IROS** (2019, 2020), **CoRL** 2020, **AAAI** 2021, **RA-L** 2020
+ * Reviewer: **IJCV** 2021, **CVPR** (2021, 2022), **ECCV/ICCV** (2020, 2021), **ICLR** 2022, **ICRA** (2019, 2021, 2022), **IROS** (2019, 2020), **CoRL** 2020, **AAAI** 2021, **RA-L** 2020
    * Acknowledged as one of the **top reviewers** for **[ECCV 2020](https://eccv2020.eu)** (top 7.5%).
    * Acknowledged as an **outstanding reviewer** for **[CVPR 2021](https://web.archive.org/web/20210519170638/http://cvpr2021.thecvf.com/node/184)**.
+ * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
+     Toronto, Fall 2017.
 
 
 <h2>Talks</h2>
