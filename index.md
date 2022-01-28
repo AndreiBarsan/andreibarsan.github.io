@@ -10,9 +10,7 @@ robotics and long-term autonomy. I started in September 2017, under the supervis
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
 I am also a full-time research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, helping develop the
-next generation of AI-first autonomous vehicles.
-
-<a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
+next generation of AI-first autonomous vehicles. <a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
 
 Before this, I spent three wonderful years as a researcher at [Uber Advanced
 Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www.uber.com/us/en/atg/)
@@ -36,7 +34,7 @@ autonomous driving in the real world.
 <div class="paper row">
 <div class="col-12">
 <h3>
-  <span class="badge new">New</span>
+  <!-- <span class="badge new">New</span> -->
   <a href="https://arxiv.org/abs/2101.06720" target="_blank">
     Deep Multi-Task Learning for Joint Localization, Perception, and Prediction
     (<abbr title="International Conference on Computer Vision and Pattern
@@ -60,7 +58,7 @@ autonomous driving in the real world.
   <a class="badge web" href="/multi-task-lp3" target="_blank">Web</a>
   <a class="badge pdf" href="https://arxiv.org/abs/2101.06720" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/phillips-multi-task-cvpr-21.bib" target="_blank">BibTeX</a>
-  <a class="badge poster" href="assets/pdf/posters/PHILLIPS-John-2021-CVPR-Multi-Task-LP3-Poster-v9.0.pdf" target="_blank">Poster</a>
+  <a class="badge poster" href="/assets/pdf/posters/PHILLIPS-John-2021-CVPR-Multi-Task-LP3-Poster-v9.0.pdf" target="_blank">Poster</a>
   <a class="badge video" href="/assets/multi-task-lp3/lp3-cvpr-vid-v1.2.crf24.mp4" target="_blank">Video (Download)</a>
   <a class="badge video" href="https://www.youtube.com/watch?v=u31uEg5HfRc" target="_blank">Video (YouTube)</a>
   <p class="tldr">
@@ -70,6 +68,9 @@ autonomous driving in the real world.
     errors increasing too much. However, motion planning is much more sensitive.
     We propose a lightweight 2ms-overhead multi-task approach to correct the pose
     and increase resilience to localization errors.
+    <br/>
+    <br/>
+    <br/>
   </p>
 </div>
 </div>
@@ -77,7 +78,46 @@ autonomous driving in the real world.
 <div class="paper row">
 <div class="col-12">
 <h3>
-  <span class="badge new">New</span>
+  <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Martinez_Permute_Quantize_and_Fine-Tune_Efficient_Compression_of_Neural_Networks_CVPR_2021_paper.pdf" target="_blank">
+    Permute, Quantize, and Fine-tune: Efficient Compression of Neural Networks
+    (<abbr title="International Conference on Computer Vision and Pattern
+    Recognition">CVPR</abbr> 2021)
+  </a>
+</h3>
+</div>
+<div class="col-4">
+  <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Martinez_Permute_Quantize_and_Fine-Tune_Efficient_Compression_of_Neural_Networks_CVPR_2021_paper.pdf" target="_blank">
+    <img src="/assets/images/cvpr21-quantization-icon-v0.png"
+         alt="A diagram depicting the permutation operation which is presented in the paper in order to improve
+         the effectiveness of neural network parameter quantization."/>
+  </a>
+</div>
+<div class="col-8 details">
+  {% include authors.html names="martinez*, shewakramani*, tingweiliu*, me, zeng, urtasun" %}
+  <br/>
+  <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
+  <br/>
+  <a class="badge pdf" href="https://arxiv.org/abs/2010.15703" target="_blank">PDF (arXiv)</a>
+  <a class="badge bibtex" href="/assets/bib/martinez-quantization-cvpr-21.bib" target="_blank">BibTeX</a>
+  <a class="badge code" href="https://github.com/una-dinosauria/permute-quantize-finetune" target="_blank">Code</a>
+  <p class="tldr">
+    <b>TL; DR:</b>
+    A simple yet effective low-overhead method for compressing neural network weights using a form of
+    product quantization.<br/><br/>
+
+    By permuting (Step 1) the rows of the weight matrices in an optimal way, we can maximize the effectiveness of
+    quantization (Step 2). The key ingredient is fine-tuning (Step 3) the dictionary post-quantization, while keeping
+    the weight codes fixed. This can be done using vanilla autodiff, e.g., in PyTorch.<br/><br/>
+
+    We show this approach maintains the vast majority of the original networks' performance on classification and
+    object detection, while reducing the memory footprint of their parameters by nearly 20x. The code is <a href="https://github.com/una-dinosauria/permute-quantize-finetune" target="_blank">open source</a>.
+  </p>
+</div>
+</div>  <!-- paper row -->
+
+<div class="paper row">
+<div class="col-12">
+<h3>
   <a href="https://arxiv.org/abs/2101.06562" target="_blank">
     Asynchronous Multi-View SLAM
     (<abbr title="International Conference on Robotics and Automation">ICRA</abbr> 2021)
@@ -158,8 +198,9 @@ autonomous driving in the real world.
     <!-- haha HTML go --><br/><br/>
     The figure shows the geographic (top) and temporal (bottom, x = date, y = time of day) extent of the data.
     <br/><br/>
-    We are hard at work preparing the benchmark website and data download! Stay tuned!
+    <!-- We are hard at work preparing the benchmark website and data download! Stay tuned! -->
     <!-- Yep, still working super hard on it as of Jan 2021! -->
+    <!-- No progress in 2022. :( -->
   </p>
 </div>
 </div> <!-- paper row -->
@@ -203,7 +244,11 @@ autonomous driving in the real world.
 <div class="paper row">
 <div class="col-12">
 <h3>
-  <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html" target="_blank">Learning to Localize through Compressed Binary Maps (CVPR 2019)</a>
+  <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.html" target="_blank">
+    Learning to Localize through Compressed Binary Maps
+    (<abbr title="International Conference on Computer Vision and Pattern
+    Recognition">CVPR</abbr> 2019)
+  </a>
 </h3>
 </div>
 <div class="col-4">

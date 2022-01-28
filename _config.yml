@@ -1,6 +1,5 @@
 # Site settings
 title:        Andrei Bârsan's Website
-email:        andrei.ioan.barsan@gmail.com
 description: >
   PhD Student at the University of Toronto working in computer vision and
   machine learning.
@@ -124,6 +123,10 @@ people:
     name: Abbas Sadat
     site: https://scholar.google.ca/citations?user=SxZjNosAAAAJ&hl=en
 
+  shewakramani:
+    name: Jashan Shewakramani
+    site: https://scholar.google.com/citations?user=dngUUFoAAAAJ&hl=en
+
   suo:
     name: Simon Suo
     site: http://www.cs.toronto.edu/~suo/
@@ -131,6 +134,9 @@ people:
   tartavull:
     name: Ignacio Tartavull
     site: http://tartavull.com/
+
+  tingweiliu:
+    name: Ting Wei Liu
 
   urtasun:
     name: Raquel Urtasun
@@ -143,5 +149,9 @@ people:
   wei:
     name: Xinkai Wei
     site: https://kyewei.com
+
+  zeng:
+    name: Wenyuan Zeng
+    site: http://www.cs.toronto.edu/~wenyuan/
 
 
