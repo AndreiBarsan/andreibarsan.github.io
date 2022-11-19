@@ -87,6 +87,10 @@ people:
     name: Namdar Homayounfar
     site: http://www.cs.toronto.edu/~namdar/
 
+  jingkang:
+    name: Jingkang Wang
+    site: https://www.cs.toronto.edu/~wangjk/
+
   liu:
     name: Peidong Liu
     site: http://people.inf.ethz.ch/liup/
@@ -94,6 +98,10 @@ people:
   ma:
     name: Wei-Chiu Ma
     site: https://people.csail.mit.edu/weichium/
+
+  manivasagam:
+    name: Siva Manivasagam
+    site: https://www.cs.toronto.edu/~manivasagam/
 
   martinez:
     name: Julieta Martinez
@@ -142,13 +150,21 @@ people:
     name: Raquel Urtasun
     site: https://www.cs.toronto.edu/~urtasun/
 
-  wang:
+  shenlong:
     name: Shenlong Wang
-    site: http://www.cs.toronto.edu/~slwang/
+    site: https://shenlong.web.illinois.edu/
 
   wei:
     name: Xinkai Wei
     site: https://kyewei.com
+
+  yun:
+    name: Yun Chen
+    site: https://tmux.top/
+
+  ze:
+    name: Ze Yang
+    site: https://www.yangze.tech/
 
   zeng:
     name: Wenyuan Zeng

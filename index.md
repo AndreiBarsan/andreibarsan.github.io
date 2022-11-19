@@ -17,19 +17,57 @@ Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www
 Toronto, working on applying my research to the challenges associated with
 autonomous driving in the real world.
 
-
 <h2>Education</h2>
 
- * PhD Candidate at the <a href="http://learning.cs.toronto.edu" target="_blank">University
-   of Toronto (Sep 2017--present)</a>
- * MSc. in Computer Science with Distinction from
-   <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (Sep 2015--Aug 2017)
- * BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
-   target="_blank">Transilvania University</a>, Brașov,
-   Romania (Sep 2011--Jul 2014)
-
+- PhD Candidate at the <a href="http://learning.cs.toronto.edu" target="_blank">University
+  of Toronto (Sep 2017--present)</a>
+- MSc. in Computer Science with Distinction from
+  <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (Sep 2015--Aug 2017)
+- BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
+  target="_blank">Transilvania University</a>, Brașov,
+  Romania (Sep 2011--Jul 2014)
 
 <h2>Publications</h2>
+
+<div class="paper row">
+<div class="col-12">
+<h3>
+  <span class="badge new">New</span>
+  <a href="https://openreview.net/pdf?id=Mp3Y5jd7rnW" target="_blank">
+    CADSim: Robust and Scalable in-the-wild 3D Reconstruction for Controllable Sensor Simulation
+    (<abbr title="Conference on Robot Learning">CoRL</abbr> 2022)
+  </a>
+</h3>
+</div>
+
+<div class="col-4">
+  <a href="https://openreview.net/pdf?id=Mp3Y5jd7rnW" target="_blank">
+  <div class="play-when-hovered">
+    <video loop muted
+           alt="CADsim visualization (still frame and a short demo video on hover)."
+           title="Example camera input which, together with a LiDAR and a template mesh is used to produce an efficient, realistic, and riggable reconstruction of the observed cars."
+    >
+      <source src="assets/video/cadsim-mini-preview.mp4"  type="video/mp4" />
+    </video>
+    <img src="assets/images/corl2022-cadsim-icon-v0.jpeg"
+         alt="CADSim teaser image." />
+  </div>
+  </a>
+</div>
+<div class="col-8 details">
+  {% include authors.html names="jingkang, manivasagam, yun, ze, me, ajyang, ma, urtasun" %}
+  <br/>
+  <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
+  <br/>
+  <a class="badge" href="https://www.cs.toronto.edu/~wangjk/publications/cadsim.html">Web</a>
+  <a class="badge pdf" href="https://openreview.net/pdf?id=Mp3Y5jd7rnW" target="_blank">PDF</a>
+  <a class="badge bibtex" href="/assets/bib/wang-cadsim-corl-22.bib" target="_blank">BibTeX</a>
+  <p class="tldr">
+    <b>TL;DR:</b> Automatically build "game-ready" rigged 3D meshes from observed
+    data by optimizing vertices and material properties from a template mesh.
+  </p>
+</div>
+</div>
 
 <div class="paper row">
 <div class="col-12">
@@ -111,6 +149,7 @@ autonomous driving in the real world.
 
     We show this approach maintains the vast majority of the original networks' performance on classification and
     object detection, while reducing the memory footprint of their parameters by nearly 20x. The code is <a href="https://github.com/una-dinosauria/permute-quantize-finetune" target="_blank">open source</a>.
+
   </p>
 </div>
 </div>  <!-- paper row -->
@@ -140,7 +179,7 @@ autonomous driving in the real world.
   </a>
 </div>
 <div class="col-8 details">
-  {% include authors.html names="ajyang*, cuic*, me*, urtasun, wang" %}
+  {% include authors.html names="ajyang*, cuic*, me*, urtasun, shenlong" %}
   <br/>
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
@@ -178,7 +217,7 @@ autonomous driving in the real world.
        title="This plot showcases the geographic extent of the dataset, which includes residential, urban, highway, and industrial areas. The bottom diagram plots the temporal extent of the data, where x = day in year and y = time of day." />
 </div>
 <div class="col-8 details">
-  {% include authors.html names="martinez, doubov, fan, me, wang, mattyus, urtasun" %}
+  {% include authors.html names="martinez, doubov, fan, me, shenlong, mattyus, urtasun" %}
   <br/>
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
   <br/>
@@ -218,7 +257,7 @@ autonomous driving in the real world.
   <img src="assets/images/iros-icon-v1.jpeg" alt="Illustration." title="Illustration of the cues leveraged by our system: lane detection and traffic signs." />
 </div>
 <div class="col-8 details">
-  {% include authors.html names="ma*, tartavull*, me*, wang*, bai, mattyus, homayounfar, lakshmikanth, pokrovsky, urtasun" %}
+  {% include authors.html names="ma*, tartavull*, me*, shenlong*, bai, mattyus, homayounfar, lakshmikanth, pokrovsky, urtasun" %}
   <br/>
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2019
   <br/>
@@ -256,7 +295,7 @@ autonomous driving in the real world.
        title="Overview of our map compression module, embedded in our end-to-end learned LiDAR matcher." />
 </div>
 <div class="col-8">
-  {% include authors.html names="wei*, me*, wang*, martinez, urtasun" %}
+  {% include authors.html names="wei*, me*, shenlong*, martinez, urtasun" %}
   <br/>
   International Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>) 2019
   <br/>
@@ -289,7 +328,7 @@ autonomous driving in the real world.
   <img src="assets/images/deep_gil.jpeg" alt="Localizer preview image" title="A screenshot from the paper's demo video. The green ground truth trajectory overlaps almost perfectly with our inferred one, making it hard to spot at first glance." />
 </div>
   <div class="col-8">
-     {% include authors.html names="me*, wang*, pokrovsky, urtasun" %}
+     {% include authors.html names="me*, shenlong*, pokrovsky, urtasun" %}
      Proceedings of the Second Conference on Robot Learning (<strong>CoRL</strong>) 2018
      <br/>
      <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
@@ -341,40 +380,38 @@ autonomous driving in the real world.
   </div>
 </div> <!-- end .paper .row -->
 
-
 <h2>Work Experience</h2>
 
 <h3>Industry</h3>
 
- * Full-time research scientist at a <a href="https://waabi.ai" target="_blank">**Waabi**</a> (Mar 2021--Present).
- * Full-time research scientist at **Uber ATG Toronto** (Jan 2018--Feb 2021).
-      * Helping develop scalable and robust centimeter-accurate
-        **localization** methods for **self-driving cars**.
-      * LiDAR-based map localization, visual **localization**, learning-based
-        **compression**, large-scale machine learning (Apache Spark).
-      * **Multi-Task Learning** for autonomous driving with a focus on real-time
-        operation.
-      * Data engineering; **petabyte-scale** data ingestion, curation, and
-        benchmark selection.
- * Previously, I did a series of software engineering internships in the US
-     during my undergrad:
-    * Internship: **Twitter** (Summer 2015, San Francisco, CA), Performance Ads
-      - Developed Apache Storm and Hadoop data pipelines using Scala.
-    * Internship: **Google** (Summer 2014, New York, NY), Data Protection
-      - Co-developed a system for performing security-oriented static analysis
-        of shell scripts used to run large numbers of cluster jobs.
-    * Internship: **Microsoft** (Summer 2013, Redmond, WA), Server and Tools Business
-      - Security and reliability analysis of a web service part of the Azure portal.
+- Full-time research scientist at a <a href="https://waabi.ai" target="_blank">**Waabi**</a> (Mar 2021--Present).
+- Full-time research scientist at **Uber ATG Toronto** (Jan 2018--Feb 2021).
+  - Helping develop scalable and robust centimeter-accurate
+    **localization** methods for **self-driving cars**.
+  - LiDAR-based map localization, visual **localization**, learning-based
+    **compression**, large-scale machine learning (Apache Spark).
+  - **Multi-Task Learning** for autonomous driving with a focus on real-time
+    operation.
+  - Data engineering; **petabyte-scale** data ingestion, curation, and
+    benchmark selection.
+- Previously, I did a series of software engineering internships in the US
+  during my undergrad:
+  - Internship: **Twitter** (Summer 2015, San Francisco, CA), Performance Ads
+    - Developed Apache Storm and Hadoop data pipelines using Scala.
+  - Internship: **Google** (Summer 2014, New York, NY), Data Protection
+    - Co-developed a system for performing security-oriented static analysis
+      of shell scripts used to run large numbers of cluster jobs.
+  - Internship: **Microsoft** (Summer 2013, Redmond, WA), Server and Tools Business
+    - Security and reliability analysis of a web service part of the Azure portal.
 
 <h3>Academic</h3>
 
- * Peer review: **IJCV** 2021, **CVPR** (2021, 2022), **ECCV/ICCV** (2020, 2021, 2022), **ICLR** 2022, **ICRA** (2019, 2021, 2022, 2023), **IROS** (2019, 2020, 2022), **CoRL** 2020, **AAAI** 2021, **RA-L** 2020
-   * Acknowledged as one of the **top reviewers** for **[ECCV 2020](https://eccv2020.eu)** (top 7.5%).
-   * Acknowledged as an **outstanding reviewer** for **[CVPR 2021](https://web.archive.org/web/20210519170638/http://cvpr2021.thecvf.com/node/184)**.
-   * Acknowledged as one of the **top reviewers** for **[NeurIPS 2022](https://neurips.cc/Conferences/2022/ProgramCommittee)**.
- * Teaching Assistant: Image Analysis and Understanding (CSC420), University of
-     Toronto, Fall 2017.
-
+- Peer review: **IJCV** 2021, **CVPR** (2021, 2022), **ECCV/ICCV** (2020, 2021, 2022), **ICLR** 2022, **ICRA** (2019, 2021, 2022, 2023), **IROS** (2019, 2020, 2022), **CoRL** 2020, **AAAI** 2021, **RA-L** 2020
+  - Acknowledged as one of the **top reviewers** for **[ECCV 2020](https://eccv2020.eu)** (top 7.5%).
+  - Acknowledged as an **outstanding reviewer** for **[CVPR 2021](https://web.archive.org/web/20210519170638/http://cvpr2021.thecvf.com/node/184)**.
+  - Acknowledged as one of the **top reviewers** for **[NeurIPS 2022](https://neurips.cc/Conferences/2022/ProgramCommittee)**.
+- Teaching Assistant: Image Analysis and Understanding (CSC420), University of
+  Toronto, Fall 2017.
 
 <h2>Talks</h2>
  * <span class="badge new">New</span> &nbsp; <a href="https://cvpr2021.waabi.ai/" target="_blank">All About Self-Driving CVPR 2021 Tutorial (Speaker, 2021-06-20)</a>
@@ -388,42 +425,42 @@ autonomous driving in the real world.
      - <a href="assets/key/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-compressed.key" download>Keynote Slides</a> (83MB)
      - <a href="assets/pdf/talks/BARSAN-IoanAndrei-2021-DevTalks-ScalingUpPreciseLocalization-v0-no-videos.pdf" download>PDF Slides </a> (no videos, 3.6MB)
 
- * <a href="http://allaboutselfdriving.com" target="_blank">
-    All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)
-   </a>
-    <ul>
-    <li>
-      I was a speaker at the CVPR2020 Tutorial on self-driving cars organized by our lab.
-    </li>
-    <li>I talked about
-    <a href="https://www.youtube.com/watch?v=V8rz6YWjnhQ" target="_blank">hardware</a>
-    with {% include authors.html names="frossard" %} and
-    <a href="https://www.youtube.com/watch?v=oel2CbOuIe4" target="_blank">localization</a>
-    with {% include authors.html names="martinez, wang" %}.
-    (Including a crash course on Monte Carlo localization!) All the videos from the tutorial are available on its
-    <a href="http://www.allaboutselfdriving.com" target="_blank">website</a>
-    or directly on YouTube in
-    <a href="https://www.youtube.com/watch?v=BtxGlFpqpg4&list=PLflOOOY6Z-LrjwpEUx6hdmkCwYDXWmi0e" target="_blank"
-    title="Protip: youtube-dl works on playlists!">this playlist</a>.
-    </li>
-    </ul>
+- <a href="http://allaboutselfdriving.com" target="_blank">
+   All About Self-Driving CVPR2020 Tutorial (Speaker, 2020-06-14)
+  </a>
+   <ul>
+   <li>
+     I was a speaker at the CVPR2020 Tutorial on self-driving cars organized by our lab.
+   </li>
+   <li>I talked about
+   <a href="https://www.youtube.com/watch?v=V8rz6YWjnhQ" target="_blank">hardware</a>
+   with {% include authors.html names="frossard" %} and
+   <a href="https://www.youtube.com/watch?v=oel2CbOuIe4" target="_blank">localization</a>
+   with {% include authors.html names="martinez, shenlong" %}.
+   (Including a crash course on Monte Carlo localization!) All the videos from the tutorial are available on its
+   <a href="http://www.allaboutselfdriving.com" target="_blank">website</a>
+   or directly on YouTube in
+   <a href="https://www.youtube.com/watch?v=BtxGlFpqpg4&list=PLflOOOY6Z-LrjwpEUx6hdmkCwYDXWmi0e" target="_blank"
+   title="Protip: youtube-dl works on playlists!">this playlist</a>.
+   </li>
+   </ul>
 
- * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2020-100k-Points.pdf" target="_blank">
+- <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2020-100k-Points.pdf" target="_blank">
      [PDF Slides] **Unsupervised Sequence Forecasting of 100,000 Points for Unsupervised Trajectory Forecasting**
   </a> (2020-04-10)
     * Paper I presented: <a href="https://arxiv.org/abs/2003.08376" target="_blank">
         [PDF] Weng et al., 2020
         </a>
- * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-Deep-Point-Cloud-Registration.pdf" target="_blank">
-     [PDF Slides] **Deep Point Cloud Registration**
-   </a> (2019-09-12)
-   * In this talk, I give a brief overview of recent advances in learning-based methods for robust point cloud
-       registration, including
-       <a href="https://songshiyu01.github.io/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf" target="_blank">L<sup>3</sup>-Net</a>,
-       <a href="https://songshiyu01.github.io/pdf/DeepVCP_W.Lu_S.Song_ICCV2019.pdf" target="_blank">DeepVCP</a>, and
-       <a href="https://arxiv.org/abs/1905.03304" target="_blank">Deep Closest Point</a>. I cover the main ideas in
-       these papers, as well as their strengths and weaknesses, and discuss some insights and possible avenues for future research.
- * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-ImitationLearning-SharedAutonomyViaDRL.pdf" target="_blank">
+- <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-Deep-Point-Cloud-Registration.pdf" target="_blank">
+    [PDF Slides] **Deep Point Cloud Registration**
+  </a> (2019-09-12)
+  * In this talk, I give a brief overview of recent advances in learning-based methods for robust point cloud
+      registration, including
+      <a href="https://songshiyu01.github.io/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf" target="_blank">L<sup>3</sup>-Net</a>,
+      <a href="https://songshiyu01.github.io/pdf/DeepVCP_W.Lu_S.Song_ICCV2019.pdf" target="_blank">DeepVCP</a>, and
+      <a href="https://arxiv.org/abs/1905.03304" target="_blank">Deep Closest Point</a>. I cover the main ideas in
+      these papers, as well as their strengths and weaknesses, and discuss some insights and possible avenues for future research.
+- <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-ImitationLearning-SharedAutonomyViaDRL.pdf" target="_blank">
     [PDF Slides] **Shared Autonomy via Deep Reinforcement Learning**
   </a> (2019-02-22)
     * Paper I presented: <a href="https://arxiv.org/abs/1802.01744" target="_blank">
@@ -433,25 +470,23 @@ autonomous driving in the real world.
     <a href="http://www.cs.toronto.edu/~florian/courses/imitation_learning/" target="_blank">
       CSC2621HS at UofT (Imitation Learning for Robotics)
     </a>
- * <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-Qualifier-Geometry-Aware-Learning-Methods-for-Computer-Vision.pdf" target="_blank">
+- <a href="/assets/pdf/talks/BARSAN-IoanAndrei-2019-Qualifier-Geometry-Aware-Learning-Methods-for-Computer-Vision.pdf" target="_blank">
     [PDF Slides] **Geometry-Aware Learning Methods for Computer Vision**
   </a> (2019-01-18)
     * This talk was the first part of my PhD's qualifying oral examination. It's a bit barebones since it was meant to
       support the examination itself (i.e., lots of discussing beyond the slides), but may still be of interest.
 
-
 <h2>Miscellaneous</h2>
 
- * A short [blog post with a few tips on making academic
-     videos](2021/03/25/video-tips)
- * [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
- forward and deferred rendering support, real time shadow mapping and more.
- <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
- <!-- lightweight, free POSIX shell implementation written in C++ -->
- * A bunch of old games I developed for fun can be found on my old
-   [Ludum Dare page](http://ludumdare.com/compo/author/andreibarsan/). It may be
-   tricky to build and run them, though, given the age of the code.
-
+- A short [blog post with a few tips on making academic
+  videos](2021/03/25/video-tips)
+- [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
+  forward and deferred rendering support, real time shadow mapping and more.
+  <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
+  <!-- lightweight, free POSIX shell implementation written in C++ -->
+- A bunch of old games I developed for fun can be found on my old
+  [Ludum Dare page](http://ludumdare.com/compo/author/andreibarsan/). It may be
+  tricky to build and run them, though, given the age of the code.
 
 <h2>Bio</h2>
 
@@ -473,7 +508,6 @@ privacy, data protection, and data pipeline engineering.
 I am originally from Brașov, Romania, a lovely little town which I encourage
 everybody to visit, together with the rest of Southeast Europe.
 
-
 <h2>Contact</h2>
 
 Email me at iab (at) cs (dawt) toronto (dawt) edu.
@@ -486,4 +520,3 @@ Find me on
 <a href="https://linkedin.com/in/barsan" target="_blank">LinkedIn</a>, or
 <a href="https://stackoverflow.com/users/1055295/andrei-b%C3%A2rsan"
    target="_blank">StackOverflow</a>.
-
