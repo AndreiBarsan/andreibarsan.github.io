@@ -9,7 +9,7 @@ focusing on computer vision and deep learning for
 robotics and long-term autonomy. I started in September 2017, under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
 
-I am also a full-time research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, helping develop the
+I am also a full-time senior research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, helping develop the
 next generation of AI-first autonomous vehicles. <a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
 
 Before this, I spent three wonderful years as a researcher at [Uber Advanced
@@ -205,7 +205,7 @@ autonomous driving in the real world.
 <div class="paper row">
 <div class="col-12">
 <h3>
-  <!-- <span class="badge new">New</span> -->
+  <span class="badge new">Available</span>
   <a href="https://arxiv.org/abs/2012.12437" target="_blank">
     Pit30M: A Benchmark for Global Localization in the Age of Self-Driving Cars
     (<abbr title="International Conference on Intelligent Robots and Systems">IROS</abbr> 2020)
@@ -225,10 +225,10 @@ autonomous driving in the real world.
   <a class="badge" href="https://uber.com/atg/datasets/pit30m" target="_blank">Web</a>
   <a class="badge pdf" href="https://arxiv.org/abs/2012.12437" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
-  <!-- still waiting to get approval for this... :( -->
-  <!-- a class="badge slides" href="#">Play with it! (Coming Soon!)</a -->
+  <a class="badge slides" href="https://studiolab.sagemaker.aws/import/github/pit30m/pit30m/blob/main/examples/tutorial_00_introduction.ipynb" target="_blank" title="View and run notebook. Please be patient the first time you load it!">Play with it!</a>
   <a class="badge video" href="https://www.youtube.com/watch?v=hJ6A_1YSITo" target="_blank">Overview Video (90s)</a>
   <a class="badge video" href="https://www.youtube.com/watch?v=W_ZJ9oojp-o" target="_blank">IROS Talk (15min)</a>
+  <a class="badge code" href="https://github.com/pit30m/pit30m" target="_blank">Code</a>
   <p class="tldr">
     <b>TL;DR:</b> A new self-driving dataset containing >30M HD images and LiDAR sweeps covering Pittsburgh
     over one year, all with centimeter-level pose accuracy. We investigate the potential of
@@ -240,6 +240,7 @@ autonomous driving in the real world.
     <!-- We are hard at work preparing the benchmark website and data download! Stay tuned! -->
     <!-- Yep, still working super hard on it as of Jan 2021! -->
     <!-- No progress in 2022. :( -->
+    <!-- Released in 2023! -->
   </p>
 </div>
 </div> <!-- paper row -->
@@ -384,7 +385,7 @@ autonomous driving in the real world.
 
 <h3>Industry</h3>
 
-- Full-time research scientist at a <a href="https://waabi.ai" target="_blank">**Waabi**</a> (Mar 2021--Present).
+- Full-time senior scientist at a <a href="https://waabi.ai" target="_blank">**Waabi**</a> (Mar 2021--Present).
 - Full-time research scientist at **Uber ATG Toronto** (Jan 2018--Feb 2021).
   - Helping develop scalable and robust centimeter-accurate
     **localization** methods for **self-driving cars**.
@@ -406,7 +407,7 @@ autonomous driving in the real world.
 
 <h3>Academic</h3>
 
-- Peer review: **IJCV** 2021, **CVPR** (2021, 2022), **ECCV/ICCV** (2020, 2021, 2022), **ICLR** 2022, **ICRA** (2019, 2021, 2022, 2023), **IROS** (2019, 2020, 2022), **CoRL** 2020, **AAAI** 2021, **RA-L** 2020
+- Peer review: **IJCV** 2021, **CVPR** (2021--present), **ECCV/ICCV** (2020--present), **NeurIPS** (2022), **ICLR** 2022, **ICRA** (2019, 2021--present), **IROS** (2019--present), **CoRL** 2020, **AAAI** 2021, **RA-L** (2020--present)
   - Acknowledged as one of the **top reviewers** for **[ECCV 2020](https://eccv2020.eu)** (top 7.5%).
   - Acknowledged as an **outstanding reviewer** for **[CVPR 2021](https://web.archive.org/web/20210519170638/http://cvpr2021.thecvf.com/node/184)**.
   - Acknowledged as one of the **top reviewers** for **[NeurIPS 2022](https://neurips.cc/Conferences/2022/ProgramCommittee)**.
@@ -414,10 +415,13 @@ autonomous driving in the real world.
   Toronto, Fall 2017.
 
 <h2>Talks</h2>
- * <span class="badge new">New</span> &nbsp; <a href="https://cvpr2021.waabi.ai/" target="_blank">All About Self-Driving CVPR 2021 Tutorial (Speaker, 2021-06-20)</a>
+ * <span class="badge new">New</span> &nbsp; <a href="https://cvpr2023.waabi.ai/" target="_blank">All About Self-Driving CVPR 2023 Tutorial (Speaker and Co-Organizer, 2023-06-19)</a>
+      - I co-organized the CVPR2023 Tutorial on self-driving cars organized by Waabi.
+      - I covered topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://cvpr2023.waabi.ai/" target="_blank">tutorial website</a> for more information!
+ * <a href="https://cvpr2021.waabi.ai/" target="_blank">All About Self-Driving CVPR 2021 Tutorial (Speaker, 2021-06-20)</a>
       - I was a speaker at the CVPR2021 Tutorial on self-driving cars organized by Waabi.
       - I covered the same topics as last year, with some additional material on RTKs and localization.
- * <span class="badge new">New</span> &nbsp; <a href="https://www.youtube.com/watch?v=UpBtOzNQ-EU" target="_blank">
+ * <a href="https://www.youtube.com/watch?v=UpBtOzNQ-EU" target="_blank">
      Scaling Up Precise Localization for Autonomous Robots (DevTalks Reimagined 2021)
      </a>
      - The talk video is available <a href="https://www.youtube.com/watch?v=UpBtOzNQ-EU" target="_blank">on YouTube</a>
