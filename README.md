@@ -1,8 +1,28 @@
-This is my blog.
+## Overview
+
+This is my blog/website.
 
 It's powered by Jekyll and uses the Cactus theme ([actually, Kaktus](https://github.com/nickbalestra/kactus)).  I've heard it's pretty awesome.
 
 [You should check it out live!](https://andreibarsan.github.io)
+
+## Commands
+
+Standard Jekyll setup. Read the Jekyll documentation (Ruby-based, GitHub default) to set up tools.
+
+```
+bundle install
+```
+
+Then to serve and autobuild the website:
+
+```
+bundle exec jekyll serve
+```
+
+### Optimizing Images
+
+PNG: `optipng some.png -o7` works well. It operates in-place. Make sure you image is the right size to begin with, e.g., ~800x600 if it's just a thumbnail. Use `convert input.png -resize 800x600 input.small.png` to resize, maintaining aspect ratio. `convert` comes from imagemagick.
 
 ## Copyright & License
 

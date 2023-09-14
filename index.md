@@ -33,6 +33,36 @@ autonomous driving in the real world.
 <div class="col-12">
 <h3>
   <span class="badge new">New</span>
+  <a href="https://waabi.ai/lidar-dg" target="_blank">
+    Towards Zero Domain Gap: A Comprehensive Study of Realistic LiDAR Simulation for Autonomy Testing
+    (<abbr title="International Conference on Computer Vision">ICCV</abbr> 2023)
+  </a>
+</h3>
+</div>
+
+<div class="col-4">
+  <a href="#" target="_blank">
+    <img src="assets/images/iccv2023-lidar-dg-v0.small.png"
+         title="One example effect we studied in the paper. Naive raycasting fails to model LiDAR beam refraction present in real data. We measured the impact on self-driving systems. Please see the paper for info on more effects as well as our analysis in terms of perception systems!" />
+  </a>
+</div>
+<div class="col-8 details">
+  {% include authors.html names="manivasagam*, me*, jingkang, ze, urtasun" %}
+  <br/>
+  <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
+  <br/>
+  <a class="badge" href="https://waabi.ai/lidar-dg">Web</a>
+  <a class="badge pdf" href="#" target="_blank">PDF</a>
+  <a class="badge bibtex" href="/assets/bib/manivasagam-towards-iccv-23.bib" target="_blank">BibTeX</a>
+  <p class="tldr">
+    <b>TL;DR:</b> We propose a thorough methodology for evaluating how realistic a self-driving vehicle simulator is, and use it to quantify the importance of reflectance modeling and other factors when simulating LiDAR.
+  </p>
+</div>
+</div> <!-- paper row -->
+
+<div class="paper row">
+<div class="col-12">
+<h3>
   <a href="https://openreview.net/pdf?id=Mp3Y5jd7rnW" target="_blank">
     CADSim: Robust and Scalable in-the-wild 3D Reconstruction for Controllable Sensor Simulation
     (<abbr title="Conference on Robot Learning">CoRL</abbr> 2022)
@@ -59,7 +89,7 @@ autonomous driving in the real world.
   <br/>
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
-  <a class="badge" href="https://www.cs.toronto.edu/~wangjk/publications/cadsim.html">Web</a>
+  <a class="badge" href="https://waabi.ai/cadsim/">Web</a>
   <a class="badge pdf" href="https://openreview.net/pdf?id=Mp3Y5jd7rnW" target="_blank">PDF</a>
   <a class="badge bibtex" href="/assets/bib/wang-cadsim-corl-22.bib" target="_blank">BibTeX</a>
   <p class="tldr">
@@ -67,7 +97,7 @@ autonomous driving in the real world.
     data by optimizing vertices and material properties from a template mesh.
   </p>
 </div>
-</div>
+</div> <!-- paper row -->
 
 <div class="paper row">
 <div class="col-12">
