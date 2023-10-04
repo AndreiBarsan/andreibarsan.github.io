@@ -41,7 +41,7 @@ autonomous driving in the real world.
 </div>
 
 <div class="col-4">
-  <a href="#" target="_blank">
+  <a href="https://waabi.ai/lidar-dg" target="_blank">
     <img src="assets/images/iccv2023-lidar-dg-v0.small.png"
          title="One example effect we studied in the paper. Naive raycasting fails to model LiDAR beam refraction present in real data. We measured the impact on self-driving systems. Please see the paper for info on more effects as well as our analysis in terms of perception systems!" />
   </a>
@@ -51,9 +51,11 @@ autonomous driving in the real world.
   <br/>
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
-  <a class="badge" href="https://waabi.ai/lidar-dg">Web</a>
-  <a class="badge pdf" href="#" target="_blank">PDF</a>
+  <a class="badge" href="https://waabi.ai/lidar-dg" target="_blank">Web</a>
+  <a class="badge pdf" href="/assets/pdf/manivasagam-towards-iccv-23.pdf" target="_blank">PDF</a>
   <a class="badge bibtex" href="/assets/bib/manivasagam-towards-iccv-23.bib" target="_blank">BibTeX</a>
+  <a class="badge poster" href="/assets/pdf/posters/MANIVASAGAM-Siva-2023-ICCV-LiDAR-DG-Poster-v0.1.pdf" 
+    target="_blank">Poster</a>
   <p class="tldr">
     <b>TL;DR:</b> We propose a thorough methodology for evaluating how realistic a self-driving vehicle simulator is, and use it to quantify the importance of reflectance modeling and other factors when simulating LiDAR.
   </p>
