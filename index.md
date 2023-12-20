@@ -440,7 +440,8 @@ autonomous driving in the real world.
 <h3>Academic</h3>
 
 - Peer review: **IJCV** 2021, **CVPR** (2021--present), **ECCV/ICCV** (2020--present), **NeurIPS** (2022), **ICLR** 2022, **ICRA** (2019, 2021--present), **IROS** (2019--present), **CoRL** 2020, **AAAI** 2021, **RA-L** (2020--present)
-  - Acknowledged as one of the **top reviewers** for **[ECCV 2020](https://eccv2020.eu)** (top 7.5%).
+  - Acknowledged as one of the **top reviewers** for **[ECCV 2020](https://eccv2020.eu)** (top 7.5%) and [ECCV
+      2022](https://eccv2022.ecva.net/files/2022/10/ECCV22-Welcome-Slides-for-web.pdf).
   - Acknowledged as an **outstanding reviewer** for **[CVPR 2021](https://web.archive.org/web/20210519170638/http://cvpr2021.thecvf.com/node/184)**.
   - Acknowledged as one of the **top reviewers** for **[NeurIPS 2022](https://neurips.cc/Conferences/2022/ProgramCommittee)**.
 - Teaching Assistant: Image Analysis and Understanding (CSC420), University of
