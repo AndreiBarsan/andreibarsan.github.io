@@ -448,6 +448,9 @@ autonomous driving in the real world.
   Toronto, Fall 2017.
 
 <h2>Talks</h2>
+ * <span class="badge new">New</span> &nbsp; <a href="#">(Upcoming) 2024-01-20 Talk at the UTRA Hackathon at the
+     University of Toronto</a> (<a href="https://undergrad.engineering.utoronto.ca/event/2024-utra-hacks/"
+     target="_blank">Hackathon homepage</a>)
  * <span class="badge new">New</span> &nbsp; <a href="https://cvpr2023.waabi.ai/" target="_blank">All About Self-Driving CVPR 2023 Tutorial (Speaker and Co-Organizer, 2023-06-19)</a>
       - I co-organized the CVPR2023 Tutorial on self-driving cars organized by Waabi.
       - I covered topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://cvpr2023.waabi.ai/" target="_blank">tutorial website</a> for more information!
