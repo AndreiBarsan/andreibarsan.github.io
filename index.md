@@ -54,7 +54,7 @@ autonomous driving in the real world.
   <a class="badge" href="https://waabi.ai/lidar-dg" target="_blank">Web</a>
   <a class="badge pdf" href="/assets/pdf/manivasagam-towards-iccv-23.pdf" target="_blank">PDF</a>
   <a class="badge bibtex" href="/assets/bib/manivasagam-towards-iccv-23.bib" target="_blank">BibTeX</a>
-  <a class="badge poster" href="/assets/pdf/posters/MANIVASAGAM-Siva-2023-ICCV-LiDAR-DG-Poster-v0.1.pdf" 
+  <a class="badge poster" href="/assets/pdf/posters/MANIVASAGAM-Siva-2023-ICCV-LiDAR-DG-Poster-v0.1.pdf"
     target="_blank">Poster</a>
   <p class="tldr">
     <b>TL;DR:</b> We propose a thorough methodology for evaluating how realistic a self-driving vehicle simulator is, and use it to quantify the importance of reflectance modeling and other factors when simulating LiDAR.
@@ -254,7 +254,7 @@ autonomous driving in the real world.
   International Conference on Intelligent Robots and Systems (<strong>IROS</strong>) 2020
   <br/>
   <p style="font-size: 80%; font-weight: bold">Best Application Paper Finalist!</p>
-  <a class="badge" href="https://uber.com/atg/datasets/pit30m" target="_blank">Web</a>
+  <a class="badge" href="https://pit30m.github.io" target="_blank">Web</a>
   <a class="badge pdf" href="https://arxiv.org/abs/2012.12437" target="_blank">PDF (arXiv)</a>
   <a class="badge bibtex" href="/assets/bib/martinez-pit30m-iros-20.bib" target="_blank">BibTeX</a>
   <a class="badge slides" href="https://studiolab.sagemaker.aws/import/github/pit30m/pit30m/blob/main/examples/tutorial_00_introduction.ipynb" target="_blank" title="View and run notebook. Please be patient the first time you load it!">Play with it!</a>
@@ -334,7 +334,8 @@ autonomous driving in the real world.
   <br/>
   <strong>Note:</strong> <span>&#42;</span>denotes equal contribution.
   <br/>
-    <a class="badge pdf" href="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Learning-to-Localize-through-Compressed-Binary-Maps.pdf" target="_blank">PDF</a>
+    <a class="badge pdf" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Wei_Learning_to_Localize_Through_Compressed_Binary_Maps_CVPR_2019_paper.pdf">PDF</a>
+    <a class="badge pdf" href="https://arxiv.org/abs/2012.10942">PDF (arXiv)</a>
     <a class="badge bibtex" href="/assets/bib/wei-binary-maps-cvpr-19.bib" target="_blank">BibTeX</a>
     <a class="badge poster" href="/assets/pdf/posters/BARSAN-IoanAndrei-2019-CVPR-CBC-Poster-v0.6.pdf" target="_blank">Poster</a>
     <a class="badge video" href="https://youtu.be/vL9F6qfwBFk" target="_blank">Video</a>
@@ -448,14 +449,18 @@ autonomous driving in the real world.
   Toronto, Fall 2017.
 
 <h2>Talks</h2>
- * <span class="badge new">New</span> &nbsp; <a href="#">(Upcoming) 2024-01-20 Talk at the UTRA Hackathon at the
+ * <span class="badge new">New</span> &nbsp; <a href="https://waabi.ai/cvpr-2024" target="_blank">All About Self-Driving CVPR 2024 Tutorial (Speaker and Co-Organizer, 2024-06-18)</a>
+      - I am once again co-organizing Waabi's CVPR 2024 Tutorial on self-driving cars.
+      - I will cover topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://cvpr2024.waabi.ai/" target="_blank">tutorial website</a> for more information!
+      - Since last year’s instance, countless new and promising avenues of research have started gaining traction, and we have updated our tutorial accordingly. To name a few example, this includes topics like occupancy forecasting, self-supervised learning, foundation models, the rise of Gaussian Splatting and diﬀusion models for simulation as well as the study of closed-loop vs. open-loop evaluation.
+ * <span class="badge new">New</span> &nbsp; <a href="#">2024-01-20 Talk at the UTRA Hackathon at the
      University of Toronto</a> (<a href="https://undergrad.engineering.utoronto.ca/event/2024-utra-hacks/"
      target="_blank">Hackathon homepage</a>)
- * <span class="badge new">New</span> &nbsp; <a href="https://cvpr2023.waabi.ai/" target="_blank">All About Self-Driving CVPR 2023 Tutorial (Speaker and Co-Organizer, 2023-06-19)</a>
-      - I co-organized the CVPR2023 Tutorial on self-driving cars organized by Waabi.
+ * <a href="https://waabi.ai/cvpr-2023" target="_blank">All About Self-Driving CVPR 2023 Tutorial (Speaker and Co-Organizer, 2023-06-19)</a>
+      - I co-organized the CVPR 2023 Tutorial on self-driving cars organized by Waabi.
       - I covered topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://cvpr2023.waabi.ai/" target="_blank">tutorial website</a> for more information!
  * <a href="https://cvpr2021.waabi.ai/" target="_blank">All About Self-Driving CVPR 2021 Tutorial (Speaker, 2021-06-20)</a>
-      - I was a speaker at the CVPR2021 Tutorial on self-driving cars organized by Waabi.
+      - I was a speaker at the CVPR 2021 Tutorial on self-driving cars organized by Waabi.
       - I covered the same topics as last year, with some additional material on RTKs and localization.
  * <a href="https://www.youtube.com/watch?v=UpBtOzNQ-EU" target="_blank">
      Scaling Up Precise Localization for Autonomous Robots (DevTalks Reimagined 2021)
