@@ -109,7 +109,9 @@ people:
 
   mattyus:
     name: Gellért Máttyus
-    site: http://www.gellertmattyus.info
+    # The old site is dead as of 2024, and has been dead since at least 2022.
+    # site: http://www.gellertmattyus.info
+    site: https://scholar.google.com/citations?user=rjtIT5UAAAAJ&hl=en&oi=ao
 
   lakshmikanth:
     name: Shrinidhi Kowshika Lakshmikanth
@@ -129,7 +131,7 @@ people:
 
   sadat:
     name: Abbas Sadat
-    site: https://scholar.google.ca/citations?user=SxZjNosAAAAJ&hl=en
+    site: https://scholar.google.com/citations?user=e1COFbsAAAAJ&hl=en
 
   shewakramani:
     name: Jashan Shewakramani

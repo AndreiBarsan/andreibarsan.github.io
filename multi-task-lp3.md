@@ -14,7 +14,8 @@ permalink: /multi-task-lp3/
               type='video/webm' />
   </video>
   <div>
-    [<a href="/assets/multi-task-lp3/PHILLIPS-DeepMultiTask-LocalizationPerception-Prediction-CVPR-2021-CameraReady.pdf" title="Download the CVPR camera-ready paper PDF" download>Paper PDF</a>]
+    [<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Phillips_Deep_Multi-Task_Learning_for_Joint_Localization_Perception_and_Prediction_CVPR_2021_paper.pdf"
+    title="Download the CVPR camera-ready paper PDF" download>Paper PDF</a>]
     [<a href="https://arxiv.org/abs/2101.06720" title="Grab the latest paper PDF" target="_blank">arXiv</a>]
     [<a href="/assets/multi-task-lp3/lp3-cvpr-vid-v1.2.crf24.mp4" title="Download the MP4 video" download>Video Download</a>]
     [<a href="/assets/pdf/posters/PHILLIPS-John-2021-CVPR-Multi-Task-LP3-Poster-v9.0.pdf">CVPR '21 Poster</a>]
@@ -28,7 +29,7 @@ permalink: /multi-task-lp3/
 
 Over the last few years, we have witnessed tremendous progress on many subtasks of autonomous driving, including
 perception, motion forecasting, and motion planning. However, these systems often assume that the car is accurately
-localized against a high-definition map. 
+localized against a high-definition map.
 
 In this paper we question this assumption, and investigate the issues that
 arise in state-of-the-art autonomy stacks under localization error. Based on our observations, we design a system that
@@ -39,7 +40,7 @@ dataset, demonstrating the efficiency and accuracy of our proposed approach.
 <br/>
 
 
-<!-- 
+<!--
  ## The Effects of Localizer Error
 
  TODO(andrei): Add this, plus gifs of the videos that make up the main video. Make sure the legend is clear!
@@ -51,7 +52,7 @@ dataset, demonstrating the efficiency and accuracy of our proposed approach.
 ## Joint Localization, Perception, and Prediction
 
 | ![The architecture of the combined localization, perception, and prediction (LP2) model.](/assets/multi-task-lp3/lp3-diagram.png ) |
-|:--:| 
+|:--:|
 | **Proposed Architecture.** We propose a joint architecture for localization, perception, and prediction (LP2) from LiDAR data. Please refer to the video above or our paper for additional information.|
 
 

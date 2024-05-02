@@ -451,7 +451,7 @@ autonomous driving in the real world.
 <h2>Talks</h2>
  * <span class="badge new">New</span> &nbsp; <a href="https://waabi.ai/cvpr-2024" target="_blank">All About Self-Driving CVPR 2024 Tutorial (Speaker and Co-Organizer, 2024-06-18)</a>
       - I am once again co-organizing Waabi's CVPR 2024 Tutorial on self-driving cars.
-      - I will cover topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://cvpr2024.waabi.ai/" target="_blank">tutorial website</a> for more information!
+      - I will cover topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://waabi.ai/cvpr-2023" target="_blank">tutorial website</a> for more information!
       - Since last year’s instance, countless new and promising avenues of research have started gaining traction, and we have updated our tutorial accordingly. To name a few example, this includes topics like occupancy forecasting, self-supervised learning, foundation models, the rise of Gaussian Splatting and diﬀusion models for simulation as well as the study of closed-loop vs. open-loop evaluation.
  * <span class="badge new">New</span> &nbsp; <a href="#">2024-01-20 Talk at the UTRA Hackathon at the
      University of Toronto</a> (<a href="https://undergrad.engineering.utoronto.ca/event/2024-utra-hacks/"
@@ -560,7 +560,7 @@ Email me at iab (at) cs (dawt) toronto (dawt) edu.
 Find me on
 <a href="https://twitter.com/andreib" target="_blank">Twitter</a>,
 <a href="https://github.com/AndreiBarsan" target="_blank">GitHub</a>,
-<a href="https://scholar.google.com/citations?hl=en1user=nOj2GykAAAAJ"
+<a href="https://scholar.google.com/citations?user=nOj2GykAAAAJ&hl=en"
    target="_blank">Google Scholar</a>,
 <a href="https://linkedin.com/in/barsan" target="_blank">LinkedIn</a>, or
 <a href="https://stackoverflow.com/users/1055295/andrei-b%C3%A2rsan"
