@@ -457,7 +457,7 @@ autonomous driving in the real world.
      University of Toronto</a> (<a href="https://undergrad.engineering.utoronto.ca/event/2024-utra-hacks/"
      target="_blank">Hackathon homepage</a>)
  * <a href="https://waabi.ai/cvpr-2023" target="_blank">All About Self-Driving CVPR 2023 Tutorial (Speaker and Co-Organizer, 2023-06-19)</a>
-      - I co-organized the CVPR 2023 Tutorial on self-driving cars organized by Waabi.
+      - I co-organized the CVPR 2023 Tutorial on self-driving cars organized by Waabi. **Our tutorial got featured in <a href="https://www.rsipvision.com/CVPR2023-Tuesday/20/" target="_blank">CVPR Daily</a> magazine!** [<a href="assets/pdf/cvpr-daily-2023-tuesday-feat-waabi-tutorial.pdf" target="_blank">mirror</a>]
       - I covered topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://cvpr2023.waabi.ai/" target="_blank">tutorial website</a> for more information!
  * <a href="https://cvpr2021.waabi.ai/" target="_blank">All About Self-Driving CVPR 2021 Tutorial (Speaker, 2021-06-20)</a>
       - I was a speaker at the CVPR 2021 Tutorial on self-driving cars organized by Waabi.
