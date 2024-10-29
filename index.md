@@ -3,36 +3,40 @@ layout: no-about-page
 title: About Me
 ---
 
-I'm a PhD candidate in the [Machine Learning
-Group](http://learning.cs.toronto.edu/) at the University of Toronto,
-focusing on computer vision and deep learning for
-robotics and long-term autonomy. I started in September 2017, under the supervision of
-<a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
-
-I am also a full-time senior research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, helping develop the
-next generation of AI-first autonomous vehicles. <a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
+Since 2021, I've been a research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, where I currently work on simulation.
+My research focuses on bringing generative AI and neural rendering into the physical world through mixed reality.
+The aim is to improve autonomy and devise safe and effective ways of testing self-driving vehicles in challenging
+and safety-critical scenarios.
+ <a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
 
 Before this, I spent three wonderful years as a researcher at [Uber Advanced
 Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www.uber.com/us/en/atg/)
 Toronto, working on applying my research to the challenges associated with
-autonomous driving in the real world.
+autonomous driving in the real world---from state estimation to perception and prediction.
+
+In October 2024 I completed my PhD in the [Machine Learning
+Group](http://learning.cs.toronto.edu/) at the University of Toronto under the supervision of
+<a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
+My PhD research focused on computer vision and deep learning for
+robotics and long-term autonomy.
+
 
 <h2>Education</h2>
 
 - PhD Candidate at the <a href="http://learning.cs.toronto.edu" target="_blank">University
-  of Toronto (Sep 2017--present)</a>
+  of Toronto</a> (2017--2024)
 - MSc. in Computer Science with Distinction from
-  <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (Sep 2015--Aug 2017)
+  <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (2015--2017)
 - BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
   target="_blank">Transilvania University</a>, Brașov,
-  Romania (Sep 2011--Jul 2014)
+  Romania (2011--2014)
 
 <h2>Publications</h2>
 
 <div class="paper row">
 <div class="col-12">
 <h3>
-  <span class="badge new">New</span>
+  <!-- <span class="badge new">New</span> -->
   <a href="https://waabi.ai/lidar-dg" target="_blank">
     Towards Zero Domain Gap: A Comprehensive Study of Realistic LiDAR Simulation for Autonomy Testing
     (<abbr title="International Conference on Computer Vision">ICCV</abbr> 2023)
@@ -452,8 +456,8 @@ autonomous driving in the real world.
  * <span class="badge new">New</span> &nbsp; <a href="https://waabi.ai/cvpr-2024" target="_blank">All About Self-Driving CVPR 2024 Tutorial (Speaker and Co-Organizer, 2024-06-18)</a>
       - I am once again co-organizing Waabi's CVPR 2024 Tutorial on self-driving cars.
       - I will cover topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://waabi.ai/cvpr-2023" target="_blank">tutorial website</a> for more information!
-      - Since last year’s instance, countless new and promising avenues of research have started gaining traction, and we have updated our tutorial accordingly. To name a few example, this includes topics like occupancy forecasting, self-supervised learning, foundation models, the rise of Gaussian Splatting and diﬀusion models for simulation as well as the study of closed-loop vs. open-loop evaluation.
- * <span class="badge new">New</span> &nbsp; <a href="#">2024-01-20 Talk at the UTRA Hackathon at the
+      - Since last year's instance, countless new and promising avenues of research have started gaining traction, and we have updated our tutorial accordingly. To name a few example, this includes topics like occupancy forecasting, self-supervised learning, foundation models, the rise of Gaussian Splatting and diﬀusion models for simulation as well as the study of closed-loop vs. open-loop evaluation.
+ * <a href="#">2024-01-20 Talk at the UTRA Hackathon at the
      University of Toronto</a> (<a href="https://undergrad.engineering.utoronto.ca/event/2024-utra-hacks/"
      target="_blank">Hackathon homepage</a>)
  * <a href="https://waabi.ai/cvpr-2023" target="_blank">All About Self-Driving CVPR 2023 Tutorial (Speaker and Co-Organizer, 2023-06-19)</a>
