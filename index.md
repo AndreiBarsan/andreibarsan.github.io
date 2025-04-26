@@ -3,30 +3,27 @@ layout: no-about-page
 title: About Me
 ---
 
-Since 2021, I've been a research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, where I currently work on simulation.
-My research focuses on bringing generative AI and neural rendering into the physical world through mixed reality.
-The aim is to improve autonomy and devise safe and effective ways of testing self-driving vehicles in challenging
-and safety-critical scenarios.
- <a href="https://jobs.lever.co/waabi" target="blank">We are hiring!</a>
+Since 2021, I've been a research scientist at <a href="https://waabi.ai/" target="blank">Waabi</a>, where I work on simulation.
+My research focuses on developing scalable techniques for simulation, and on bringing generative AI and neural rendering into the physical world through mixed reality.
 
-Before this, I spent three wonderful years as a researcher at [Uber Advanced
+I am currently building a team to tackle mixed reality and fast, large-scale neural rendering. **If you have a strong background in graphics, game development, computer vision, or neural rendering, please <a href="mailto:andrei.ioan.barsan@gmail.com">e-mail</a> me your resume!** Waabi is growing, please see <a href="https://jobs.lever.co/waabi" target="blank">here</a> for a complete list of openings.
+
+Before Waabi, I spent three wonderful years as a researcher at [Uber Advanced
 Technologies Group (ATG)](https://web.archive.org/web/20210114202422/https://www.uber.com/us/en/atg/)
 Toronto, working on applying my research to the challenges associated with
 autonomous driving in the real world---from state estimation to perception and prediction.
 
-In October 2024 I completed my PhD in the [Machine Learning
-Group](http://learning.cs.toronto.edu/) at the University of Toronto under the supervision of
+In October 2024 I completed <a href="assets/pdf/Barsan_IoanAndrei_202411_PHD_thesis_submission_v1_0_5.pdf" target="_blank">my PhD</a> in the [Machine Learning Group](http://learning.cs.toronto.edu/) at the University of Toronto under the supervision of
 <a href="http://www.cs.toronto.edu/~urtasun">Professor Raquel Urtasun</a>.
-My PhD research focused on computer vision and deep learning for
-robotics and long-term autonomy.
+My PhD research focused on computer vision and deep learning for robotics and long-term autonomy.
 
 
 <h2>Education</h2>
 
-- PhD Candidate at the <a href="http://learning.cs.toronto.edu" target="_blank">University
-  of Toronto</a> (2017--2024)
+- PhD in Computer Science from the <a href="http://learning.cs.toronto.edu" target="_blank">University
+  of Toronto</a> (2017--2024). Thesis title: <a href="assets/pdf/Barsan_IoanAndrei_202411_PHD_thesis_submission_v1_0_5.pdf" target="_blank">Learning Rich Representations for Robot State Estimation</a> (<a href="https://utoronto.scholaris.ca/items/797babfc-2176-4b74-896e-c0c9960d4d39" target="_blank">mirror</a>)
 - MSc. in Computer Science with Distinction from
-  <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (2015--2017)
+  <a href="https://inf.ethz.ch" target="_blank">ETH Zürich</a> (2015--2017). Thesis title: <a href="/dynslam" target="_blank">Simultaneous localization and mapping in dynamic scenes</a>
 - BSc. in Applied Computer Science from <a href="http://mateinfo.unitbv.ro"
   target="_blank">Transilvania University</a>, Brașov,
   Romania (2011--2014)
@@ -559,7 +556,7 @@ everybody to visit, together with the rest of Southeast Europe.
 
 <h2>Contact</h2>
 
-Email me at iab (at) cs (dawt) toronto (dawt) edu.
+Email me at andrei.ioan.barsan (at) gmail (dawt) com.
 
 Find me on
 <a href="https://twitter.com/andreib" target="_blank">Twitter</a>,
