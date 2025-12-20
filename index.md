@@ -449,17 +449,21 @@ My PhD research focused on computer vision and deep learning for robotics and lo
 - Teaching Assistant: Image Analysis and Understanding (CSC420), University of
   Toronto, Fall 2017.
 
+<!-- <span class="badge new">New</span> &nbsp;  -->
 <h2>Talks</h2>
- * <span class="badge new">New</span> &nbsp; <a href="https://waabi.ai/cvpr-2024" target="_blank">All About Self-Driving CVPR 2024 Tutorial (Speaker and Co-Organizer, 2024-06-18)</a>
-      - I am once again co-organizing Waabi's CVPR 2024 Tutorial on self-driving cars.
+ * <a href="https://embodied-learning-vision-course.github.io/content.html" target="_blank">Embodied AI for Autonomous Vehicles: From Open-Loop Benchmarks to Closed-Loop Simulation (Guest Lecture at NYU, 2025-04-10)</a>
+      - Guest lecture at NYU's Courant Institute, part of DS-GA.3001 Advanced Topics in Embodied Learning and Vision (Spring 2025, Prof. Mengye Ren).
+ * <a href="https://waabi.ai/cvpr-2024" target="_blank">All About Self-Driving CVPR 2024 Tutorial (Speaker and Co-Organizer, 2024-06-18)</a>
+      - I once again co-organized Waabi's CVPR 2024 Tutorial on self-driving cars.
       - I will cover topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://waabi.ai/cvpr-2023" target="_blank">tutorial website</a> for more information!
       - Since last year's instance, countless new and promising avenues of research have started gaining traction, and we have updated our tutorial accordingly. To name a few example, this includes topics like occupancy forecasting, self-supervised learning, foundation models, the rise of Gaussian Splatting and diﬀusion models for simulation as well as the study of closed-loop vs. open-loop evaluation.
- * <a href="#">2024-01-20 Talk at the UTRA Hackathon at the
-     University of Toronto</a> (<a href="https://undergrad.engineering.utoronto.ca/event/2024-utra-hacks/"
+ * <a href="#">Guest Talk at the UTRA Hackathon at the
+     University of Toronto (2024-01-20)</a> (<a href="https://undergrad.engineering.utoronto.ca/event/2024-utra-hacks/"
      target="_blank">Hackathon homepage</a>)
  * <a href="https://waabi.ai/cvpr-2023" target="_blank">All About Self-Driving CVPR 2023 Tutorial (Speaker and Co-Organizer, 2023-06-19)</a>
       - I co-organized the CVPR 2023 Tutorial on self-driving cars organized by Waabi. **Our tutorial got featured in <a href="https://www.rsipvision.com/CVPR2023-Tuesday/20/" target="_blank">CVPR Daily</a> magazine!** [<a href="assets/pdf/cvpr-daily-2023-tuesday-feat-waabi-tutorial.pdf" target="_blank">mirror</a>]
       - I covered topics related to hardware (LiDAR, RTK, RADAR, cameras) as well as software (localization and mapping). Check out the <a href="https://cvpr2023.waabi.ai/" target="_blank">tutorial website</a> for more information!
+ * <a href="#" target="_blank">On Simulation and Localization for Autonomous Robots (Guest Lecture at the University of Tartu, 2023-03-24)</a>
  * <a href="https://cvpr2021.waabi.ai/" target="_blank">All About Self-Driving CVPR 2021 Tutorial (Speaker, 2021-06-20)</a>
       - I was a speaker at the CVPR 2021 Tutorial on self-driving cars organized by Waabi.
       - I covered the same topics as last year, with some additional material on RTKs and localization.
@@ -528,11 +532,6 @@ My PhD research focused on computer vision and deep learning for robotics and lo
   videos](2021/03/25/video-tips)
 - [Yeti](https://github.com/andreibarsan/Yeti), an OpenGL 3D game engine with
   forward and deferred rendering support, real time shadow mapping and more.
-  <!-- * [µShell](https://github.com/andreibarsan/uShell), an experimental, simple, -->
-  <!-- lightweight, free POSIX shell implementation written in C++ -->
-- A bunch of old games I developed for fun can be found on my old
-  [Ludum Dare page](http://ludumdare.com/compo/author/andreibarsan/). It may be
-  tricky to build and run them, though, given the age of the code.
 
 <h2>Bio</h2>
 
@@ -559,7 +558,6 @@ everybody to visit, together with the rest of Southeast Europe.
 Email me at andrei.ioan.barsan (at) gmail (dawt) com.
 
 Find me on
-<a href="https://twitter.com/andreib" target="_blank">Twitter</a>,
 <a href="https://github.com/AndreiBarsan" target="_blank">GitHub</a>,
 <a href="https://scholar.google.com/citations?user=nOj2GykAAAAJ&hl=en"
    target="_blank">Google Scholar</a>,
